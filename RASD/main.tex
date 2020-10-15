@@ -1,0 +1,68 @@
+\documentclass[fontsize=11pt,paper=a4,pagesize=auto]{report}
+
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{xcolor,comment, subfiles, graphicx, caption, longtable, subfig, fancyhdr}
+\usepackage{float} %Used to force image to appear in the section in which it's declared
+\usepackage[hidelinks]{hyperref}
+\usepackage[parfill]{parskip}
+
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=150pt]{images/polimi.jpg}\par\vspace{1cm}
+	{\scshape\LARGE
+		Politecnico di Milano\par}
+	\vspace{1cm}
+	{\scshape\Large
+		Software Engineering 2 Project\\
+		a.y. 2020-21\par}
+	\vspace{1.5cm}
+	{\huge\bfseries
+		Customers Line-up\\\par}
+	{\Large\bfseries
+		Requirements Analysis and Specifications Document\par}
+	Version 0.0\par
+	\vspace{2cm}
+	{\Large
+		{\scshape Banfi}  Stefano Alessandro, 853195\\
+		{\scshape Bresciani} Matteo, 944638\par}
+	\vfill
+	Referent professor: {\scshape Di Nitto} Elisabetta\par
+	\vfill
+% Bottom of the page
+	{\large\today\par}
+\end{titlepage}
+
+
+
+\tableofcontents
+\chapter{Introduction}
+\input{chapters/introduction.tex}
+
+
+\chapter{Overall Description}
+\input{chapters/overall_description.tex}
+
+
+\chapter{Specific Requirements}
+\input{chapters/specific_requirements.tex}
+
+
+
+
+\chapter{Formal Analysis Using Alloy}
+
+\chapter{Effort Spent}
+\chapter{References}
+
+
+
+\end{document}
