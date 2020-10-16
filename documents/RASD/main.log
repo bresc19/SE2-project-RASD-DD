@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  15 OCT 2020 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  16 OCT 2020 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,7 +489,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<images/polimi.jpg, id=136, 1303.87125pt x 1013.7875pt>
+<images/polimi.jpg, id=148, 1303.87125pt x 1013.7875pt>
 File: images/polimi.jpg Graphic file (type jpg)
 <use images/polimi.jpg>
 Package pdftex.def Info: images/polimi.jpg  used on input line 20.
@@ -526,7 +526,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...\numberline {5}Effort Spent}{8}{chapter.5}
+l.35 ...Formal Analysis Using Alloy}{7}{chapter.4}
                                                   % [1
 
 ])
@@ -573,17 +573,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: ECBFB1F455AF2B552C5C21CD6642B8B4;2176.
+(rerunfilecheck)             Checksum: 9D48CD4DB97ACF488AFADFFE5C067664;2370.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 10050 strings out of 480608
- 159499 string characters out of 5903629
+ 10056 strings out of 480608
+ 159601 string characters out of 5903629
  487389 words of memory out of 5000000
- 25688 multiletter control sequences out of 15000+600000
+ 25691 multiletter control sequences out of 15000+600000
  578674 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,45p,907b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,5n,45p,907b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dis
@@ -591,10 +591,10 @@ t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
 pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
 c/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.
 pfb>
-Output written on main.pdf (10 pages, 989351 bytes).
+Output written on main.pdf (10 pages, 989748 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 12558 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 12582 words of extra memory for PDF output out of 14400 (max. 10000000)
 

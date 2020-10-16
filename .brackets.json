@@ -1,0 +1,6 @@
+{
+    "brackets-latex.texBinDirectory": "/usr/texbin",
+    "brackets-latex.outputDirectory": "out",
+    "brackets-latex.compiler": "latex",
+    "brackets-latex.mainFile": "documents/RASD/main.tex"
+}
