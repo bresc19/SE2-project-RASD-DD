@@ -1,6 +1,62 @@
 \section{Purpose}
+The main scope of this document is to define requirements for the application development, in order to make a correct project planification. 
+To do this, we will analyze:
+
+\begin{itemize}
+\item System;
+\item Functional and unfunctional requirements;
+\item Constraints;
+\item Relationships between stakeholders;
+\item Possible scenarios and tests;
+\end{itemize}
+
+These will be shown using different types of languages, starting from the natural language to the structured languages such as Alloy and UML.
+Below, we will define the context in which our application will be developed.
+During Sars-Cov-2 emergency, several countries imposed the lockdown in order to hinter the virus diffusion.
+People had to change their habits, in fact they could go out only for necessary needs, such as going to the supermarket or pharmacy.
+A lot of rules were introduced: not only using the masks or clean your hands but also keeping a social distance.
+For instance people must pay attention while they're entering in the market due to the long queue, which could increase the possibility of virus diffusion.
+This fact obliged people to stay for a long time standing up and waiting their turn losing a lots of time. 
+
+
+
 
 \section{Scope}
+
+The aim of the project is to develop an application which, thanks to an intuitive interface, will avoid a long waiting outside the market.
+The application will provide a QR code as a virtual ticket on your own smartphone and to wait easily at home or everywhere instead of doing the physical queue for minutes or hours. 
+In addition it will provide the position in queue and the time estimation of your turn.
+The system will generate a QR code for the authentication at the entry, in order to verify the position in the queue. 
+Moreover, the application gives the possibility to "book a visit" for who indicates the approximate expected duration of the visit and how many products they'll buy. \par \medskip
+Although the reservation is made entirely with your smartphone, the market gives anyway the possibilities to provide the ticket locally on site, acting as proxies for the customers. This is mostly for aged people who are technologically backward or has no smartphone.
+Once this procedure is completed, a SMS will be sent to the customers for noticing their turn. [todo]\par \medskip
+In order to achieve the goal, we define the World, Machine and Shared Phenomena.
+\subsection{World}
+It's the portion of system to be developed. The main \textbf{World Phenomena} are:
+
+\begin{itemize}
+\item Punctuality;
+\item Loss of connection;
+\item Respecting social distance;
+\item Shopping duration;
+\item Checking temperature;
+\item Respecting social distance;
+\end{itemize}
+
+\subsection{Machine}
+It represents the portion of system to be developed. The main \textbf{Machine Phenomena} are:
+\begin{itemize}
+\item Average of shopping time;
+\end{itemize}
+\subsection{Shared Phenomena} 
+They're phenomena shared between the World and the Machine which are controlled or observed by the system. In this scenario mainly are:
+\begin{itemize}
+\item Book/delete a visit;
+\item Take a virtual ticket;
+\item Send a notice;
+\item Send a SMS;
+\end{itemize}
+
 
 \section{Definitions, Acronyms, Abbreviations}
 \subsection{Definitions}
@@ -12,3 +68,5 @@
 \section{Reference Documents}
 
 \section{Document Structure}
+G.1 Avoid to generate a long queue ( Max 10 people )
+G.2 Grant the possibility of respecting social distance

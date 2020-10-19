@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  16 OCT 2020 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  19 OCT 2020 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,7 +489,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<images/polimi.jpg, id=148, 1303.87125pt x 1013.7875pt>
+<images/polimi.jpg, id=160, 1303.87125pt x 1013.7875pt>
 File: images/polimi.jpg Graphic file (type jpg)
 <use images/polimi.jpg>
 Package pdftex.def Info: images/polimi.jpg  used on input line 20.
@@ -526,7 +526,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...Formal Analysis Using Alloy}{7}{chapter.4}
+l.35 ...line {3.5.3}Security}{8}{subsection.3.5.3}
                                                   % [1
 
 ])
@@ -535,37 +535,43 @@ l.35 ...Formal Analysis Using Alloy}{7}{chapter.4}
 
  [2]
 Chapter 1.
-(./chapters/introduction.tex) [3
+(./chapters/introduction.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+.
 
-]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [3
+
+] [4]) [5]
 Chapter 2.
 (./chapters/overall_description.tex
 Overfull \hbox (24.56702pt too wide) in paragraph at lines 4--4
 []\OT1/lmr/bx/n/14.4 Assumptions, de-pen-den-cies and con-straints 
  []
 
-) [4
+) [6
 
 ]
 Chapter 3.
-(./chapters/specific_requirements.tex) [5
+(./chapters/specific_requirements.tex) [7
 
 ]
 Overfull \vbox (22.01208pt too high) has occurred while \output is active []
 
 
-[6]
+[8]
 Chapter 4.
-[7
+[9
 
 ]
 Chapter 5.
-[8
+[10
 
 ]
 Chapter 6.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-[9
+[11
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
@@ -573,28 +579,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D48CD4DB97ACF488AFADFFE5C067664;2370.
+(rerunfilecheck)             Checksum: 6915C31EF459E87D1D830B244943F408;2560.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 10056 strings out of 480608
- 159601 string characters out of 5903629
+ 10118 strings out of 480608
+ 160821 string characters out of 5903629
  487389 words of memory out of 5000000
- 25691 multiletter control sequences out of 15000+600000
- 578674 words of font info for 52 fonts, out of 8000000 for 9000
+ 25724 multiletter control sequences out of 15000+600000
+ 579869 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,45p,907b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dis
-t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
-pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
-c/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.
-pfb>
-Output written on main.pdf (10 pages, 989748 bytes).
+ 41i,6n,45p,907b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
+/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/
+texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
+/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
+Output written on main.pdf (12 pages, 998227 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 12582 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 13118 words of extra memory for PDF output out of 14400 (max. 10000000)
 
