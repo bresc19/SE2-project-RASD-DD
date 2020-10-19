@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  19 OCT 2020 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  19 OCT 2020 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -526,7 +526,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...line {3.5.3}Security}{8}{subsection.3.5.3}
+l.35 ...line {3.5.3}Security}{7}{subsection.3.5.3}
                                                   % [1
 
 ])
@@ -583,24 +583,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 10118 strings out of 480608
- 160821 string characters out of 5903629
+ 10126 strings out of 480608
+ 160936 string characters out of 5903629
  487389 words of memory out of 5000000
- 25724 multiletter control sequences out of 15000+600000
- 579869 words of font info for 63 fonts, out of 8000000 for 9000
+ 25727 multiletter control sequences out of 15000+600000
+ 584341 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,45p,907b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
-/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/
 texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/f
 onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
 /public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
 /lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on main.pdf (12 pages, 998227 bytes).
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on main.pdf (12 pages, 1015762 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
+ 298 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
  52 named destinations out of 1000 (max. 500000)
- 13118 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 15166 words of extra memory for PDF output out of 17280 (max. 10000000)
 
