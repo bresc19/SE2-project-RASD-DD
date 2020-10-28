@@ -72,14 +72,16 @@ They're phenomena shared between the World and the Machine which are controlled 
 \begin{itemize}
 \item \textit{User}: individual who plan to shop in the market. He's registered in the market system with his personal data and he'll have its QRCode to enter in the market on his turn;
 \item \textit{User non registered}: individual who plan to shop in the market. He's not registered in the market system, so he is not able to get his QRCode to stay virtually in the queue. So the store deals with managing his turn [TODO]
-\item \textit{Visit}: it occurs when a User do the shopping. In addition Users can indicate the range of his purchases between  \textit{small, medium, large}, in order to allows the system having a better estimation of residence time;
-\item \textit{Regular visit}: it occurs when a User do the shopping but, instead of the (simple) Visit, specifying more informations. In particular they have to specify the categories (or better the items) that are going to buy. Through this information the system can estimate the user's path due to (improving accuracy,) maximize the number of people allowed in the store.
+\item \textit{Booking}: it occurs when a User do the shopping. In addition Users can indicate the range of his purchases between  \textit{small, medium, large}, in order to allows the system having a better estimation of residence time;
+\item \textit{Visit}: it occurs when a User do the shopping but, instead of the (simple) Visit, specifying more informations. In particular they have to specify the categories (or better the items) that are going to buy. Through this information the system can estimate the user's path due to (improving accuracy,) maximize the number of people allowed in the store;
 \item \textit{Alternative booking}: reservations made by the users who are not able to book the visit with "the app". In this case [...];
 \item \textit{Ticket Call}: it happens when the system allows n users entering in the market according to the order in the queue by calling their numbers;
 \item \textit{Valid ticket}: the ticket is valid if and only if the system allows the user entering in the market;
 \item \textit{Delayed ticket}: a ticket is delayed when, after the its ticket call, the user is not submit the QRCode in time (threshold of 1-2 minutes);
 \item \textit{Cancelled ticket}: a ticket is cancelled when it's already delayed and passed too much time (threshold of 15-20 minutes);
 \item \textit{BookingID}: string of n alphanumerical characters that is represented by the QRCode. If the user is not registered [...];
+\item \textit{Mobilephone}: Elettronic device without CLup App;
+\item \textit{Smartphone}: Elettronic devide with Clup App; 
 \end{itemize}
 
 

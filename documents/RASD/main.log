@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  21 OCT 2020 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  28 OCT 2020 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,7 +489,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<images/polimi.jpg, id=160, 1303.87125pt x 1013.7875pt>
+<images/polimi.jpg, id=168, 1303.87125pt x 1013.7875pt>
 File: images/polimi.jpg Graphic file (type jpg)
 <use images/polimi.jpg>
 Package pdftex.def Info: images/polimi.jpg  used on input line 20.
@@ -526,7 +526,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...line {3.5.3}Security}{9}{subsection.3.5.3}
+l.35 ... {3.5.1}Reliability}{12}{subsection.3.5.1}
                                                   % [1
 
 ])
@@ -547,32 +547,59 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [6]
 Chapter 2.
 (./chapters/overall_description.tex
-Overfull \hbox (24.56702pt too wide) in paragraph at lines 4--4
+<diagrams/2-UML.png, id=248, 1837.86626pt x 816.04875pt>
+File: diagrams/2-UML.png Graphic file (type png)
+<use diagrams/2-UML.png>
+Package pdftex.def Info: diagrams/2-UML.png  used on input line 27.
+(pdftex.def)             Requested size: 344.99168pt x 207.00014pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7
+
+]
+<diagrams/2-reservation.png, id=255, 563.10374pt x 121.45375pt>
+File: diagrams/2-reservation.png Graphic file (type png)
+<use diagrams/2-reservation.png>
+Package pdftex.def Info: diagrams/2-reservation.png  used on input line 49.
+(pdftex.def)             Requested size: 379.50294pt x 103.50116pt.
+
+Overfull \hbox (34.50294pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+[8 <./diagrams/2-UML.png> <./diagrams/2-reservation.png>]
+<diagrams/2-visit.png, id=265, 683.55376pt x 272.01625pt>
+File: diagrams/2-visit.png Graphic file (type png)
+<use diagrams/2-visit.png>
+Package pdftex.def Info: diagrams/2-visit.png  used on input line 66.
+(pdftex.def)             Requested size: 276.00334pt x 138.00423pt.
+ [9 <./diagrams/2-visit.png>]
+Overfull \hbox (24.56702pt too wide) in paragraph at lines 101--101
 []\OT1/lmr/bx/n/14.4 Assumptions, de-pen-den-cies and con-straints 
  []
 
-) [7
-
-]
+) [10]
 Chapter 3.
-(./chapters/specific_requirements.tex) [8
+(./chapters/specific_requirements.tex) [11
 
 ]
 Overfull \vbox (22.01208pt too high) has occurred while \output is active []
 
 
-[9]
+[12]
 Chapter 4.
-[10
+[13
 
 ]
 Chapter 5.
-[11
+[14
 
 ]
 Chapter 6.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-[12
+[15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
@@ -580,15 +607,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6915C31EF459E87D1D830B244943F408;2560.
+(rerunfilecheck)             Checksum: E37FEED3070706013D0B54A47E9D1B3A;2696.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 10137 strings out of 480608
- 161053 string characters out of 5903629
- 487389 words of memory out of 5000000
- 25727 multiletter control sequences out of 15000+600000
- 584888 words of font info for 71 fonts, out of 8000000 for 9000
+ 10211 strings out of 480608
+ 162131 string characters out of 5903629
+ 487587 words of memory out of 5000000
+ 25756 multiletter control sequences out of 15000+600000
+ 586392 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,45p,907b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -599,10 +626,10 @@ onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
 /lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (13 pages, 1018237 bytes).
+Output written on main.pdf (16 pages, 1142590 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 15166 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 341 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 15197 words of extra memory for PDF output out of 17280 (max. 10000000)
 
