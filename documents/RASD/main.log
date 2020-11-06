@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  4 NOV 2020 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  6 NOV 2020 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -583,38 +583,41 @@ Overfull \hbox (24.56702pt too wide) in paragraph at lines 101--101
 Chapter 3.
 (./chapters/specific_requirements.tex [11
 
-]) [12]
+] [12]) [13]
 Chapter 4.
-[13
+[14
 
 ]
 Chapter 5.
-[14
+[15
 
 ]
 Chapter 6.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-[15
+[16
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E37FEED3070706013D0B54A47E9D1B3A;2696.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: E37FEED3070706013D0B54A47E9D1B3A;2696
+(rerunfilecheck)             After:  1EE572C3A178884E8733A43426FE3B7B;2695.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 10221 strings out of 480608
- 162267 string characters out of 5903629
+ 10224 strings out of 480608
+ 162292 string characters out of 5903629
  487587 words of memory out of 5000000
  25756 multiletter control sequences out of 15000+600000
- 586807 words of font info for 92 fonts, out of 8000000 for 9000
+ 586890 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,45p,907b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -625,10 +628,10 @@ onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
 /lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (16 pages, 1116030 bytes).
+Output written on main.pdf (17 pages, 1119029 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 345 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 500000)
  15197 words of extra memory for PDF output out of 17280 (max. 10000000)
 

@@ -26,12 +26,22 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 \section{Performance Requirements}
 \section{Design Constraints}
 \subsection{Standards compliance}
+Especially, the system will be released in the main digital distribution platform (such as App Store or Google Play). So it must follow their guidelines in order to have a proper and a lawful distribution. In addition, due to the fact that it retrives and analyses many sensitive data, application must respect tha main privacy guidance. In particular in Europe must follow the General Data Privacy Regulation (GDPR), due to a safe and aware processing of data. 
 \subsection{Hardware limitations}
+\begin{itemize}
+\item /2G/3G/4G/5G connection: they're essential due to server connection to compile booking request;
+\item GPS: it's used to allow user to estimate the time spending to reach the market in time. But it's not mandatory for booking;
+\end{itemize}
 \subsection{Any other constraint}
-
+There are no other constraint.
 \section{Software System Attributes}
 \subsection{Reliability}
-\subsection{Availabilitys}
+The application have to provide user the possibility to book both reservation and visit successfully. [TODO] 
+\subsection{Availability}
+Due to the fact that nowadays grocery shopping is avaiable almost all day, the availability of the system is very high. So the required availability is close to 99\%. However, the reservation function has a lower avaibility because of the inability to book a seat in queue if the market is closed in some hours of the day. 
 \subsection{Security}
+Security is one of the most critical aspect of CLup. So User's sensitive data are stored safely DBMS accessibile only by strict level of privilege. In addition, communication towards the application server (like login or booking requests) are implemented using  HTTPS protocol, which, with TLS protocol, ensure the encryption of every packets. 
 \subsection{Maintainability}
+The application implementation must be oriented towards an high scalability in order to gurantee an efficient and cheaper maintenance. This could be done by using design patterns.
 \subsection{Portability}
+The system must be smoothly portable almost the main smartphone on the market. So CLup must be distributed for the main mobile operating system (i.e App Store and Google Play), coding it with program language such as Android or Swing. In addition CLup Guest, the application used by receptionist to book visit and reservation of the Users not register, must be compatible with the main Operating system such as Windows and Mac OS X. [todo]
