@@ -9,7 +9,7 @@ The main mockups are the fllowing:
 
 
 
-\begin{figure}[!tbp]
+\begin{figure}[h]
   \caption{Login: Users already registered signes in with their credential.}
   \label{fig:Login}
   \centering
@@ -17,7 +17,7 @@ The main mockups are the fllowing:
 
 \end{figure}
 
-\begin{figure}[!tbp]
+\begin{figure}[H]
   \caption{Market selection: After the login, the user have to select in which market wants to go shopping, due to his position.}
   \label{fig:Login}
   \centering
@@ -31,11 +31,11 @@ The main mockups are the fllowing:
 
 
 
-\begin{figure}[!tbp]
+\begin{figure}[H]
   \centering
-  \subfloat[Page 1.]{\includegraphics[scale=0.30]{images/mockup/reg1.png}\label{fig:f1}}
+  \subfloat[Page 1.]{\includegraphics[scale=0.35]{images/mockup/reg1.png}\label{fig:f1}}
   \hfill
-  \subfloat[Page 2]{\includegraphics[scale=0.30]{images/mockup/reg2.png}\label{fig:f2}}
+  \subfloat[Page 2]{\includegraphics[scale=0.35]{images/mockup/reg2.png}\label{fig:f2}}
   \caption{Registration: Users not registered can register himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
 \end{figure}
 
@@ -43,7 +43,7 @@ The main mockups are the fllowing:
 
 
 
-\begin{figure}[!tbp]
+\begin{figure}[H]
   \caption{Home: Homepage of CLup from which the USer can select to book a Visit or a Reservation.}
   \label{fig:Home}
   \centering
@@ -54,9 +54,9 @@ The main mockups are the fllowing:
 
 
 
-\begin{figure}[ht!]
+\begin{figure}[H]
      \begin{center}
-%
+
         \subfloat[User chooses Reservation]{%
             \label{fig:first}
             \includegraphics[scale=0.35]{images/mockup/reserve1.png}
@@ -81,7 +81,7 @@ The main mockups are the fllowing:
    \label{fig:subfigures}
 \end{figure}
 
-\begin{figure}[ht!]
+\begin{figure}[H]
      \begin{center}
 %
         \subfloat[Smart User chooses Visit]{%
@@ -110,7 +110,7 @@ The main mockups are the fllowing:
 
 
 
-\begin{figure}[ht!]
+\begin{figure}[H]
      \begin{center}
 %
         \subfloat[Smart User has booked only a Rservation]{%
@@ -138,7 +138,7 @@ The main mockups are the fllowing:
 \end{figure}
 
 
-\begin{figure}[!tbp]
+\begin{figure}[H]
   \centering
   \subfloat[Delay confirmation of a Reservation]{\includegraphics[scale=0.35]{images/mockup/qr1.png}\label{fig:f1}}
   \hfill
@@ -148,7 +148,7 @@ The main mockups are the fllowing:
 
 
 
-\begin{figure}[!tbp]
+\begin{figure}[H]
   \centering
   \subfloat[A notification is sent to a Smart User to inform him to leave in order to reach the market in time.]{\includegraphics[scale=0.35]{images/mockup/notify1.png}\label{fig:f1}}
   \hfill
@@ -159,6 +159,17 @@ The main mockups are the fllowing:
 
 
 \subsection{Hardware Interfaces}
+To validate the reservation the supermarket will have two scanners:
+
+\par \medskip 
+\begin{itemize}
+\item	One at the entry, that will read QR code and will confirm client reservations in case they will be valid. \\
+The scanner will reject reservation if QR code will result invalid or will have passed to much time from its call.
+\item One at the exit, that when clients will finish shopping allow them to exit to supermarket opening the doors. \\
+Another features of exit QR code is to monitor the numbers of client into the shop.
+\end{itemize} 
+\par \medskip 
+The scanners will be used to obtain useful information about client shopping time
 \subsection{Software Interfaces}
 \subsection{Communication Interfaces}
 \section{Functional Requirements}
