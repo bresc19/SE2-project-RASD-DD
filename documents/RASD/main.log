@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  7 NOV 2020 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  8 NOV 2020 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -400,12 +400,6 @@ LaTeX Warning: Unused global option(s):
 LaTeX Warning: Label `fig:Login' multiply defined.
 
 
-LaTeX Warning: Label `fig:Login' multiply defined.
-
-
-LaTeX Warning: Label `fig:Login' multiply defined.
-
-
 LaTeX Warning: Label `fig:first' multiply defined.
 
 
@@ -458,6 +452,18 @@ LaTeX Warning: Label `sub@fig:fourth' multiply defined.
 
 
 LaTeX Warning: Label `fig:subfigures' multiply defined.
+
+
+LaTeX Warning: Label `fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:f2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:f2' multiply defined.
 
 
 LaTeX Warning: Label `fig:f1' multiply defined.
@@ -608,7 +614,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...ftware System Attributes}{24}{section.3.5}
+l.35 ...ftware System Attributes}{23}{section.3.5}
                                                   % [1
 
 ])
@@ -682,179 +688,187 @@ Package pdftex.def Info: images/mockup/select2.png  used on input line 22.
 File: images/mockup/reg1.png Graphic file (type png)
 <use images/mockup/reg1.png>
 Package pdftex.def Info: images/mockup/reg1.png  used on input line 34.
-(pdftex.def)             Requested size: 120.50198pt x 238.19344pt.
+(pdftex.def)             Requested size: 103.28667pt x 204.16432pt.
 <images/mockup/reg2.png, id=286, 339.2675pt x 681.54625pt>
 File: images/mockup/reg2.png Graphic file (type png)
 <use images/mockup/reg2.png>
 Package pdftex.def Info: images/mockup/reg2.png  used on input line 36.
-(pdftex.def)             Requested size: 118.74539pt x 238.54475pt.
+(pdftex.def)             Requested size: 101.78102pt x 204.46545pt.
 <images/mockup/home1.png, id=287, 342.27875pt x 679.53876pt>
 File: images/mockup/home1.png Graphic file (type png)
 <use images/mockup/home1.png>
-Package pdftex.def Info: images/mockup/home1.png  used on input line 47.
-(pdftex.def)             Requested size: 119.79935pt x 237.84213pt.
-<images/mockup/home_options.png, id=288, 342.27875pt x 679.53876pt>
-File: images/mockup/home_options.png Graphic file (type png)
-<use images/mockup/home_options.png>
-Package pdftex.def Info: images/mockup/home_options.png  used on input line 56.
-
-(pdftex.def)             Requested size: 119.79935pt x 237.84213pt.
-<images/mockup/reserve1.png, id=289, 342.27875pt x 679.53876pt>
+Package pdftex.def Info: images/mockup/home1.png  used on input line 48.
+(pdftex.def)             Requested size: 102.6844pt x 203.8632pt.
+<images/mockup/reserve1.png, id=288, 342.27875pt x 679.53876pt>
 File: images/mockup/reserve1.png Graphic file (type png)
 <use images/mockup/reserve1.png>
-Package pdftex.def Info: images/mockup/reserve1.png  used on input line 67.
+Package pdftex.def Info: images/mockup/reserve1.png  used on input line 61.
 (pdftex.def)             Requested size: 119.79935pt x 237.84213pt.
-<images/mockup/reservation_size.png, id=290, 343.2825pt x 687.56876pt>
+<images/mockup/reservation_size.png, id=289, 343.2825pt x 687.56876pt>
 File: images/mockup/reservation_size.png Graphic file (type png)
 <use images/mockup/reservation_size.png>
 Package pdftex.def Info: images/mockup/reservation_size.png  used on input line
- 71.
+ 65.
 (pdftex.def)             Requested size: 120.15067pt x 240.65266pt.
-<images/mockup/reserve2.png, id=291, 343.2825pt x 681.54625pt>
+<images/mockup/reserve2.png, id=290, 343.2825pt x 681.54625pt>
 File: images/mockup/reserve2.png Graphic file (type png)
 <use images/mockup/reserve2.png>
-Package pdftex.def Info: images/mockup/reserve2.png  used on input line 75.
+Package pdftex.def Info: images/mockup/reserve2.png  used on input line 69.
 (pdftex.def)             Requested size: 120.15067pt x 238.54475pt.
-<images/mockup/qrcode_reservation_done.png, id=292, 348.30125pt x 683.55376pt>
+<images/mockup/qrcode_reservation_done.png, id=291, 348.30125pt x 683.55376pt>
 File: images/mockup/qrcode_reservation_done.png Graphic file (type png)
 <use images/mockup/qrcode_reservation_done.png>
 Package pdftex.def Info: images/mockup/qrcode_reservation_done.png  used on inp
-ut line 79.
+ut line 73.
 (pdftex.def)             Requested size: 121.90726pt x 239.24739pt.
 
-LaTeX Warning: Float too large for page by 11.90002pt on input line 87.
+LaTeX Warning: Float too large for page by 21.40002pt on input line 80.
 
+<images/mockup/visit00.png, id=292, 342.27875pt x 679.53876pt>
+File: images/mockup/visit00.png Graphic file (type png)
+<use images/mockup/visit00.png>
+Package pdftex.def Info: images/mockup/visit00.png  used on input line 88.
+(pdftex.def)             Requested size: 119.79935pt x 237.84213pt.
 <images/mockup/visit1.png, id=293, 343.2825pt x 683.55376pt>
 File: images/mockup/visit1.png Graphic file (type png)
 <use images/mockup/visit1.png>
-Package pdftex.def Info: images/mockup/visit1.png  used on input line 95.
+Package pdftex.def Info: images/mockup/visit1.png  used on input line 92.
 (pdftex.def)             Requested size: 120.15067pt x 239.24739pt.
 <images/mockup/visit2.png, id=294, 342.27875pt x 684.5575pt>
 File: images/mockup/visit2.png Graphic file (type png)
 <use images/mockup/visit2.png>
-Package pdftex.def Info: images/mockup/visit2.png  used on input line 99.
+Package pdftex.def Info: images/mockup/visit2.png  used on input line 96.
 (pdftex.def)             Requested size: 119.79935pt x 239.59871pt.
 <images/mockup/visit_size.png, id=295, 346.29375pt x 685.56125pt>
 File: images/mockup/visit_size.png Graphic file (type png)
 <use images/mockup/visit_size.png>
-Package pdftex.def Info: images/mockup/visit_size.png  used on input line 103.
+Package pdftex.def Info: images/mockup/visit_size.png  used on input line 100.
 (pdftex.def)             Requested size: 121.20462pt x 239.95003pt.
-<images/mockup/qr_visit_done.png, id=296, 338.26375pt x 680.5425pt>
-File: images/mockup/qr_visit_done.png Graphic file (type png)
-<use images/mockup/qr_visit_done.png>
-Package pdftex.def Info: images/mockup/qr_visit_done.png  used on input line 10
-7.
-(pdftex.def)             Requested size: 118.39407pt x 238.19344pt.
 
-LaTeX Warning: Float too large for page by 11.5487pt on input line 115.
+LaTeX Warning: Float too large for page by 11.19739pt on input line 107.
 
-<images/mockup/qr2.png, id=297, 342.27875pt x 677.53125pt>
+<images/mockup/qr2.png, id=296, 342.27875pt x 677.53125pt>
 File: images/mockup/qr2.png Graphic file (type png)
 <use images/mockup/qr2.png>
-Package pdftex.def Info: images/mockup/qr2.png  used on input line 125.
+Package pdftex.def Info: images/mockup/qr2.png  used on input line 117.
 (pdftex.def)             Requested size: 119.79935pt x 237.13948pt.
-<images/mockup/qr4.png, id=298, 352.31625pt x 681.54625pt>
+<images/mockup/qr4.png, id=297, 352.31625pt x 681.54625pt>
 File: images/mockup/qr4.png Graphic file (type png)
 <use images/mockup/qr4.png>
-Package pdftex.def Info: images/mockup/qr4.png  used on input line 129.
+Package pdftex.def Info: images/mockup/qr4.png  used on input line 121.
 (pdftex.def)             Requested size: 123.31253pt x 238.54475pt.
-<images/mockup/qr5.png, id=299, 346.29375pt x 682.55pt>
+<images/mockup/qr5.png, id=298, 346.29375pt x 682.55pt>
 File: images/mockup/qr5.png Graphic file (type png)
 <use images/mockup/qr5.png>
-Package pdftex.def Info: images/mockup/qr5.png  used on input line 133.
+Package pdftex.def Info: images/mockup/qr5.png  used on input line 125.
 (pdftex.def)             Requested size: 121.20462pt x 238.89607pt.
-<images/mockup/qr6.png, id=300, 341.275pt x 682.55pt>
-File: images/mockup/qr6.png Graphic file (type png)
-<use images/mockup/qr6.png>
-Package pdftex.def Info: images/mockup/qr6.png  used on input line 137.
-(pdftex.def)             Requested size: 119.44803pt x 238.89607pt.
+<images/mockup/qr_reservation.png, id=299, 345.29pt x 684.5575pt>
+File: images/mockup/qr_reservation.png Graphic file (type png)
+<use images/mockup/qr_reservation.png>
+Package pdftex.def Info: images/mockup/qr_reservation.png  used on input line 1
+29.
+(pdftex.def)             Requested size: 120.8533pt x 239.59871pt.
 
-LaTeX Warning: Float too large for page by 9.4408pt on input line 145.
+LaTeX Warning: Float too large for page by 41.14343pt on input line 136.
 
-<images/mockup/qr1.png, id=301, 336.25626pt x 678.535pt>
+<images/mockup/qr1.png, id=300, 336.25626pt x 678.535pt>
 File: images/mockup/qr1.png Graphic file (type png)
 <use images/mockup/qr1.png>
-Package pdftex.def Info: images/mockup/qr1.png  used on input line 150.
+Package pdftex.def Info: images/mockup/qr1.png  used on input line 141.
 (pdftex.def)             Requested size: 117.69145pt x 237.4908pt.
-<images/mockup/qr7.png, id=302, 348.30125pt x 684.5575pt>
+
+Underfull \hbox (badness 2126) in paragraph at lines 141--141
+[]\OT1/lmr/m/n/8 (+20) (a) |De-lay con-fir-ma-tion of a
+ []
+
+<images/mockup/qr7.png, id=301, 348.30125pt x 684.5575pt>
 File: images/mockup/qr7.png Graphic file (type png)
 <use images/mockup/qr7.png>
-Package pdftex.def Info: images/mockup/qr7.png  used on input line 152.
+Package pdftex.def Info: images/mockup/qr7.png  used on input line 143.
 (pdftex.def)             Requested size: 121.90726pt x 239.59871pt.
+<images/mockup/notify1.png, id=302, 303.1325pt x 614.295pt>
+File: images/mockup/notify1.png Graphic file (type png)
+<use images/mockup/notify1.png>
+Package pdftex.def Info: images/mockup/notify1.png  used on input line 151.
+(pdftex.def)             Requested size: 106.09796pt x 215.00647pt.
+<images/mockup/visit_SMS.png, id=303, 305.14pt x 608.2725pt>
+File: images/mockup/visit_SMS.png Graphic file (type png)
+<use images/mockup/visit_SMS.png>
+Package pdftex.def Info: images/mockup/visit_SMS.png  used on input line 153.
+(pdftex.def)             Requested size: 106.80058pt x 212.89856pt.
 [11
 
 ] [12 <./images/mockup/login.png> <./images/mockup/select2.png>] [13 <./images/
-mockup/reg1.png> <./images/mockup/reg2.png>] [14 <./images/mockup/home1.png> <.
-/images/mockup/home_options.png>]
-<diagrams/UseCaseUser.png, id=335, 924.45375pt x 854.19125pt>
+mockup/reg1.png> <./images/mockup/reg2.png> <./images/mockup/home1.png>]
+<diagrams/UseCaseUser.png, id=330, 924.45375pt x 854.19125pt>
 File: diagrams/UseCaseUser.png Graphic file (type png)
 <use diagrams/UseCaseUser.png>
-Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 184.
+Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 185.
 (pdftex.def)             Requested size: 345.00479pt x 344.9941pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 192--220
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 193--221
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 223--254
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 224--255
+[][] 
+ []
+
+[14]
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 258--284
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 287--314
 [][] 
  []
 
 [15]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 257--283
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 317--346
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 286--313
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 349--375
 [][] 
  []
 
 [16]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 316--345
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 378--411
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 348--374
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 414--432
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 435--456
 [][] 
  []
 
 [17]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 377--410
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 459--488
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 413--431
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 434--455
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 491--513
 [][] 
  []
 
 [18]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 458--487
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 490--512
-[][] 
- []
-
-[19]
-<diagrams/UseCaseReception.png, id=357, 843.15pt x 623.32875pt>
+<diagrams/UseCaseReception.png, id=352, 843.15pt x 623.32875pt>
 File: diagrams/UseCaseReception.png Graphic file (type png)
 <use diagrams/UseCaseReception.png>
-Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 535.
+Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 536.
 
 (pdftex.def)             Requested size: 344.999pt x 345.00043pt.
 
@@ -862,57 +876,58 @@ Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 535.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 543--572
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 544--573
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 573--600
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 574--601
+[][] 
+ []
+
+[19]
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 602--632
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 633--661
 [][] 
  []
 
 [20]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 601--631
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 663--685
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 632--660
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 686--704
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 705--733
 [][] 
  []
 
 [21]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 662--684
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 734--760
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 685--703
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 761--786
 [][] 
  []
 
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 704--732
-[][] 
- []
-
-[22]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 733--759
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 760--785
-[][] 
- []
-
-[23] [24]) [25] [26 <./images/mockup/reserve1.png> <./images/mockup/reservation
+[22] [23]) [24] [25 <./images/mockup/reserve1.png> <./images/mockup/reservation
 _size.png> <./images/mockup/reserve2.png> <./images/mockup/qrcode_reservation_d
-one.png>] [27 <./images/mockup/visit1.png> <./images/mockup/visit2.png> <./imag
-es/mockup/visit_size.png> <./images/mockup/qr_visit_done.png>] [28 <./images/mo
-ckup/qr2.png> <./images/mockup/qr4.png> <./images/mockup/qr5.png> <./images/moc
-kup/qr6.png>] [29 <./images/mockup/qr1.png> <./images/mockup/qr7.png>] [30 <./d
-iagrams/UseCaseUser.png>] [31 <./diagrams/UseCaseReception.png>]
+one.png>] [26 <./images/mockup/visit00.png> <./images/mockup/visit1.png> <./ima
+ges/mockup/visit2.png> <./images/mockup/visit_size.png>] [27 <./images/mockup/q
+r2.png> <./images/mockup/qr4.png> <./images/mockup/qr5.png> <./images/mockup/qr
+_reservation.png>] [28 <./images/mockup/qr1.png> <./images/mockup/qr7.png>]
+[29 <./images/mockup/notify1.png> <./images/mockup/visit_SMS.png>] [30 <./diagr
+ams/UseCaseUser.png>] [31 <./diagrams/UseCaseReception.png>]
 Chapter 4.
 [32
 
@@ -1013,21 +1028,22 @@ images/mockup/select2.png
 images/mockup/reg1.png
 images/mockup/reg2.png
 images/mockup/home1.png
-images/mockup/home_options.png
 images/mockup/reserve1.png
 images/mockup/reservation_size.png
 images/mockup/reserve2.png
 images/mockup/qrcode_reservation_done.png
+images/mockup/visit00.png
 images/mockup/visit1.png
 images/mockup/visit2.png
 images/mockup/visit_size.png
-images/mockup/qr_visit_done.png
 images/mockup/qr2.png
 images/mockup/qr4.png
 images/mockup/qr5.png
-images/mockup/qr6.png
+images/mockup/qr_reservation.png
 images/mockup/qr1.png
 images/mockup/qr7.png
+images/mockup/notify1.png
+images/mockup/visit_SMS.png
 diagrams/UseCaseUser.png
 diagrams/UseCaseReception.png
  ***********
@@ -1041,11 +1057,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 10461 strings out of 480608
- 167219 string characters out of 5903629
- 499402 words of memory out of 5000000
- 25917 multiletter control sequences out of 15000+600000
- 590077 words of font info for 97 fonts, out of 8000000 for 9000
+ 10475 strings out of 480608
+ 167481 string characters out of 5903629
+ 501533 words of memory out of 5000000
+ 25924 multiletter control sequences out of 15000+600000
+ 590239 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,51p,907b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -1057,10 +1073,10 @@ onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (35 pages, 2308709 bytes).
+Output written on main.pdf (35 pages, 2730833 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 409 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 17363 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 17368 words of extra memory for PDF output out of 20736 (max. 10000000)
 
