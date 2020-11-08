@@ -69,7 +69,7 @@ The main mockups are the fllowing:
             \label{fig:third}
             \includegraphics[scale=0.35]{images/mockup/reserve2.png}
         }%
-        \subfloat[Reservation's QRCode is provided]{%
+        \subfloat[[Reservation's QRCode is provided]{%
             \label{fig:fourth}
             \includegraphics[scale=0.35]{images/mockup/qrcode_reservation_done.png}
         }%
@@ -156,6 +156,64 @@ The main mockups are the fllowing:
   \caption{Notifification and SMS: User receive his information about his Booking depending on whether is a Smart or Mobile User.}
 \end{figure}
 
+\begin{figure}[H]
+  \caption{Receptionist signes in with their credential.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.55]{images/mockup/LOGIN_REC.png}
+
+\end{figure}
+
+\begin{figure}[H]
+  \caption{Receptionist can register a new Mobile User or select a new one if it's already registered.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.35]{images/mockup/LOGREG.png}
+
+\end{figure}
+
+\begin{figure}[H]
+  \caption{Receptionist selects the Mobile User if he's already registered.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.35]{images/mockup/Select_User.png}
+
+\end{figure}
+
+\begin{figure}[H]
+  \caption{Receptionist can manage Mobile User's Booking.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.35]{images/mockup/Home_Rec.png}
+
+\end{figure}
+
+
+\begin{figure}[h]
+  \caption{Receptionist selects the grocery shopping size told by Mobile User.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.35]{images/mockup/Size_Rec.png}
+
+\end{figure}
+
+
+\begin{figure}[h]
+  \caption{Receptionist inserts visit information told by Mobile User.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.35]{images/mockup/info_visit_rec.png}
+
+\end{figure}
+
+\begin{figure}[H]
+  \caption{Booking made by Recpetionist is finished.}
+  \label{fig:Login}
+  \centering
+  \includegraphics[scale=0.35]{images/mockup/Done_Rec.png}
+
+\end{figure}
+
 
 
 \subsection{Hardware Interfaces}
@@ -173,6 +231,149 @@ The scanners will be used to obtain useful information about client shopping tim
 \subsection{Software Interfaces}
 \subsection{Communication Interfaces}
 \section{Functional Requirements}
+
+\begin{description}
+    \item[R1] Smart User received a notification due to reach the market
+    \item[R2] Mobile User received a SMS due to reach the market;   
+    \item[R3] The system provide the time estimation to reach the market;
+    \item[R4] The User chooses the start and end time of the Visit;
+    \item[R5] The User can postpone his turn by 10 turns;
+    \item[R6] The system get the entrance time by a User when submits his own QRCode;
+    \item[R7] The system get the exit time by a User when submits his own QRCode;
+    \item[R8] The system provides the number Users in queue;
+    \item[R9] The system provides the estimation time of leaving to reach the market in time;
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R12] The Mobile User must be registered;
+    \item[R13] The Mobile User provide personal data to the Receptionist;
+    \item[R14] User have to choose the size of his grocery shopping between Shopping size
+    \item[R15] The User must select a date in which the market is opened;
+    \item[R16] The User must select a start and end time available;
+    \item[R17] The Mobile User calls the Receptionist;
+    \item[R18] The system provides Smart User  the Booking’s QRCode in CLup application;
+    \item[R19] The system provides Mobile User the Booking’s Identification Code through SMS;
+    \item[R20] Smart User have to be recognized at the entrance;
+    \item[R21] User must have an activated Visit not yet submitted;
+    \item[R22] User must have an activated Reservation not yet submitted
+\end{description}
+
+
+\begin{description}
+    \item[D1] The system delete the Reservation the Smart User accumulates a delay to reach the market greater than 10 minutes
+    \item[D2] The system delete the Reservation the Mobile User accumulates a delay to reach the market greater than 15 minutes
+    \item[D3] The system handles the threshold number of Users allowed in the market
+    \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
+    \item[D5] The Mobile User have to be connected to Internet through his own mobile operator
+    \item[D6] A Visit is associated to a Date and a period of time (start/end time);
+    \item[D7] A Booking is associated to one and only one QRCode
+    \item[D8] User must have one and only one Visit activated;
+    \item[D9] User must have one and only one Reservation activated
+    \item[D10] A Booking belongs to one and only one User
+    \item[D11] The Waiting Time plus the Shopping Time mustn’t exceed the Closure Time
+    \item[D12] In each Date and Slot Time must contain at most N Visits
+\end{description}
+
+ 
+
+
+\begin{description}
+    \item[G1]User enters once arrived at the market
+    
+    \begin{description}
+    \item[R1] Smart User received a notification due to reach the market
+    \item[R3] The system provide the time estimation to reach the market;
+    \item[R4] The User chooses the start and end time of the Visit;
+    \item[R5] The User can postpone his turn by 10 turns;
+    \item[D1] The system delete the Reservation the Smart User accumulates a delay to reach the market greater than 10 minutes
+    \item[D3] The system handles the threshold number of Users allowed in the market
+    \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
+    \item[D5] The Mobile User have to be connected to Internet through his own mobile operator
+    \end{description}
+    
+    \item[G2]Put a limit to the number of Users in the market
+    
+    \begin{description}
+    \item[R4] The User chooses the start and end time of the Visit;
+    \item[R6] The system get the entrance time by a User when submits his own QRCode;
+    \item[R7] The system get the exit time by a User when submits his own QRCode;
+    \item[R9] The system provides the estimation time of leaving to reach the market in time;
+    \end{description}
+    
+    \item[G3]Smart User can make a Reservation
+    \begin{description}
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R15] The User must select a date in which the market is opened;
+    \item[R18] The system provides Smart User  the Booking’s QRCode in CLup application;
+    \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
+    \item[D7] A Booking is associated to one and only one QRCode
+    \item[D9] User must have one and only one Reservation activated
+    \item[D10] A Booking belongs to one and only one User
+    \end{description}
+    
+    \item[G4]Smart User can make a Visit
+    \begin{description}
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R14] User have to choose the size of his grocery shopping between Shopping size
+    \item[R15] The User must select a date in which the market is opened;
+    \item[R16] The User must select a start and end time available;
+    \item[R18] The system provides Smart User  the Booking’s QRCode in CLup application;
+    \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
+    \item[D6] A Visit is associated to a Date and a period of time (start/end time);
+    \item[D7] A Booking is associated to one and only one QRCode
+    \item[D8] User must have one and only one Visit activated;
+    \item[D12] In each Date and Slot Time must contain at most N Visits
+    \end{description}
+    
+    \item[G5]Mobile User can make a Reservation
+    \begin{description}
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R14] User have to choose the size of his grocery shopping between Shopping size
+    \item[R17] The Mobile User calls the Receptionist;
+    \item[R19] The system provides Mobile User the Booking’s Identification Code through SMS;
+    \item[R20] Smart User have to be recognized at the entrance;
+    \item[D5] The Mobile User have to be connected to Internet through his own mobile operator
+    \end{description}
+    
+    \item[G6]Mobile User can make a Visit
+    \begin{description}
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R14] User have to choose the size of his grocery shopping between Shopping size
+    \item[R15] The User must select a date in which the market is opened;
+    \item[R16] The User must select a start and end time available;
+    \item[R17] The Mobile User calls the Receptionist;
+    \item[R19] The system provides Mobile User the Booking’s Identification Code through SMS;
+    \item[R20] Smart User have to be recognized at the entrance;
+    \end{description}
+    
+    \item[G7]Smart User can cancel a Booking
+    \begin{description}
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R21] User must have an activated Visit not yet submitted;
+    \item[R22] User must have an activated Reservation not yet submitted
+    \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
+    \end{description}
+    
+    \item[G8]Mobile User can cancel a Booking
+    \begin{description}
+    \item[R10] The Smart User must be registered;
+    \item[R11] The Smart User must be already logged in;
+    \item[R17] The Mobile User calls the Receptionist;
+    \item[R21] User must have an activated Visit not yet submitted;
+    \item[R22] User must have an activated Reservation not yet submitted
+    \item[D5] The Mobile User have to be connected to Internet through his own mobile operator
+    \end{description}
+    
+    
+\end{description}
+
+ 
+
+ 
 Giovanna, a career woman who is always in trouble to find free time, needs to go grocery shopping for her family. 
 Indeed, once she finished working, she goes to the market and, due to the lockdown, have to wait in line for hours to have access to it. The result is that, coming back home later, she can't put some time in her children.
 However, in the past days, she discovered CLup App which allows her to book a visit in the market in advance, by only putting the range time avaiable and the size of the expenditure.
