@@ -85,29 +85,52 @@ They're phenomena shared between the World and the Machine which are controlled 
 \subsection{Definitions}
 
 \begin{itemize}
-\item \textit{User}: individual who plan to shop in the market. He's registered in the market system with his personal data and he'll have its QRCode to enter in the market on his turn;
-\item \textit{User non registered}: individual who plan to shop in the market. He's not registered in the market system, so he is not able to get his QRCode to stay virtually in the queue. So the store deals with managing his turn [TODO]
-\item \textit{Booking}: it occurs when a User do the shopping. In addition Users can indicate the range of his purchases between  \textit{small, medium, large}, in order to allows the system having a better estimation of residence time;
-\item \textit{Visit}: it occurs when a User do the shopping but, instead of the (simple) Visit, specifying more informations. In particular they have to specify the categories (or better the items) that are going to buy. Through this information the system can estimate the user's path due to (improving accuracy,) maximize the number of people allowed in the store;
-\item \textit{Alternative booking}: reservations made by the users who are not able to book the visit with "the app". In this case [...];
-\item \textit{Ticket Call}: it happens when the system allows n users entering in the market according to the order in the queue by calling their numbers;
-\item \textit{Valid ticket}: the ticket is valid if and only if the system allows the user entering in the market;
-\item \textit{Delayed ticket}: a ticket is delayed when, after the its ticket call, the user is not submit the QRCode in time (threshold of 1-2 minutes);
-\item \textit{Cancelled ticket}: a ticket is cancelled when it's already delayed and passed too much time (threshold of 15-20 minutes);
-\item \textit{BookingID}: string of n alphanumerical characters that is represented by the QRCode. If the user is not registered [...];
-\item \textit{Mobilephone}: Elettronic device without CLup App;
-\item \textit{Smartphone}: Elettronic devide with Clup App; 
+
+\item \textbf{Mobilephone}: Elettronic device without CLup App;
+\item \textbf{Smartphone}: Elettronic devide with Clup App; 
+\item \textbf{CLup App}: It's the application described in this document. It's an application used to make and manage Booking in order to go grocery shopping;
+\item \textbf{User}: Generic customer who plan to shop in the market. He could be a Smart or Mobile User;
+\item \textbf{Smart User}: User who has got CLup App and so he's able to manage Booking by himself;
+\item \textbf{Mobile User}: User who hasn't got CLup App and so he's not able to manage Booking by himself. For instance could be an User who has a dated mobile phone or simply he doesn't install the CLup App. A Mobile User allows a Receptionist to manage his booking by calling a telephone number by interacting with him;
+\item \textbf{Shopping Size}: It's the dimensione of the grocery shopping. It could be \textit{Small}, \textit{Medium}, \textit{Large} depending on the number of items that is going to be purchased;  % [S 10, M 20, L 30];
+\item \textbf{Booking}: It indicates the generic appointment of a User in the market. It could be a Reservation or a Visit;
+\item \textbf{Reservation}: It's a type of Booking. Users simply book a seat at the market's queue. In addition User have to indicate the Shopping Size; 
+\item \textbf{Visit}: It's a Booking planned in advance by Users. It is planned by putting the date and the range time in which the User is going grocery shopping. In addition User have to indicate the Shopping Size; 
+\item \textbf{Reader}: It reads QRCode at the market's entrance. It allows User to go in;
+\item \textbf{Booking submitted}: It means that the QRCode referred to the actual Booking is already submitted in the Reader;
+\item \textbf{Visit activated}: It's a Visit which already booked but not yet submitted by the User;
+\item \textbf{Reservation activated}: It's a Reservation which already booked but not yet submitted by the User;
+\item \textbf{Waiting Time}: It's the time estimated by the system in which, by prevision, an User waits before he enters in the market;
+\item \textbf{Shopping Time}: It's the time needed by a User to complete his own grocery shopping;
+\item \textbf{Closure Time}: It's the range time in which the market is closed;
+\end{itemize}
+
+\begin{comment}
+
+
+\item \textbf{Delayed ticket}: a ticket is delayed when, after the its ticket call, the user is not submit the QRCode in time (threshold of 1-2 minutes);
+\item \textbf{Cancelled ticket}: a ticket is cancelled when it's already delayed and passed too much time (threshold of 15-20 minutes);
+\item \textbf{BookingID}: string of n alphanumerical characters that is represented by the QRCode. If the user is not registered [...];
+
+
+\end{comment}
+\begin{itemize}
+\subsection{Acronyms}
+\item \textbf{RASD}: Requirement Analysis and Specification Document;
+\item \textbf{HW}: Hardware;
+\item \textbf{SW}: Hardware;
+\item \textbf{API}: Application Programming Interface;
 \end{itemize}
 
 
-
-\subsection{Acronyms}
 \subsection{Abbreviations}
+\begin{itemize}
+\item \textbf{App}: Application;
+\end{itemize}
 
 \section{Revision history}
 
 \section{Reference Documents}
 
 \section{Document Structure}
-G.1 Avoid to generate a long queue ( Max 10 people )
-G.2 Grant the possibility of respecting social distance
+

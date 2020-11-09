@@ -100,3 +100,17 @@ We distinguish the actors into our application based on actions and interactions
 
 \section{Assumptions, dependencies and constraints}
 \subsection{Assumptions}
+\begin{description}
+    \item[D1] The system delete the Reservation the Smart User accumulates a delay to reach the market greater than 10 minutes
+    \item[D2] The system delete the Reservation the Mobile User accumulates a delay to reach the market greater than 15 minutes
+    \item[D3] The system handles the threshold number of Users allowed in the market
+    \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
+    \item[D5] The Mobile User have to be connected to Internet through his own mobile operator
+    \item[D6] A Visit is associated to a Date and a period of time (start/end time);
+    \item[D7] A Booking is associated to one and only one QRCode
+    \item[D8] User must have one and only one Visit activated;
+    \item[D9] User must have one and only one Reservation activated
+    \item[D10] A Booking belongs to one and only one User
+    \item[D11] The Waiting Time plus the Shopping Time mustn’t exceed the Closure Time
+    \item[D12] In each Date and Slot Time must contain at most N Visits
+\end{description}
