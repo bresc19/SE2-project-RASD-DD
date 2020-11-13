@@ -1,18 +1,35 @@
 \section{Product perspective}
-The aim is to build a system that manage the users’reservations and grants the possibility of booking the place in queue without wasting time while they're waiting their own turn outside the market. 
+
+The aim of the RASD is to build a system that manage the users’ booking (either a Visit or a Reservation) without wasting time while they're waiting their own turn outside the market. 
 \par
---The system have to provide User infomation about queue's dynamic in real time (i.e the number of people ahead and the time estimation before his own turn). --
-To do this, the application should try, in the best way, to estimate the time that the customers will spend in the shop, in order to notify in time users who are waiting their turn. 
+For a Reservation the system provides User infomation about queue's dynamic in real time (i.e the number of people ahead). 
+To do this, the application should try, in the best way, to estimate the time that the customers will spend in the market, in order to notify in advance users who are waiting their own turn outside. 
+In addition Users have to indicate how long the shopping time will be, putting potentially the size of the expenditure. This could be Small, Medium or Large.
 \\
 The application analyses the customers’ statistics and computes the average shopping time.
 The calculation considers the time range between the moments in which the User goes in and out.  
 \par
-In this way, the customers in queue will be notified in time and will be able to use GoogleMaps APIs to compute the path for arriving in time to market. 
-The choice of using Google Maps APIs derives from the easy usability, frequency update and very large documentation.
+In this way, the other customers in queue will be notified as soon as it's the right time to leave and reach the market in time due to the queue's congestion and his position.  
+
 \par
-Moreover, it will be possible to book a visit choosing the date and time in advance (of some days?). In this case, users will also have to indicate an approximation of the shopping time. 
+Moreover, it's possible to book a visit choosing the date and the schedule in advance choosing the Visit option. 
 \\
-The time will be splitted into 30 minutes slots, and customers will choose which they want among the free ones. \par
+The timetable will be splitted into 30 minutes slots, and customers will choose which they want among the free ones. \par
+
+In addition the market will provide costumer, who don't have the application or even a smartphone, a toll-free number in order to make an appointment.
+%book a visit or reserve a seat in a virtual queue 
+This would be easy-manageble because a receptionist handles the booking and advises the customers with the best shopping option. %as clients' necessary. 
+At the beginning, the user will be sign up for booking: so the receptionist will ask the required data from him and will create a customer profile in the system.
+
+The user can also manage (either delete or postpone), in a later moment, hir reservation by calling the same number of the registration.
+
+
+Once the turn has been called, the user will be noticed through an SMS.
+This will contain the identication string that User must show at the entry.
+
+Once the user finished, he will scan the code at the exit to open the doors.
+
+
 \bigskip
 In the UML diagram below will be list the main classes in order to understand how the whole system works.
 \par 
@@ -24,20 +41,18 @@ In the UML diagram below will be list the main classes in order to understand ho
   \caption{Class diagram with UML}
   \label{fig:UML}
   \centering
-  \includegraphics[width=1.2\textwidth, height=0.7\textwidth]{diagrams/UML_simple.png}
+  \includegraphics[scale=0.28]{diagrams/UML_simple.png}
 
 \end{figure}
 \par 
 \medskip
-As we can see from the class diagram in figure ~\ref{fig:UML}, the user can book once or a visit or a reservation.
-In both cases will be provide him a QRcode, which will be submit to enter in the market. 
+As we can see from the class diagram in figure ~\ref{fig:UML}, the User can book once or a visit or a reservation.
+In both cases will be provide him a QRcode, which will be submitted to enter in the market. 
 If the the User decided to undo his reservation in the queue could do it by making a cancellation from the application. 
 \par
 \medskip
-Moreover, if the User allows to share his position, the system will notice him in advance due to his punctuality.
-\\
 In addition the system will notice the User through an SMS or a notice when it's almost his turn (10-15 minutes before).
-\\
+
 Now we will analyze the interaction between the User and the system, in order to understand possible criticities.
 \par 
 \bigskip
@@ -53,7 +68,7 @@ Now we will analyze the interaction between the User and the system, in order to
 \medskip
 
 In the Figure ~\ref{fig:Reservation} first state diagram it can be osserved how a generic User can make a reservation thorugh the system. It's sufficient making this action to be added in queue to enter in the market.
-\\If something goes wrong the User will be redirect to the home screen (initial state).
+\\If something goes wrong the User will be redirect to the initial state.
 \\Usually the system reject the request if the market is next to closure (or for logistic problem).
 
 \par 
@@ -69,16 +84,41 @@ In the Figure ~\ref{fig:Reservation} first state diagram it can be osserved how 
 \par 
 \medskip
 
-The Figure ~\ref{fig:Visit} explains instead how to book a visit in the market. Once the timetable is provided, the User have to select the range time of the visit and the items that he wants to purchase. \par If the choice made by the user is wrong (i.e timetable's slot full), the system notify him; the User will try again until his choice is correct.
+The Figure ~\ref{fig:Visit} explains instead how to book a visit in the market. Once the timetable is provided, the generic 
+
+
+
+To anticipated the unexpected, the system will use a grace.
+Let us assume that we have 100 place into the market, the system will provide only 90 places.
+The remaining ten places will be used only for emergency or in the time period in which the customer will enter/exit from the market.
+This "grace" will be a userful resource for the system because in this way it will can manage non-deterministic event, like users shopping time, avoiding the market crowding. 
+The system will determine the average shopping time according to the information who the user enter when booked the visit/reservation.
+In this way, when the shopping time will be near to the average shopping time, the system will notice the first user in queue to reach the supermarket.  
+Our goal will be 
+
+
+User have to select the range time of the visit and the items that he wants to purchase. \par If the choice made by the user is wrong (i.e timetable's slot full), the system notify him; the User will try again until his choice is correct.
 \par 
 \medskip
 
 
 \section{Product functions}
 \subsection{Queue Manager}
-The most important function is the \textit{Queue Manager} because it must avoid the users waiting too much time their turn due to a wrong use of notifications. [TODO]
-In fact, it have to foresee, through statistics from users’ information, the correct time in which the users will enter in the market once arrived. This can be done thanks to the notifications sent to the user 
-It will also have to understand when accept and when refuse reservations, according to shop closing time and the number of people in queue. 
+The most important function is the \textit{Queue Manager} because it must avoid the users waiting too much their turn in the case of a wrong use of notifications. [TODO]
+In fact, it have to foresee, through statistics from users’ information, the correct time in which the users will enter in the market. This can be done thanks to the notifications sent to the user.
+It will also have to decide whether to accept or refuse an appointment, depending on the shop closing time and the number of people in queue. 
+
+
+
+To anticipated the unexpected, the system will use a grace.
+Let us assume that the maximum number of Users into the market is 100. Well, the system will provide only 90 Users.
+The remaining 10 will be used only for emergency or in the time period in which the customer will enter or exit from the market.
+This "grace" will be a usefull resource for the system because it can manage non-deterministic event, like user's shopping time %, which is a stochastic prediction.
+The system will determine the average shopping time according to the information who the user enter during the Booking.
+In particular accuracy of the computation depends on the quality of User's data.
+In this way, when the shopping time will be near to the average shopping time, the system will notice the first user in queue to reach the supermarket.  
+Our goal is to monitor the User's influx and to keep it under critical boundary (more or less 95). Therefore this could be possibile by flowing slowly the virtual queue.
+
 \subsection{Data Collection}
 The \textit{Data Collection} is essential for the correct behavior of the Queue Manager described previously, because it will have to provide precise dates according to client’s information. 
 Therefore, the system will have to ask clients precise questions according to keep useful informations for estimating the shopping time into the supermarket, without violating users’ privacy. 

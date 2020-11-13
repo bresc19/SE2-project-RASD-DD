@@ -3,6 +3,7 @@ The following mockups provide a model of graphic interface that will show our pr
 We will create a user interface that will be user friendly in order to be easy to use also from non-technical users. \\
 The mockups has the aim to illustrate the main aspects of the CLup and the Receptionist's app.
 \subsection{User Interfaces}
+The development of CLup app aims to have a easy-to-use interface for User who has a Smartphone. In particular the application have to be intuitive and reliable in order to give Users the possobility to book an appointment without any obstacles.
 The following mockups show the main operation allowed by Clup to the Smart User:
 
 
@@ -156,7 +157,9 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 
 
 \subsection{Receptionist Interfaces}
-The following mockups show the main operation allowed by Receptionist through his application to mange Booking of the Mobile Users.
+CLup desktop app is introduced to give Users who has no Smartphone the possibility to book an appointment at the market. Mobile Users have to call a Receptionist through a customer service number. The Receptionist so aims to interact between the User and the system in order to manage his appointment, acting like a proxy. 
+Even this application must be simple, in order to allow Receptionist to interact with Mobile User in a proper and effective way.
+The following mockups show the main operation allowed by Receptionist through his application to manage Booking of the Mobile Users.
 
 
 
@@ -221,9 +224,7 @@ The following mockups show the main operation allowed by Receptionist through hi
 
 
 \subsection{Hardware Interfaces}
-CLup is a SW application which has the aim to book and manage appointments at the market. So the app requires a Smartphone with internet connection due to send any request to CLup servers for any Bookings. 
-Then, Smartphone should have also a GPS services that allows the system to estimate the User's time necessary to reach the market. But this is not mandatory due to a proper functioning of CLup. 
-In addition, the supermarket will have two scanners in order to validate the reservation:
+The supermarket will have two scanners in order to validate the reservation:
 
 \par \medskip 
 \begin{itemize}
@@ -235,7 +236,9 @@ Another features of exit QR code is to monitor the numbers of client into the sh
 \par \medskip 
 The scanners will be used to obtain useful information about client shopping time
 \subsection{Software Interfaces}
-
+CLup notice User when leave in order to reach the market in time also thanks to Google Maps APIs. Infact CLup use them in order to determine how much time a User have to put due to his position.
+The choice of using Google Maps APIs derives from the easy usability, frequency update and very large documentation.
+The system, in addition to CLup and CLupRec application doesn't use any external interfaces.
 
 
 \subsection{Communication Interfaces}
@@ -1013,6 +1016,10 @@ Exceptions &
 \section{Design Constraints}
 \subsection{Standards compliance}
 Especially, the system will be released in the main digital distribution platform (such as App Store or Google Play). So it must follow their guidelines in order to have a proper and a lawful distribution. In addition, due to the fact that it retrives and analyses many sensitive data, application must respect tha main privacy guidance. In particular in Europe must follow the General Data Privacy Regulation (GDPR), due to a safe and aware processing of data. 
+\subsection{Users in the market}
+An important constraint that must applied is about the number of presences in the market of the Users. In fact, due to the Covid-19 pandemic, it's important that Users respect the social distance rule that is at least 1 meter. So it's necessary that the market's provide the maximum number of Users allowed in the market that is, in a general way, it will be indicated with N.
+
+
 \subsection{Hardware limitations}
 \begin{itemize}
 \item 2G/3G/4G/5G connection: they're essential due to server connection to compile booking request;
@@ -1022,7 +1029,8 @@ Especially, the system will be released in the main digital distribution platfor
 There are no other constraint.
 \section{Software System Attributes}
 \subsection{Reliability}
-The application have to provide user the possibility to book both reservation and visit successfully. [TODO] 
+The application have to provide user the possibility to book both reservation and visit successfully. 
+
 \subsection{Availability}
 Due to the fact that nowadays grocery shopping is avaiable almost all day, the availability of the system is very high. So the required availability is close to 99\%. However, the reservation function has a lower avaibility because of the inability to book a seat in queue if the market is closed in some hours of the day. 
 \subsection{Security}

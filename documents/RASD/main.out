@@ -33,14 +33,15 @@
 \BOOKMARK [1][-]{section.3.3}{Performance Requirements}{chapter.3}% 33
 \BOOKMARK [1][-]{section.3.4}{Design Constraints}{chapter.3}% 34
 \BOOKMARK [2][-]{subsection.3.4.1}{Standards compliance}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.2}{Hardware limitations}{section.3.4}% 36
-\BOOKMARK [2][-]{subsection.3.4.3}{Any other constraint}{section.3.4}% 37
-\BOOKMARK [1][-]{section.3.5}{Software System Attributes}{chapter.3}% 38
-\BOOKMARK [2][-]{subsection.3.5.1}{Reliability}{section.3.5}% 39
-\BOOKMARK [2][-]{subsection.3.5.2}{Availability}{section.3.5}% 40
-\BOOKMARK [2][-]{subsection.3.5.3}{Security}{section.3.5}% 41
-\BOOKMARK [2][-]{subsection.3.5.4}{Maintainability}{section.3.5}% 42
-\BOOKMARK [2][-]{subsection.3.5.5}{Portability}{section.3.5}% 43
-\BOOKMARK [0][-]{chapter.4}{Formal Analysis Using Alloy}{}% 44
-\BOOKMARK [0][-]{chapter.5}{Effort Spent}{}% 45
-\BOOKMARK [0][-]{chapter.6}{References}{}% 46
+\BOOKMARK [2][-]{subsection.3.4.2}{Users in the market}{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.3}{Hardware limitations}{section.3.4}% 37
+\BOOKMARK [2][-]{subsection.3.4.4}{Any other constraint}{section.3.4}% 38
+\BOOKMARK [1][-]{section.3.5}{Software System Attributes}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.5.1}{Reliability}{section.3.5}% 40
+\BOOKMARK [2][-]{subsection.3.5.2}{Availability}{section.3.5}% 41
+\BOOKMARK [2][-]{subsection.3.5.3}{Security}{section.3.5}% 42
+\BOOKMARK [2][-]{subsection.3.5.4}{Maintainability}{section.3.5}% 43
+\BOOKMARK [2][-]{subsection.3.5.5}{Portability}{section.3.5}% 44
+\BOOKMARK [0][-]{chapter.4}{Formal Analysis Using Alloy}{}% 45
+\BOOKMARK [0][-]{chapter.5}{Effort Spent}{}% 46
+\BOOKMARK [0][-]{chapter.6}{References}{}% 47

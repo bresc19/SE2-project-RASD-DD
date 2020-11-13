@@ -39,45 +39,71 @@ This fact obliged people to stay for a long time standing up and waiting their t
 \section{Scope}
 
 The aim of the project is to develop an application which, thanks to an intuitive interface, will avoid a long waiting outside the market.
-The application will provide a QR code as a virtual ticket on your own smartphone and to wait easily at home or everywhere instead of doing the physical queue for minutes or hours. 
-In addition it will provide the position in queue and the time estimation of your turn.
+In order to do that we offer customers three grocery shopping option: 
+
+\begin{itemize}
+\item \textbf{Visit}: it's a planned appointment with given date and range time;
+\item \textbf{Reservation}: it consits in reserving a virtual seat in market's queue;
+\item \textbf{Direct Entrance}: it allows aged customers to enter without any bookings;
+\end{itemize}
+
+
+The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for Smart and Mobile Users.
+In particular, in order to avoid to wait in line, Users will be allerted by a notification (Smart Users) or a SMS (Mobile Users). These inform them about the own time schedule required to reach the market in time.
+Only for Smart User the application will provide the position in queue and the time estimation of the own turn.
+Finally a alphanueric string will be provided to Mobile Users due to enter and exit form the market. Instead, this string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
+Instead, the third one is only for aged customers older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. 
+In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. 
+
+
+
+
+\begin{comment}
+The application will provide a QRCode as a virtual ticket on your own smartphone and to wait easily at home or everywhere instead of doing the physical queue for minutes or hours. 
 The system will generate a QR code for the authentication at the entry, in order to verify the position in the queue. 
 Moreover, the application gives the possibility to "book a visit" for who indicates the approximate expected duration of the visit and how many products they'll buy. \par \medskip
-Although the reservation is made entirely with your smartphone, the market gives anyway the possibilities to provide the ticket locally on site, acting as proxies for the customers. This is mostly for aged people who are technologically backward or has no smartphone.
+Although the reservation is made entirely with your smartphone, the market gives anyway the possibilities to provide the ticket, acting as proxies for the customers. 
+[...]
+This is mostly for aged people who are technologically backward or has no smartphone.
 Once this procedure is completed, a SMS will be sent to the customers for noticing their turn. [todo]\par \medskip
-In order to achieve the goal, we define the World, Machine and Shared Phenomena, which are really crucial to describe the system. They're characterized by fact that the first and the second ones are not visible among them; so we need a link between them which i represented by the Shared phenomena.
-
-
-
+In order to achieve the goal, we adopt the "World and Machine" model in order to analyse the domain.
+\end{comment}
 
 
 
 \subsection{World}
-It's the portion of system to be developed. The main \textit{World Phenomena} are:
+It represents the environment in which the system is placed. In particular it's composed by events which are affected by the system,but not directly connected with it.
+The main \textit{World Phenomena} are:
 
 \begin{itemize}
-\item Punctuality;
-\item Loss of connection;
-\item Respecting social distance;
-\item Shopping duration;
-\item Checking temperature;
+\item An User can access to the market;
+\item Limit number of Users in the market;
+\item User can book his appointment for grocery shopping;
+\item Internet connection / mobile operator;
 \item Respecting social distance;
 \end{itemize}
+
+In our application we are going to focus on this World Phenomena excepting for the last one. In fact, during the development of the RASD, we [...]
 
 \subsection{Machine}
-It represents the portion of system to be developed. The main \textit{Machine Phenomena} are:
+It represents the portion of system to be developed.
+The main \textit{Machine Phenomena} are:
 \begin{itemize}
-\item Average of shopping time;
+\item \textit{Internal operations};
+\item \textit{Queue menager};
+\item \textit{Waiting time estimation};
+\item \textit{Data queries};
 \end{itemize}
 \subsection{Shared Phenomena} 
-They're phenomena shared between the World and the Machine which are controlled or observed by the system. In this scenario mainly are:
+In this model it needs a common interface to link World and Machine which is composed by the Shared phenomena. Graphically is represent by an intersection between the World and the Machine. In this way World and Machine phenomena are observed from each other.  
+The main application Shared Phenomena are the following:
 
 \begin{itemize}
-\item Book/delete a visit in the supermarket;
-\item Get a virtual ticket;
-\item Send a notice;
-\item Send a SMS;
-
+\item \textit{Notifications};
+\item \textit{Sign in / Sign up};
+\item \textit{Booking management};
+\item \textit{QRCode submission};
+\item \textit{Appointment request};
 \end{itemize}
 
 
@@ -126,6 +152,7 @@ They're phenomena shared between the World and the Machine which are controlled 
 \subsection{Abbreviations}
 \begin{itemize}
 \item \textbf{App}: Application;
+
 \end{itemize}
 
 \section{Revision history}
