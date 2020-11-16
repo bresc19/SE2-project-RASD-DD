@@ -657,7 +657,7 @@ Excluding 'comment' comment. [4] [5] Excluding 'comment' comment. [6]
 <diagrams/VENN.png, id=298, 783.92876pt x 503.8825pt>
 File: diagrams/VENN.png Graphic file (type png)
 <use diagrams/VENN.png>
-Package pdftex.def Info: diagrams/VENN.png  used on input line 165.
+Package pdftex.def Info: diagrams/VENN.png  used on input line 158.
 (pdftex.def)             Requested size: 297.89603pt x 191.47734pt.
  [7 <./diagrams/VENN.png>]) [8]
 Chapter 2.
@@ -1213,7 +1213,7 @@ l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
 ist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on RASD.pdf (48 pages, 3033637 bytes).
+Output written on RASD.pdf (48 pages, 3033645 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  539 compressed objects within 6 object streams
