@@ -141,7 +141,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
   \subfloat[Delay confirmation of a Reservation]{\includegraphics[scale=0.35]{images/mockup/qr1.png}\label{fig:f1}}
   \hfill
   \subfloat[Cancellation confirmation of a Visit]{\includegraphics[scale=0.35]{images/mockup/qr7.png}\label{fig:f2}}
-  \caption{Cancel and Delay action: A alert will showed to Smart User to confirm his action.}
+  \caption{Cancel and Delay action: A alert will be shown to Smart User to confirm his action.}
 \end{figure}
 
 
@@ -242,8 +242,7 @@ The system, in addition to CLup and CLupRec application doesn't use any external
 
 
 \subsection{Communication Interfaces}
-Every User and Receptionist uses a HTTPS protocol to make request to CLup's servers. In this way informations sent are safe due to encryption. [...]
-
+Every User uses a HTTPS protocol to make request to CLup's servers. In this way informations sent are safe due to encryption provided by the TLS protocol. The same is used by Receptionist to communicate with the server.
 \section{Functional Requirements}
 
 \begin{description}
@@ -1013,6 +1012,11 @@ Exceptions &
 
 
 \section{Performance Requirements}
+The system has been designed to give possibility to Users to make and to manage their booking every time they need. So it's essential that the CLup's server have to handle a big number of connections. The most reliable requests must be the booking request. User could book his appointment when he needs without any error or denial. So it's important that the server has enough resources to accept a large number of request which we estimate a maximum of 1000.
+
+
+
+
 \section{Design Constraints}
 \subsection{Standards compliance}
 Especially, the system will be released in the main digital distribution platform (such as App Store or Google Play). So it must follow their guidelines in order to have a proper and a lawful distribution. In addition, due to the fact that it retrives and analyses many sensitive data, application must respect tha main privacy guidance. In particular in Europe must follow the General Data Privacy Regulation (GDPR), due to a safe and aware processing of data. 
@@ -1034,8 +1038,10 @@ The application have to provide user the possibility to book both reservation an
 \subsection{Availability}
 Due to the fact that nowadays grocery shopping is avaiable almost all day, the availability of the system is very high. So the required availability is close to 99\%. However, the reservation function has a lower avaibility because of the inability to book a seat in queue if the market is closed in some hours of the day. 
 \subsection{Security}
-Security is one of the most critical aspect of CLup. So User's sensitive data are stored safely DBMS accessibile only by strict level of privilege. In addition, communication towards the application server (like login or booking requests) are implemented using  HTTPS protocol, which, with TLS protocol, ensure the encryption of every packets. 
+Security is one of the most critical aspect of CLup. So User's sensitive data are stored safely in DBMS accessibile only by strict level of privilege. In addition, communication towards the application server (like login or booking requests) are implemented using  HTTPS protocol, which, with TLS protocol, ensure the encryption of every packets. Another important risk that must by avoid is the Denial of Service, which occurs when the server is unavailable due to incoming traffic flooding from malevoulous Users. So it's important that the Server mitigate this, by using for instance SYN cookies or any possible arrangements in order to allocate less resources if it's not necessary.
 \subsection{Maintainability}
 The application implementation must be oriented towards an high scalability in order to gurantee an efficient and cheaper maintenance. This could be done by using design patterns.
 \subsection{Portability}
-The system must be smoothly portable almost the main smartphone on the market. So CLup must be distributed for the main mobile operating system (i.e App Store and Google Play), coding it with program language such as Android or Swing. In addition CLup Guest, the application used by receptionist to book visit and reservation of the Users not register, must be compatible with the main Operating system such as Windows and Mac OS X. [todo]
+The system must be smoothly portable almost for the main smartphone on the market (i.e Android or iOS). So CLup must be distributed for the main mobile store (i.e App Store and Google Play), coding it with the main program languages such as Android or Swing. In addition CLup Guest
+%, the application used by receptionist to book visit and reservation of the Users not %registered, 
+must be compatible with the main Operating system such as Windows and Mac OS X. 

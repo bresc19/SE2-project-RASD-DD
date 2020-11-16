@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  13 NOV 2020 14:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  16 NOV 2020 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**RASD.tex
+(./RASD.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/report.cls
@@ -395,7 +395,10 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [fontsize=11pt,paper=a4,pagesize=auto].
 
-(./main.aux
+(./RASD.aux
+
+LaTeX Warning: Label `fig:Reservation' multiply defined.
+
 
 LaTeX Warning: Label `fig:first' multiply defined.
 
@@ -502,7 +505,7 @@ LaTeX Warning: Label `fig:UML' multiply defined.
 LaTeX Warning: Label `fig:UML' multiply defined.
 
 )
-\openout1 = `main.aux'.
+\openout1 = `RASD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -591,11 +594,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
- (./main.out) (./main.out)
+ (./RASD.out) (./RASD.out)
 \@outlinefile=\write4
-\openout4 = `main.out'.
+\openout4 = `RASD.out'.
 
-<images/polimi.jpg, id=192, 1303.87125pt x 1013.7875pt>
+<images/polimi.jpg, id=209, 1303.87125pt x 1013.7875pt>
 File: images/polimi.jpg Graphic file (type jpg)
 <use images/polimi.jpg>
 Package pdftex.def Info: images/polimi.jpg  used on input line 19.
@@ -603,7 +606,7 @@ Package pdftex.def Info: images/polimi.jpg  used on input line 19.
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/polimi.jpg>] (./main.toc
+s/polimi.jpg>] (./RASD.toc
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
 .
 
@@ -632,12 +635,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ... {3.4}Design Constraints}{40}{section.3.4}
+l.35 ... {3.4}Design Constraints}{41}{section.3.4}
                                                   % [1
 
 ])
 \tf@toc=\write5
-\openout5 = `main.toc'.
+\openout5 = `RASD.toc'.
 
  [2]
 Chapter 1.
@@ -650,17 +653,23 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [3
 
 ]
-Excluding 'comment' comment. [4] [5] Excluding 'comment' comment. [6]) [7]
+Excluding 'comment' comment. [4] [5] Excluding 'comment' comment. [6]
+<diagrams/VENN.png, id=298, 783.92876pt x 503.8825pt>
+File: diagrams/VENN.png Graphic file (type png)
+<use diagrams/VENN.png>
+Package pdftex.def Info: diagrams/VENN.png  used on input line 165.
+(pdftex.def)             Requested size: 297.89603pt x 191.47734pt.
+ [7 <./diagrams/VENN.png>]) [8]
 Chapter 2.
-(./chapters/overall_description.tex [8
+(./chapters/overall_description.tex [9
 
 ]
-<diagrams/UML_simple.png, id=286, 1211.52625pt x 633.36626pt>
+<diagrams/UML_simple.png, id=315, 1211.52625pt x 633.36626pt>
 File: diagrams/UML_simple.png Graphic file (type png)
 <use diagrams/UML_simple.png>
 Package pdftex.def Info: diagrams/UML_simple.png  used on input line 44.
 (pdftex.def)             Requested size: 339.22504pt x 177.34134pt.
-<diagrams/2-reservation.png, id=289, 563.10374pt x 121.45375pt>
+<diagrams/2-reservation.png, id=317, 563.10374pt x 121.45375pt>
 File: diagrams/2-reservation.png Graphic file (type png)
 <use diagrams/2-reservation.png>
 Package pdftex.def Info: diagrams/2-reservation.png  used on input line 64.
@@ -669,21 +678,21 @@ Package pdftex.def Info: diagrams/2-reservation.png  used on input line 64.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./diagrams/UML_simple.png>]
-<diagrams/2-visit.png, id=299, 683.55376pt x 272.01625pt>
+[10 <./diagrams/UML_simple.png>]
+<diagrams/2-visit.png, id=327, 683.55376pt x 272.01625pt>
 File: diagrams/2-visit.png Graphic file (type png)
 <use diagrams/2-visit.png>
 Package pdftex.def Info: diagrams/2-visit.png  used on input line 81.
 (pdftex.def)             Requested size: 276.00334pt x 138.00423pt.
- [10 <./diagrams/2-reservation.png> <./diagrams/2-visit.png>] [11]
+ [11 <./diagrams/2-reservation.png> <./diagrams/2-visit.png>] [12]
 Overfull \hbox (24.56702pt too wide) in paragraph at lines 141--141
 []\OT1/lmr/bx/n/14.4 Assumptions, de-pen-den-cies and con-straints 
  []
 
-) [12]
+) [13]
 Chapter 3.
 (./chapters/specific_requirements.tex
-<images/mockup/login.png, id=318, 334.24875pt x 678.535pt>
+<images/mockup/login.png, id=345, 334.24875pt x 678.535pt>
 File: images/mockup/login.png Graphic file (type png)
 <use images/mockup/login.png>
 Package pdftex.def Info: images/mockup/login.png  used on input line 15.
@@ -692,74 +701,74 @@ Package pdftex.def Info: images/mockup/login.png  used on input line 15.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mockup/select2.png, id=319, 340.27126pt x 679.53876pt>
+<images/mockup/select2.png, id=346, 340.27126pt x 679.53876pt>
 File: images/mockup/select2.png Graphic file (type png)
 <use images/mockup/select2.png>
 Package pdftex.def Info: images/mockup/select2.png  used on input line 22.
 (pdftex.def)             Requested size: 119.09671pt x 237.84213pt.
-[13
+[14
 
-] [14 <./images/mockup/login.png> <./images/mockup/select2.png>]
-<images/mockup/reg1.png, id=332, 344.28625pt x 680.5425pt>
+] [15 <./images/mockup/login.png> <./images/mockup/select2.png>]
+<images/mockup/reg1.png, id=359, 344.28625pt x 680.5425pt>
 File: images/mockup/reg1.png Graphic file (type png)
 <use images/mockup/reg1.png>
 Package pdftex.def Info: images/mockup/reg1.png  used on input line 34.
 (pdftex.def)             Requested size: 120.50198pt x 238.19344pt.
-<images/mockup/reg2.png, id=333, 339.2675pt x 681.54625pt>
+<images/mockup/reg2.png, id=360, 339.2675pt x 681.54625pt>
 File: images/mockup/reg2.png Graphic file (type png)
 <use images/mockup/reg2.png>
 Package pdftex.def Info: images/mockup/reg2.png  used on input line 36.
 (pdftex.def)             Requested size: 118.74539pt x 238.54475pt.
-<images/mockup/home1.png, id=334, 342.27875pt x 679.53876pt>
+<images/mockup/home1.png, id=361, 342.27875pt x 679.53876pt>
 File: images/mockup/home1.png Graphic file (type png)
 <use images/mockup/home1.png>
 Package pdftex.def Info: images/mockup/home1.png  used on input line 48.
 (pdftex.def)             Requested size: 102.6844pt x 203.8632pt.
- [15 <./images/mockup/reg1.png> <./images/mockup/reg2.png>]
-<images/mockup/reserve1.png, id=345, 342.27875pt x 679.53876pt>
+ [16 <./images/mockup/reg1.png> <./images/mockup/reg2.png>]
+<images/mockup/reserve1.png, id=372, 342.27875pt x 679.53876pt>
 File: images/mockup/reserve1.png Graphic file (type png)
 <use images/mockup/reserve1.png>
 Package pdftex.def Info: images/mockup/reserve1.png  used on input line 61.
 (pdftex.def)             Requested size: 119.79935pt x 237.84213pt.
-<images/mockup/reservation_size.png, id=346, 343.2825pt x 687.56876pt>
+<images/mockup/reservation_size.png, id=373, 343.2825pt x 687.56876pt>
 File: images/mockup/reservation_size.png Graphic file (type png)
 <use images/mockup/reservation_size.png>
 Package pdftex.def Info: images/mockup/reservation_size.png  used on input line
  65.
 (pdftex.def)             Requested size: 120.15067pt x 240.65266pt.
-<images/mockup/reserve2.png, id=347, 343.2825pt x 681.54625pt>
+<images/mockup/reserve2.png, id=374, 343.2825pt x 681.54625pt>
 File: images/mockup/reserve2.png Graphic file (type png)
 <use images/mockup/reserve2.png>
 Package pdftex.def Info: images/mockup/reserve2.png  used on input line 69.
 (pdftex.def)             Requested size: 120.15067pt x 238.54475pt.
-<images/mockup/qrcode_reservation_done.png, id=348, 348.30125pt x 683.55376pt>
+<images/mockup/qrcode_reservation_done.png, id=375, 348.30125pt x 683.55376pt>
 File: images/mockup/qrcode_reservation_done.png Graphic file (type png)
 <use images/mockup/qrcode_reservation_done.png>
 Package pdftex.def Info: images/mockup/qrcode_reservation_done.png  used on inp
 ut line 73.
 (pdftex.def)             Requested size: 121.90726pt x 239.24739pt.
- [16 <./images/mockup/home1.png>]
+ [17 <./images/mockup/home1.png>]
 Overfull \vbox (21.40002pt too high) has occurred while \output is active []
 
 
-[17 <./images/mockup/reserve1.png> <./images/mockup/reservation_size.png> <./im
+[18 <./images/mockup/reserve1.png> <./images/mockup/reservation_size.png> <./im
 ages/mockup/reserve2.png> <./images/mockup/qrcode_reservation_done.png>]
-<images/mockup/visit00.png, id=368, 342.27875pt x 679.53876pt>
+<images/mockup/visit00.png, id=396, 342.27875pt x 679.53876pt>
 File: images/mockup/visit00.png Graphic file (type png)
 <use images/mockup/visit00.png>
 Package pdftex.def Info: images/mockup/visit00.png  used on input line 88.
 (pdftex.def)             Requested size: 119.79935pt x 237.84213pt.
-<images/mockup/visit1.png, id=369, 343.2825pt x 683.55376pt>
+<images/mockup/visit1.png, id=397, 343.2825pt x 683.55376pt>
 File: images/mockup/visit1.png Graphic file (type png)
 <use images/mockup/visit1.png>
 Package pdftex.def Info: images/mockup/visit1.png  used on input line 92.
 (pdftex.def)             Requested size: 120.15067pt x 239.24739pt.
-<images/mockup/visit2.png, id=370, 342.27875pt x 684.5575pt>
+<images/mockup/visit2.png, id=398, 342.27875pt x 684.5575pt>
 File: images/mockup/visit2.png Graphic file (type png)
 <use images/mockup/visit2.png>
 Package pdftex.def Info: images/mockup/visit2.png  used on input line 96.
 (pdftex.def)             Requested size: 119.79935pt x 239.59871pt.
-<images/mockup/visit_size.png, id=371, 346.29375pt x 685.56125pt>
+<images/mockup/visit_size.png, id=399, 346.29375pt x 685.56125pt>
 File: images/mockup/visit_size.png Graphic file (type png)
 <use images/mockup/visit_size.png>
 Package pdftex.def Info: images/mockup/visit_size.png  used on input line 100.
@@ -768,24 +777,24 @@ Package pdftex.def Info: images/mockup/visit_size.png  used on input line 100.
 Overfull \vbox (11.19739pt too high) has occurred while \output is active []
 
 
-[18 <./images/mockup/visit00.png> <./images/mockup/visit1.png> <./images/mockup
+[19 <./images/mockup/visit00.png> <./images/mockup/visit1.png> <./images/mockup
 /visit2.png> <./images/mockup/visit_size.png>]
-<images/mockup/qr2.png, id=386, 342.27875pt x 677.53125pt>
+<images/mockup/qr2.png, id=413, 342.27875pt x 677.53125pt>
 File: images/mockup/qr2.png Graphic file (type png)
 <use images/mockup/qr2.png>
 Package pdftex.def Info: images/mockup/qr2.png  used on input line 117.
 (pdftex.def)             Requested size: 119.79935pt x 237.13948pt.
-<images/mockup/qr4.png, id=387, 352.31625pt x 681.54625pt>
+<images/mockup/qr4.png, id=414, 352.31625pt x 681.54625pt>
 File: images/mockup/qr4.png Graphic file (type png)
 <use images/mockup/qr4.png>
 Package pdftex.def Info: images/mockup/qr4.png  used on input line 121.
 (pdftex.def)             Requested size: 123.31253pt x 238.54475pt.
-<images/mockup/qr5.png, id=388, 346.29375pt x 682.55pt>
+<images/mockup/qr5.png, id=415, 346.29375pt x 682.55pt>
 File: images/mockup/qr5.png Graphic file (type png)
 <use images/mockup/qr5.png>
 Package pdftex.def Info: images/mockup/qr5.png  used on input line 125.
 (pdftex.def)             Requested size: 121.20462pt x 238.89607pt.
-<images/mockup/qr_reservation.png, id=389, 345.29pt x 684.5575pt>
+<images/mockup/qr_reservation.png, id=416, 345.29pt x 684.5575pt>
 File: images/mockup/qr_reservation.png Graphic file (type png)
 <use images/mockup/qr_reservation.png>
 Package pdftex.def Info: images/mockup/qr_reservation.png  used on input line 1
@@ -795,9 +804,9 @@ Package pdftex.def Info: images/mockup/qr_reservation.png  used on input line 1
 Overfull \vbox (41.14343pt too high) has occurred while \output is active []
 
 
-[19 <./images/mockup/qr2.png> <./images/mockup/qr4.png> <./images/mockup/qr5.pn
+[20 <./images/mockup/qr2.png> <./images/mockup/qr4.png> <./images/mockup/qr5.pn
 g> <./images/mockup/qr_reservation.png>]
-<images/mockup/qr1.png, id=403, 336.25626pt x 678.535pt>
+<images/mockup/qr1.png, id=430, 336.25626pt x 678.535pt>
 File: images/mockup/qr1.png Graphic file (type png)
 <use images/mockup/qr1.png>
 Package pdftex.def Info: images/mockup/qr1.png  used on input line 141.
@@ -807,46 +816,46 @@ Underfull \hbox (badness 2126) in paragraph at lines 141--141
 []\OT1/lmr/m/n/8 (+20) (a) |De-lay con-fir-ma-tion of a
  []
 
-<images/mockup/qr7.png, id=404, 348.30125pt x 684.5575pt>
+<images/mockup/qr7.png, id=431, 348.30125pt x 684.5575pt>
 File: images/mockup/qr7.png Graphic file (type png)
 <use images/mockup/qr7.png>
 Package pdftex.def Info: images/mockup/qr7.png  used on input line 143.
 (pdftex.def)             Requested size: 121.90726pt x 239.59871pt.
-<images/mockup/notify1.png, id=405, 303.1325pt x 614.295pt>
+<images/mockup/notify1.png, id=432, 303.1325pt x 614.295pt>
 File: images/mockup/notify1.png Graphic file (type png)
 <use images/mockup/notify1.png>
 Package pdftex.def Info: images/mockup/notify1.png  used on input line 151.
 (pdftex.def)             Requested size: 106.09796pt x 215.00647pt.
-<images/mockup/visit_SMS.png, id=406, 305.14pt x 608.2725pt>
+<images/mockup/visit_SMS.png, id=433, 305.14pt x 608.2725pt>
 File: images/mockup/visit_SMS.png Graphic file (type png)
 <use images/mockup/visit_SMS.png>
 Package pdftex.def Info: images/mockup/visit_SMS.png  used on input line 153.
 (pdftex.def)             Requested size: 106.80058pt x 212.89856pt.
-[20 <./images/mockup/qr1.png> <./images/mockup/qr7.png>]
-<images/mockup/LOGIN_REC.png, id=416, 298.11375pt x 219.82124pt>
+[21 <./images/mockup/qr1.png> <./images/mockup/qr7.png>]
+<images/mockup/LOGIN_REC.png, id=443, 298.11375pt x 219.82124pt>
 File: images/mockup/LOGIN_REC.png Graphic file (type png)
 <use images/mockup/LOGIN_REC.png>
 Package pdftex.def Info: images/mockup/LOGIN_REC.png  used on input line 170.
 (pdftex.def)             Requested size: 163.96306pt x 120.90204pt.
- [21 <./images/mockup/notify1.png> <./images/mockup/visit_SMS.png>]
-<images/mockup/LOGREG.png, id=426, 638.385pt x 646.415pt>
+ [22 <./images/mockup/notify1.png> <./images/mockup/visit_SMS.png>]
+<images/mockup/LOGREG.png, id=453, 638.385pt x 646.415pt>
 File: images/mockup/LOGREG.png Graphic file (type png)
 <use images/mockup/LOGREG.png>
 Package pdftex.def Info: images/mockup/LOGREG.png  used on input line 178.
 (pdftex.def)             Requested size: 223.43808pt x 226.24864pt.
-<images/mockup/Select_User.png, id=427, 644.4075pt x 647.41875pt>
+<images/mockup/Select_User.png, id=454, 644.4075pt x 647.41875pt>
 File: images/mockup/Select_User.png Graphic file (type png)
 <use images/mockup/Select_User.png>
 Package pdftex.def Info: images/mockup/Select_User.png  used on input line 186.
 
 (pdftex.def)             Requested size: 225.546pt x 226.59995pt.
- [22 <./images/mockup/LOGIN_REC.png> <./images/mockup/LOGREG.png>]
-<images/mockup/Home_Rec.png, id=436, 644.4075pt x 648.4225pt>
+ [23 <./images/mockup/LOGIN_REC.png> <./images/mockup/LOGREG.png>]
+<images/mockup/Home_Rec.png, id=463, 644.4075pt x 648.4225pt>
 File: images/mockup/Home_Rec.png Graphic file (type png)
 <use images/mockup/Home_Rec.png>
 Package pdftex.def Info: images/mockup/Home_Rec.png  used on input line 194.
 (pdftex.def)             Requested size: 225.546pt x 226.95126pt.
-<images/mockup/Size_Rec.png, id=437, 643.40375pt x 648.4225pt>
+<images/mockup/Size_Rec.png, id=464, 643.40375pt x 648.4225pt>
 File: images/mockup/Size_Rec.png Graphic file (type png)
 <use images/mockup/Size_Rec.png>
 Package pdftex.def Info: images/mockup/Size_Rec.png  used on input line 203.
@@ -855,7 +864,7 @@ Package pdftex.def Info: images/mockup/Size_Rec.png  used on input line 203.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mockup/info_visit_rec.png, id=438, 640.3925pt x 642.4pt>
+<images/mockup/info_visit_rec.png, id=465, 640.3925pt x 642.4pt>
 File: images/mockup/info_visit_rec.png Graphic file (type png)
 <use images/mockup/info_visit_rec.png>
 Package pdftex.def Info: images/mockup/info_visit_rec.png  used on input line 2
@@ -864,175 +873,202 @@ Package pdftex.def Info: images/mockup/info_visit_rec.png  used on input line 2
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/mockup/Done_Rec.png, id=439, 643.40375pt x 650.43pt>
+<images/mockup/Done_Rec.png, id=466, 643.40375pt x 650.43pt>
 File: images/mockup/Done_Rec.png Graphic file (type png)
 <use images/mockup/Done_Rec.png>
 Package pdftex.def Info: images/mockup/Done_Rec.png  used on input line 220.
 (pdftex.def)             Requested size: 225.19469pt x 227.6539pt.
-[23 <./images/mockup/Select_User.png> <./images/mockup/Home_Rec.png>] [24 <./im
-ages/mockup/Size_Rec.png> <./images/mockup/Done_Rec.png>] [25 <./images/mockup/
-info_visit_rec.png>] [26]
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 291--292
+[24 <./images/mockup/Select_User.png> <./images/mockup/Home_Rec.png>] [25 <./im
+ages/mockup/Size_Rec.png> <./images/mockup/Done_Rec.png>] [26 <./images/mockup/
+info_visit_rec.png>] [27]
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 290--291
 []\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
 ugh Wi-Fi/Cellular
  []
 
 
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 312--313
-[]\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
-ugh Wi-Fi/Cellular
- []
-
-[27]
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 327--328
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 311--312
 []\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
 ugh Wi-Fi/Cellular
  []
 
 [28]
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 369--370
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 326--327
 []\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
 ugh Wi-Fi/Cellular
  []
 
 [29]
-<diagrams/UseCaseUser.png, id=480, 924.45375pt x 854.19125pt>
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 368--369
+[]\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
+ugh Wi-Fi/Cellular
+ []
+
+[30]
+<diagrams/UseCaseUser.png, id=508, 924.45375pt x 854.19125pt>
 File: diagrams/UseCaseUser.png Graphic file (type png)
 <use diagrams/UseCaseUser.png>
-Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 412.
+Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 411.
 (pdftex.def)             Requested size: 345.00479pt x 344.9941pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 420--448
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 419--447
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 451--482
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 450--481
 [][] 
  []
 
-[30]
+[31]
 Overfull \vbox (79.4603pt too high) has occurred while \output is active []
 
 
-[31 <./diagrams/UseCaseUser.png>]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 485--511
+[32 <./diagrams/UseCaseUser.png>]
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 484--510
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 514--541
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 513--540
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 544--573
-[][] 
- []
-
-[32]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 576--602
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 605--638
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 543--572
 [][] 
  []
 
 [33]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 641--659
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 575--601
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 662--683
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 686--715
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 604--637
 [][] 
  []
 
 [34]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 718--740
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 640--658
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 661--682
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 685--714
 [][] 
  []
 
 [35]
-<diagrams/UseCaseReception.png, id=508, 843.15pt x 623.32875pt>
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 717--739
+[][] 
+ []
+
+[36]
+<diagrams/UseCaseReception.png, id=536, 843.15pt x 623.32875pt>
 File: diagrams/UseCaseReception.png Graphic file (type png)
 <use diagrams/UseCaseReception.png>
-Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 763.
+Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 762.
 
 (pdftex.def)             Requested size: 344.999pt x 345.00043pt.
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 771--800
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 770--799
 [][] 
  []
 
-[36 <./diagrams/UseCaseReception.png>]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 801--828
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 829--859
-[][] 
- []
-
-[37]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 860--888
+[37 <./diagrams/UseCaseReception.png>]
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 800--827
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 890--912
-[][] 
- []
-
-
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 913--931
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 828--858
 [][] 
  []
 
 [38]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 932--960
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 859--887
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 961--987
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 889--911
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 988--1013
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 912--930
 [][] 
  []
 
-[39] [40]) [41]
+[39]
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 931--959
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 960--986
+[][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 987--1012
+[][] 
+ []
+
+[40] [41]) [42] [43]
 Chapter 4.
-[42
+(./chapters/formal_analysis_alloy.tex) [44
 
 ]
 Chapter 5.
-[43
+(./chapters/effort_spent.tex
+Underfull \vbox (badness 10000) detected at line 27
+ []
 
-]
+
+Underfull \vbox (badness 10000) detected at line 53
+ []
+
+[45
+
+]) [46]
 Chapter 6.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
-[44
+(./chapters/references.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+4.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Excluding 'comment' comment.
+Overfull \hbox (8.92802pt too wide) in paragraph at lines 24--26
+[]\OT1/lmr/m/it/10 (-20) GDPR \OT1/lmr/m/n/10 (-20) [[]$\OT1/lmtt/m/n/10 https 
+: / / eur-[]lex . europa . eu / legal-[]content / EN / TXT / PDF / ?uri =
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+ [47
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+ (./RASD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 
 
  *File List*
@@ -1099,14 +1135,15 @@ ltcaption.sty    2018/08/26 v1.4a longtable captions (AR)
  nameref.sty    2019/09/16 v2.46 Cross-referencing by name of section
 refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
-    main.out
-    main.out
+    RASD.out
+    RASD.out
 images/polimi.jpg
   omllmm.fd    2009/10/30 v1.6 Font defs for Latin Modern
  omslmsy.fd    2009/10/30 v1.6 Font defs for Latin Modern
  omxlmex.fd    2009/10/30 v1.6 Font defs for Latin Modern
 chapters/introduction.tex
   ts1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+diagrams/VENN.png
 chapters/overall_description.tex
 diagrams/UML_simple.png
 diagrams/2-reservation.png
@@ -1142,37 +1179,44 @@ images/mockup/info_visit_rec.png
 images/mockup/Done_Rec.png
 diagrams/UseCaseUser.png
 diagrams/UseCaseReception.png
+chapters/formal_analysis_alloy.tex
+chapters/effort_spent.tex
+chapters/references.tex
+ ot1lmtt.fd    2009/10/30 v1.6 Font defs for Latin Modern
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 45316139490DE09E994FE0C69002E762;3101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package rerunfilecheck Info: File `RASD.out' has not changed.
+(rerunfilecheck)             Checksum: 4D56353F6536FF429356078FFC3574AE;3338.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 10562 strings out of 480608
- 169251 string characters out of 5903629
- 492710 words of memory out of 5000000
- 25974 multiletter control sequences out of 15000+600000
- 590527 words of font info for 103 fonts, out of 8000000 for 9000
+ 10652 strings out of 480608
+ 170738 string characters out of 5903629
+ 499778 words of memory out of 5000000
+ 26038 multiletter control sequences out of 15000+600000
+ 593824 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,51p,907b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/
-texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/f
-onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
-/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
-/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (45 pages, 2935084 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
+l/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020
+/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/f
+onts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/l
+mbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx7.pfb><
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/lm/lmtt10.pfb>
+Output written on RASD.pdf (48 pages, 3033637 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 482 compressed objects within 5 object streams
- 132 named destinations out of 1000 (max. 500000)
- 17443 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 539 compressed objects within 6 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 18504 words of extra memory for PDF output out of 20736 (max. 10000000)
 

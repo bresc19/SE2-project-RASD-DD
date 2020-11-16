@@ -13,9 +13,9 @@ To do this, we will analyze:
 \end{itemize}
 \medskip
 These will be shown using different types of languages, starting from the natural language to the structured languages such as Alloy and UML.
-Below, we will define the context in which our application will be developed.
+Then, we will define the context in which our application will be developed.
 During Sars-Cov-2 emergency, several countries imposed the lockdown in order to hinter the virus diffusion.
-People had to change their habits, in fact they could go out only for necessary needs, such as going to the supermarket or pharmacy.
+People had to change their habits, in fact they could go out only for necessary needs, such as going to the market or pharmacy.
 A lot of rules were introduced: not only using the masks or clean your hands but also keeping a social distance.
 For instance people must pay attention while they're entering in the market due to the long queue, which could increase the possibility of virus diffusion.
 This fact obliged people to stay for a long time standing up and waiting their turn losing a lots of time. 
@@ -46,13 +46,11 @@ In order to do that we offer customers three grocery shopping option:
 \item \textbf{Reservation}: it consits in reserving a virtual seat in market's queue;
 \item \textbf{Direct Entrance}: it allows aged customers to enter without any bookings;
 \end{itemize}
-
-
 The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for Smart and Mobile Users.
 In particular, in order to avoid to wait in line, Users will be allerted by a notification (Smart Users) or a SMS (Mobile Users). These inform them about the own time schedule required to reach the market in time.
 Only for Smart User the application will provide the position in queue and the time estimation of the own turn.
-Finally a alphanueric string will be provided to Mobile Users due to enter and exit form the market. Instead, this string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
-Instead, the third one is only for aged customers older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. 
+Instead a alphanueric string will be provided to Mobile Users due to enter and exit form the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
+Instead, the third option is only for aged customers older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. 
 In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. 
 
 
@@ -72,6 +70,7 @@ In order to achieve the goal, we adopt the "World and Machine" model in order to
 
 
 \subsection{World}
+
 It represents the environment in which the system is placed. In particular it's composed by events which are affected by the system,but not directly connected with it.
 The main \textit{World Phenomena} are:
 
@@ -79,7 +78,7 @@ The main \textit{World Phenomena} are:
 \item An User can access to the market;
 \item Limit number of Users in the market;
 \item User can book his appointment for grocery shopping;
-\item Internet connection / mobile operator;
+\item User use his mobilephone / smartphone;
 \item Respecting social distance;
 \end{itemize}
 
@@ -146,6 +145,9 @@ The main application Shared Phenomena are the following:
 \item \textbf{HW}: Hardware;
 \item \textbf{SW}: Hardware;
 \item \textbf{API}: Application Programming Interface;
+\item \textbf{HTTPS}: Hypertext Transfer Protocol Secure;
+\item \textbf{DBMS}: Database Management System;
+
 \end{itemize}
 
 
@@ -155,9 +157,30 @@ The main application Shared Phenomena are the following:
 
 \end{itemize}
 
+
+\begin{figure}[H]
+  \caption{World and Machine rapresentation}
+  \label{fig:Reservation}
+  \centering
+  \includegraphics[scale = 0.38]{diagrams/VENN.png}
+\end{figure}
+
 \section{Revision history}
 
 \section{Reference Documents}
-
+This document is strictly based on:
+\begin{itemize}
+\item The specification of the \textbf{RASD and DD assignment} of the Software Engineering II corse, held by professor Matteo Rossi and Elisabetta Di Nitto at the Politecnico di Milano, A.Y 2020/2021;
+\item \textbf{Slides} of Software Engineering 2 course on BEEP;
+\end{itemize}
 \section{Document Structure}
+Mainly the current document is divided in 4 chapters, which are:
+\begin{itemize}
+\item[1]\textbf{Introduction}: it aims to describe the environment and the demands taken into account for this project. In particular it's focused on the reasons and the goals that are going to be achieved with its development;
+\item[2]\textbf{Overall Description}: it's a high-level description of the system by focusing on the shared phenomena and the domain model (with its assumption). 
+\item[3]\textbf{Specific Requirements}: it describes in very detail the requirements needed to reach the goals. In addition it contains more details useful for developers (i.e information about HW and SW interfaces);
+\item[4]\textbf{Formal Analysis}: this section contains a formal description of the main aspect of the World phenomena by using Alloy. 
+\item[5]\textbf{Effort Spent}: it shows the time spent to realize this document, divided for each section;
+\item[6]\textbf{References}: it contains the references to any documents and to the Softwares used in this document.
+\end{itemize}
 

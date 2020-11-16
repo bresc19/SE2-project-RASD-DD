@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  15 OCT 2020 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  16 NOV 2020 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -540,71 +540,92 @@ Chapter 1.
 ]
 Chapter 2.
 (./chapters/architectural_design.tex
-Overfull \hbox (8.22183pt too wide) in paragraph at lines 11--11
+Overfull \hbox (8.22183pt too wide) in paragraph at lines 27--27
 []\OT1/lmr/bx/n/14.4 Selected ar-chi-tec-tural styles and pat-terns 
  []
 
-) [3
+[3
 
-]
+]) [4]
 Chapter 3.
-(./chapters/user_interface_design.tex) [4
+(./chapters/user_interface_design.tex) [5
 
 ]
 Chapter 4.
-(./chapters/requirements_traceabiity.tex
-Overfull \hbox (24.56702pt too wide) in paragraph at lines 4--4
-[]\OT1/lmr/bx/n/14.4 Assumptions, de-pen-den-cies and con-straints 
- []
-
-) [5
+(./chapters/requirements_traceabiity.tex) [6
 
 ]
 Chapter 5.
-(./chapters/implementation_integration_testplan.tex
-Overfull \hbox (24.56702pt too wide) in paragraph at lines 4--4
-[]\OT1/lmr/bx/n/14.4 Assumptions, de-pen-den-cies and con-straints 
- []
-
-) [6
+(./chapters/implementation_integration_testplan.tex) [7
 
 ]
 Chapter 6.
-[7
+[8
 
 ]
 Chapter 7.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-[8
+[9
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  (./DD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
-Package rerunfilecheck Info: File `DD.out' has not changed.
-(rerunfilecheck)             Checksum: 49B48CAB21593C2CE9E1D6662F457352;1843.
+
+
+Package rerunfilecheck Warning: File `DD.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `DD.out':
+(rerunfilecheck)             Before: 49B48CAB21593C2CE9E1D6662F457352;1843
+(rerunfilecheck)             After:  BD06964A4FA8C11923411A5EA5541F0A;1273.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 10045 strings out of 480608
- 159496 string characters out of 5903629
+ 10046 strings out of 480608
+ 159502 string characters out of 5903629
  486381 words of memory out of 5000000
  25683 multiletter control sequences out of 15000+600000
  575728 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,5n,45p,905b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dis
-t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
-pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
-c/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.
-pfb>
-Output written on DD.pdf (9 pages, 987169 bytes).
+pdfTeX warning (dest): name{section.5.4} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
+xlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/
+fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
+1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pf
+b>
+Output written on DD.pdf (10 pages, 989586 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
  12006 words of extra memory for PDF output out of 14400 (max. 10000000)
 
