@@ -4,12 +4,12 @@
 \contentsline {subsection}{\numberline {1.1.1}General Purpose}{3}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Goals}{4}{subsection.1.1.2}%
 \contentsline {section}{\numberline {1.2}Scope}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}World}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.1}World}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Machine}{5}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Shared Phenomena}{5}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Definitions}{5}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Acronyms}{6}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Definitions}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Acronyms}{7}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Abbreviations}{7}{subsection.1.3.3}%
 \contentsline {section}{\numberline {1.4}Revision history}{7}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Reference Documents}{7}{section.1.5}%

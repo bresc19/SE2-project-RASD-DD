@@ -12,7 +12,7 @@ To do this, we will analyze:
 \item Possible scenarios and tests;
 \end{itemize}
 \medskip
-These will be shown using different types of languages, starting from the natural language to the structured languages such as Alloy and UML.
+These will be shown using different languages, starting from the natural to the structured (such as Alloy and UML).
 Then, we will define the context in which our application will be developed.
 During Sars-Cov-2 emergency, several countries imposed the lockdown in order to hinter the virus diffusion.
 People had to change their habits, in fact they could go out only for necessary needs, such as going to the market or pharmacy.
@@ -24,21 +24,19 @@ This fact obliged people to stay for a long time standing up and waiting their t
 
 
 \subsection{Goals}
+
+
 \begin{description}
-    \item[G1]User enters once arrived at the market
-    \item[G2]Put a limit to the number of Users in the market
-    \item[G3]Smart User can make a Reservation
-    \item[G4]Smart User can make a Visit
-    \item[G5]Mobile User can make a Reservation
-    \item[G6]Mobile User can make a Visit
-    \item[G7]Smart User can cancel a Booking
-    \item[G8]Mobile User can cancel a Booking
+    \item An User can access to the market;
+    \item Put a limit to the number of Users in the market;
+    \item User uses his smartphone / mobilephone;
+    \item User leave his accomodation to reach the market;
 \end{description}
 
  
 \section{Scope}
 
-The aim of the project is to develop an application which, thanks to an intuitive interface, will avoid a long waiting outside the market.
+The aim of the project is to develop an application which, thanks to an intuitive interface, will avoid customers waiting outside the market.
 In order to do that we offer customers three grocery shopping option: 
 
 \begin{itemize}
@@ -47,11 +45,11 @@ In order to do that we offer customers three grocery shopping option:
 \item \textbf{Direct Entrance}: it allows aged customers to enter without any bookings;
 \end{itemize}
 The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for Smart and Mobile Users.
-In particular, in order to avoid to wait in line, Users will be allerted by a notification (Smart Users) or a SMS (Mobile Users). These inform them about the own time schedule required to reach the market in time.
-Only for Smart User the application will provide the position in queue and the time estimation of the own turn.
-Instead a alphanueric string will be provided to Mobile Users due to enter and exit form the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
-Instead, the third option is only for aged customers older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. 
-In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. 
+In particular, in order to avoid to wait in line, Users will be allerted by a notification (Smart Users) or a SMS (Mobile Users). These inform them about his time schedule required to reach the market in time.
+Only for Smart User the application will provide the position in queue and the time estimation of his turn.
+Instead an alphanueric string will be provided to Mobile Users for going in and out from the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
+Instead, the third option is only avaiable if an user is older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. 
+In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. This third option is made especially for aged people who don't have even a mobile phone. Anyway the RASD document is not focused on this last option.
 
 
 
@@ -71,7 +69,7 @@ In order to achieve the goal, we adopt the "World and Machine" model in order to
 
 \subsection{World}
 
-It represents the environment in which the system is placed. In particular it's composed by events which are affected by the system,but not directly connected with it.
+It represents the environment in which the system is placed. In particular it's composed by events which are affected by the system, but not directly connected with it.
 The main \textit{World Phenomena} are:
 
 \begin{itemize}
@@ -82,7 +80,7 @@ The main \textit{World Phenomena} are:
 \item Respecting social distance;
 \end{itemize}
 
-In our application we are going to focus on this World Phenomena excepting for the last one. In fact, during the development of the RASD, we [...]
+In our application we are going to focus on this World Phenomena excepting for the last one.
 
 \subsection{Machine}
 It represents the portion of system to be developed.
@@ -104,6 +102,13 @@ The main application Shared Phenomena are the following:
 \item \textit{QRCode submission};
 \item \textit{Appointment request};
 \end{itemize}
+
+\begin{figure}[H]
+  \caption{World and Machine rapresentation}
+  \label{fig:Reservation}
+  \centering
+  \includegraphics[scale = 0.38]{diagrams/VENN.png}
+\end{figure}
 
 
 \section{Definitions, Acronyms, Abbreviations}
@@ -151,12 +156,6 @@ The main application Shared Phenomena are the following:
 \end{itemize}
 
 
-\begin{figure}[H]
-  \caption{World and Machine rapresentation}
-  \label{fig:Reservation}
-  \centering
-  \includegraphics[scale = 0.38]{diagrams/VENN.png}
-\end{figure}
 
 
 \subsection{Abbreviations}
