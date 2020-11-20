@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  18 NOV 2020 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  20 NOV 2020 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -535,37 +535,43 @@ l.48 \chapter
 
 ]
 Chapter 1.
-(./chapters/introduction.tex) [2
+(./chapters/introduction.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+.
 
-]
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2
+
+]) [3]
 Chapter 2.
 (./chapters/architectural_design.tex
 Overfull \hbox (8.22183pt too wide) in paragraph at lines 27--27
 []\OT1/lmr/bx/n/14.4 Selected ar-chi-tec-tural styles and pat-terns 
  []
 
-[3
+[4
 
-]) [4]
+]) [5]
 Chapter 3.
-(./chapters/user_interface_design.tex) [5
+(./chapters/user_interface_design.tex) [6
 
 ]
 Chapter 4.
-(./chapters/requirements_traceabiity.tex) [6
+(./chapters/requirements_traceabiity.tex) [7
 
 ]
 Chapter 5.
-(./chapters/implementation_integration_testplan.tex) [7
+(./chapters/implementation_integration_testplan.tex) [8
 
 ]
 Chapter 6.
-[8
+[9
 
 ]
 Chapter 7.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-[9
+[10
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
@@ -577,24 +583,24 @@ Package rerunfilecheck Info: File `DD.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 10036 strings out of 480608
- 159372 string characters out of 5903629
+ 10081 strings out of 480608
+ 160375 string characters out of 5903629
  484381 words of memory out of 5000000
- 25675 multiletter control sequences out of 15000+600000
- 575977 words of font info for 54 fonts, out of 8000000 for 9000
+ 25705 multiletter control sequences out of 15000+600000
+ 576757 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,45p,905b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dis
-t/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
-pe1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
-c/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.
-pfb>
-Output written on DD.pdf (10 pages, 988527 bytes).
+ 41i,5n,45p,905b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
+/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/
+texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
+/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
+Output written on DD.pdf (11 pages, 990517 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 11942 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 12454 words of extra memory for PDF output out of 14400 (max. 10000000)
 

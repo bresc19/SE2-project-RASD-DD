@@ -1,7 +1,23 @@
 \section{Purpose}
 The Design Document aims to give usefull information to help in software development by providing the details for how the software should be built. In particolar it should be detailed enough so that developers could code the project without having to make any significant decisions. This is done thanks to detailed description with graphical documentation of the software design for the project including different diagram type and other supporting requirement information.
 \section{Scope}
-aim of CLup server app client ecc
+The main scope of the system is to provide users the possibility to make a booking in order to give access to the market. This could be done with two possibilities: the first allows users to be inserted in the virtual queue; instead, the second give the possibility to schedule the booking in a precise moment in an particular day. 
+So, the system have to reply users' requests in real time without waiting more than few seconds due to its reliability. 
+To achieve this, the system is organized with a two tiers architecture in which a presentation layer runs on a client, and a data and application layers get stored on a server.
+The client side in particolar is composed by two different applications with the same functionalites:
+\begin{itemize}
+\item \textbf{CLup}: It's the application used by users who have a smartphone. They can manage their booking by themselves;
+\item \textbf{CLup Operator}: It's the application used by receptionists who act as an intermediary to manage booking of users that have only a mobilephone.
+\end{itemize}
+
+Instead the server side contains:
+
+\begin{itemize}
+\item \textbf{Application layer}: it accounts for managing the users' entrances and for a proper operation of the system;
+\item \textbf{Data layer}: it stores information and personal data of each users;
+\end{itemize}
+
+
 \section{Definitions, Acronyms, Abbreviations}
 \section{Revision history}
 \section{Reference Documents}

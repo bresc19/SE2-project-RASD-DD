@@ -383,9 +383,10 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     
 \end{description}
 
- 
+\section{Use Case}
 
- 
+\subsection{User}
+{\normalsize \textbf{Scenario 1}}
 Giovanna, a career woman who is always in trouble to find free time, needs to go grocery shopping for her family. 
 Indeed, once she finished working, she goes to the market and, due to the lockdown, have to wait in line for hours to have access to it. The result is that, coming back home later, she can't put some time in her children.
 However, in the past days, she discovered CLup App which allows her to book a visit in the market in advance, by only putting the range time avaiable and the size of the expenditure.
@@ -393,28 +394,26 @@ In this way, Giovanna will save a lot of time and will stay longer with her chil
 
 Nevertheless, due to Covid-19 emergency, the market will be always filled.
 
-Jonhathan, on the advice of his grandchild, bought a new smartphone.  In addition started using it and installing usefull applications like CLup.
+\par \medskip
+
+
+{\normalsize \textbf{Scenario 2}} Jonhathan, on the advice of his grandchild, bought a new smartphone.  In addition started using it and installing usefull applications like CLup.
 In particular, with it, he'll be able to make a reservation in market's queue. In this way, CLup will notify him when, accordingly to his position, leave to get the market in time for his turn.
 Finally, once he arrived, can go in there by simply scanning the QRCode sent before. 
 At the end Jonhathan will go shopping without waiting on feet his turn during a cold winter's day.
-Gustavo, an elderly person, he discovered recently a new time saver and usefull service at the market. It consists in booking a visit at the market by simply calling the number found in an advertisment. 
-Due to the fact that Gustavo is sick of waiting too much in the queue, decides to call this market number to book the visit.
-On the other side Marta, a gentle receptionist who works for the market, answers to Gustavo's call; she takes care of the registration of his own data, the credentials and the all visit information (i.e data and range time).
 
-Gustavo will be notified about the appointment with an SMS on his mobilephone in time. In addition the SMS will provide the schedule for the visit and the code which will be submitted at the entrance.
+
 
 \begin{figure}[h]
 	\caption{Use case USER}
-	\label{fig:UML}
+	\label{fig:UML2}
 	
 	\centering
 	\includegraphics[width=1\textwidth, height=1\textwidth]{diagrams/UseCaseUser.png}
 	
 \end{figure}
 
-\addvspace{1cm} 
-{\normalsize \textbf{Use cases}}
-\par \medskip
+
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 \hline
@@ -741,9 +740,7 @@ Exceptions &
 
 \subsection{Reception}
 \par \medskip
-{\large \textbf{Scenarios}}
-\par \medskip
-{\normalsize \textbf{Scenario 1}}
+{\normalsize \textbf{Scenario 3}}
 \par \medskip
  Gustavo, an elderly person, he discovered recently a new time saver and usefull service at the market. \\
  It consists to book a visit at the market by simply calling the number found in an advertisment. \\
@@ -1009,6 +1006,29 @@ Exceptions &
 	\end{itemize} \\
 	\hline
 \end{tabular}
+
+\subsection{Sequence Diagrams}
+In this section are reported the main operation (Reservation and Visit) made by  Users to make an appointment in the market. Note that are attached request of User with a Smartphone. Requests for Mobile Users are the same, with a difference: the presence of the actor Receptionist, who acts as a proxy in order to manage the requests.
+
+
+\begin{figure}[H]
+  \caption{Sequnce diagram of a Visit request from Smart User.}
+  \label{fig:SD_visit}
+  \centering
+  \includegraphics[scale=0.45]{diagrams/SD_visit.png}
+
+\end{figure}
+
+
+
+\begin{figure}[H]
+  \caption{Sequnce diagram of a Reservation request from Smart User.}
+  \label{fig:SD_reservation}
+  \centering
+  \includegraphics[scale=0.45]{diagrams/SD_reservation.png}
+
+\end{figure}
+
 
 
 \section{Performance Requirements}
