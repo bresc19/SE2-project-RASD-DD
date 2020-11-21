@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  20 NOV 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  20 NOV 2020 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,47 +878,47 @@ Package pdftex.def Info: images/mockup/Done_Rec.png  used on input line 220.
 (pdftex.def)             Requested size: 225.19469pt x 227.6539pt.
 [24 <./images/mockup/Select_User.png> <./images/mockup/Home_Rec.png>] [25 <./im
 ages/mockup/Size_Rec.png> <./images/mockup/Done_Rec.png>] [26 <./images/mockup/
-info_visit_rec.png>] [27]
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 290--291
+info_visit_rec.png>]
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 264--265
+[]\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
+ugh Wi-Fi/Cellular
+ []
+
+[27]
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 285--286
 []\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
 ugh Wi-Fi/Cellular
  []
 
 
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 311--312
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 300--301
 []\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
 ugh Wi-Fi/Cellular
  []
 
 [28]
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 326--327
+Overfull \hbox (5.29037pt too wide) in paragraph at lines 342--343
 []\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
 ugh Wi-Fi/Cellular
  []
 
-[29]
-Overfull \hbox (5.29037pt too wide) in paragraph at lines 368--369
-[]\OT1/lmr/m/n/10 (-20) The Smart User have to be con-nected to In-ter-net thro
-ugh Wi-Fi/Cellular
- []
-
-[30]
+[29] [30]
 <diagrams/UseCaseUser.png, id=523, 924.45375pt x 854.19125pt>
 File: diagrams/UseCaseUser.png Graphic file (type png)
 <use diagrams/UseCaseUser.png>
-Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 412.
+Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 418.
 (pdftex.def)             Requested size: 345.00479pt x 344.9941pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 418--446
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 424--452
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 449--480
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 455--486
 [][] 
  []
 
@@ -927,101 +927,101 @@ Overfull \vbox (79.4603pt too high) has occurred while \output is active []
 
 
 [32 <./diagrams/UseCaseUser.png>]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 483--509
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 489--515
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 512--539
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 518--545
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 542--571
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 548--577
 [][] 
  []
 
 [33]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 574--600
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 580--606
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 603--636
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 609--642
 [][] 
  []
 
 [34]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 639--657
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 645--663
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 660--681
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 666--687
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 684--713
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 690--719
 [][] 
  []
 
 [35]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 716--738
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 722--744
 [][] 
  []
 
 <diagrams/UseCaseReception.png, id=546, 843.15pt x 623.32875pt>
 File: diagrams/UseCaseReception.png Graphic file (type png)
 <use diagrams/UseCaseReception.png>
-Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 759.
+Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 765.
 
 (pdftex.def)             Requested size: 344.999pt x 345.00043pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [36]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 767--796
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 773--802
 [][] 
  []
 
 [37 <./diagrams/UseCaseReception.png>]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 797--824
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 803--830
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 825--855
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 831--861
 [][] 
  []
 
 [38]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 856--884
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 862--890
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 886--908
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 892--914
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 909--927
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 915--933
 [][] 
  []
 
 [39]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 928--956
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 934--962
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 957--983
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 963--989
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 984--1009
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 990--1015
 [][] 
  []
 
@@ -1029,12 +1029,12 @@ Overfull \hbox (50.43306pt too wide) in paragraph at lines 984--1009
 <diagrams/SD_visit.png, id=569, 453.695pt x 302.12875pt>
 File: diagrams/SD_visit.png Graphic file (type png)
 <use diagrams/SD_visit.png>
-Package pdftex.def Info: diagrams/SD_visit.png  used on input line 1018.
+Package pdftex.def Info: diagrams/SD_visit.png  used on input line 1024.
 (pdftex.def)             Requested size: 204.16086pt x 135.95668pt.
 <diagrams/SD_reservation.png, id=570, 452.69125pt x 271.0125pt>
 File: diagrams/SD_reservation.png Graphic file (type png)
 <use diagrams/SD_reservation.png>
-Package pdftex.def Info: diagrams/SD_reservation.png  used on input line 1028.
+Package pdftex.def Info: diagrams/SD_reservation.png  used on input line 1034.
 (pdftex.def)             Requested size: 203.70917pt x 121.95448pt.
  [41 <./diagrams/SD_visit.png>] [42 <./diagrams/SD_reservation.png>])
 [43] [44]
@@ -1227,7 +1227,7 @@ l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
 ist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on RASD.pdf (49 pages, 3056943 bytes).
+Output written on RASD.pdf (49 pages, 3056751 bytes).
 PDF statistics:
  701 PDF objects out of 1000 (max. 8388607)
  562 compressed objects within 6 object streams
