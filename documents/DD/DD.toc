@@ -9,9 +9,9 @@
 \contentsline {chapter}{\numberline {2}Architectural Design}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Overview: High-level components and their interaction}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Component view}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Deployment view}{5}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Runtime view}{5}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Component interfaces}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.3}Deployment view}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Runtime view}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Component interfaces}{6}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Selected architectural styles and patterns}{6}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Other design decisions}{6}{section.2.7}%
 \contentsline {chapter}{\numberline {3}User Interface Design}{7}{chapter.3}%
