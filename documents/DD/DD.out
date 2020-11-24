@@ -14,7 +14,9 @@
 \BOOKMARK [1][-]{section.2.6}{Selected architectural styles and patterns}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.7}{Other design decisions}{chapter.2}% 15
 \BOOKMARK [0][-]{chapter.3}{User Interface Design}{}% 16
-\BOOKMARK [0][-]{chapter.4}{Requirements Tracebility}{}% 17
-\BOOKMARK [0][-]{chapter.5}{Implementation, Integration and Test Plan}{}% 18
-\BOOKMARK [0][-]{chapter.6}{Effort Spent}{}% 19
-\BOOKMARK [0][-]{chapter.7}{References}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Mobile Interface: CLup}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Desktop Interface: CLup Operator}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Requirements Tracebility}{}% 19
+\BOOKMARK [0][-]{chapter.5}{Implementation, Integration and Test Plan}{}% 20
+\BOOKMARK [0][-]{chapter.6}{Effort Spent}{}% 21
+\BOOKMARK [0][-]{chapter.7}{References}{}% 22

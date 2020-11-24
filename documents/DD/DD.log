@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  22 NOV 2020 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  24 NOV 2020 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,7 +489,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 \openout4 = `DD.out'.
 
-<images/polimi.jpg, id=84, 1303.87125pt x 1013.7875pt>
+<images/polimi.jpg, id=92, 1303.87125pt x 1013.7875pt>
 File: images/polimi.jpg Graphic file (type jpg)
 <use images/polimi.jpg>
 Package pdftex.def Info: images/polimi.jpg  used on input line 20.
@@ -540,7 +540,7 @@ Chapter 1.
 ] [3]
 Chapter 2.
 (./chapters/architectural_design.tex
-<diagrams/3_tiers.jpeg, id=127, 1058.95625pt x 1248.665pt>
+<diagrams/3_tiers.jpeg, id=137, 1058.95625pt x 1248.665pt>
 File: diagrams/3_tiers.jpeg Graphic file (type jpg)
 <use diagrams/3_tiers.jpeg>
 Package pdftex.def Info: diagrams/3_tiers.jpeg  used on input line 5.
@@ -554,7 +554,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<diagrams/h_level.png, id=134, 743.77875pt x 733.74126pt>
+<diagrams/h_level.png, id=144, 743.77875pt x 733.74126pt>
 File: diagrams/h_level.png Graphic file (type png)
 <use diagrams/h_level.png>
 Package pdftex.def Info: diagrams/h_level.png  used on input line 40.
@@ -566,24 +566,96 @@ Overfull \hbox (8.22183pt too wide) in paragraph at lines 63--63
 
 ) [6]
 Chapter 3.
-(./chapters/user_interface_design.tex) [7
+(./chapters/user_interface_design.tex
+<images/userinterfaces/login_reg.png, id=159, 1025.8325pt x 1138.2525pt>
+File: images/userinterfaces/login_reg.png Graphic file (type png)
+<use images/userinterfaces/login_reg.png>
+Package pdftex.def Info: images/userinterfaces/login_reg.png  used on input lin
+e 9.
+(pdftex.def)             Requested size: 430.84673pt x 478.0628pt.
+ [7
 
-]
+] [8]
+Overfull \vbox (13.89882pt too high) has occurred while \output is active []
+
+
+[9 <./images/userinterfaces/login_reg.png>]
+<images/userinterfaces/menu.png, id=174, 831.105pt x 1255.69125pt>
+File: images/userinterfaces/menu.png Graphic file (type png)
+<use images/userinterfaces/menu.png>
+Package pdftex.def Info: images/userinterfaces/menu.png  used on input line 20.
+
+(pdftex.def)             Requested size: 373.99379pt x 565.05585pt.
+
+Overfull \vbox (49.05585pt too high) has occurred while \output is active []
+
+
+[10 <./images/userinterfaces/menu.png>]
+<images/userinterfaces/Visit_steps.png, id=181, 961.5925pt x 1142.2675pt>
+File: images/userinterfaces/Visit_steps.png Graphic file (type png)
+<use images/userinterfaces/Visit_steps.png>
+Package pdftex.def Info: images/userinterfaces/Visit_steps.png  used on input l
+ine 31.
+(pdftex.def)             Requested size: 471.18445pt x 559.71599pt.
+
+Overfull \vbox (31.71599pt too high) has occurred while \output is active []
+
+
+[11 <./images/userinterfaces/Visit_steps.png>]
+<images/userinterfaces/Reservation_steps.png, id=188, 1028.84375pt x 1076.02pt>
+
+File: images/userinterfaces/Reservation_steps.png Graphic file (type png)
+<use images/userinterfaces/Reservation_steps.png>
+Package pdftex.def Info: images/userinterfaces/Reservation_steps.png  used on i
+nput line 40.
+(pdftex.def)             Requested size: 504.13785pt x 527.25443pt.
+<images/userinterfaces/QRCode_handle2.png, id=189, 915.42pt x 1083.04625pt>
+File: images/userinterfaces/QRCode_handle2.png Graphic file (type png)
+<use images/userinterfaces/QRCode_handle2.png>
+Package pdftex.def Info: images/userinterfaces/QRCode_handle2.png  used on inpu
+t line 49.
+(pdftex.def)             Requested size: 434.82903pt x 514.45232pt.
+ [12 <./images/userinterfaces/Reservation_steps.png>]
+Overfull \vbox (22.45232pt too high) has occurred while \output is active []
+
+
+[13 <./images/userinterfaces/QRCode_handle2.png>]
+<images/userinterfaces/QRCode_handle.png, id=203, 976.64874pt x 627.34375pt>
+File: images/userinterfaces/QRCode_handle.png Graphic file (type png)
+<use images/userinterfaces/QRCode_handle.png>
+Package pdftex.def Info: images/userinterfaces/QRCode_handle.png  used on input
+ line 58.
+(pdftex.def)             Requested size: 488.32318pt x 313.6711pt.
+<images/userinterfaces/Receptionist1.png, id=204, 951.555pt x 828.09375pt>
+File: images/userinterfaces/Receptionist1.png Graphic file (type png)
+<use images/userinterfaces/Receptionist1.png>
+Package pdftex.def Info: images/userinterfaces/Receptionist1.png  used on input
+ line 69.
+(pdftex.def)             Requested size: 494.81145pt x 430.61124pt.
+ [14 <./images/userinterfaces/QRCode_handle.png>]
+<images/userinterfaces/Receptionist2.png, id=211, 984.67876pt x 854.19125pt>
+File: images/userinterfaces/Receptionist2.png Graphic file (type png)
+<use images/userinterfaces/Receptionist2.png>
+Package pdftex.def Info: images/userinterfaces/Receptionist2.png  used on input
+ line 78.
+(pdftex.def)             Requested size: 512.0359pt x 444.18202pt.
+ [15 <./images/userinterfaces/Receptionist1.png>]) [16 <./images/userinterfaces
+/Receptionist2.png>]
 Chapter 4.
-(./chapters/requirements_traceabiity.tex) [8
+(./chapters/requirements_traceabiity.tex) [17
 
 ]
 Chapter 5.
-(./chapters/implementation_integration_testplan.tex) [9
+(./chapters/implementation_integration_testplan.tex) [18
 
 ]
 Chapter 6.
-[10
+[19
 
 ]
 Chapter 7.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-[11
+[20
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
@@ -591,17 +663,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `DD.out' has not changed.
-(rerunfilecheck)             Checksum: BD06964A4FA8C11923411A5EA5541F0A;1273.
+(rerunfilecheck)             Checksum: 8141EE2A624EDBF4519847EB616DF32A;1421.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
- 10114 strings out of 480608
- 160893 string characters out of 5903629
- 484513 words of memory out of 5000000
- 25728 multiletter control sequences out of 15000+600000
- 576840 words of font info for 61 fonts, out of 8000000 for 9000
+ 10206 strings out of 480608
+ 163202 string characters out of 5903629
+ 486219 words of memory out of 5000000
+ 25778 multiletter control sequences out of 15000+600000
+ 577421 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,45p,905b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,45p,905b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/
 texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/f
@@ -609,10 +681,10 @@ onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
 /public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
 /lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on DD.pdf (12 pages, 1100979 bytes).
+Output written on DD.pdf (21 pages, 2625718 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 12464 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 12520 words of extra memory for PDF output out of 14400 (max. 10000000)
 
