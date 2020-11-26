@@ -45,7 +45,15 @@ er diagram o class diagram specificp
 
 -strittura
 -model applicazione
--database
+-database: dbms proprietà acid
+
+
+In our architecture the data layer is composed by a relational DB needed to store informations about users and their dynamics in the market. In particular it should be connected to the server placed in the application layer. In order to reach the goal we plan to adopt a RDBMS in order to deal with a relational database. In addition, it ensures 
+consistency of data due to the ACID properties.
+Morover, it includes a software program which is designed to capture request over a network of the application server. From this user and receptionist in fact could retrieve informations needed through SQL Query by connecting to it.  
+An other important aspect is the security of the data due to mitigate any risks of violation. In order to do that we limit its access exclusively only to the application server. Communication between them will be also encrypted and accounts' password will be hashed.
+
+
 
 
 \section{Deployment view}
