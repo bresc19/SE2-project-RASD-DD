@@ -48,8 +48,8 @@
 \contentsline {subsection}{\numberline {3.6.5}Portability}{43}{subsection.3.6.5}%
 \contentsline {chapter}{\numberline {4}Formal Analysis Using Alloy}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Alloy Model}{45}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Alloy Results}{45}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Effort Spent}{46}{chapter.5}%
-\contentsline {chapter}{\numberline {6}References}{48}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software used}{48}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Bibliography}{48}{section.6.2}%
+\contentsline {section}{\numberline {4.2}Alloy Results}{50}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Effort Spent}{51}{chapter.5}%
+\contentsline {chapter}{\numberline {6}References}{52}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software used}{52}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Bibliography}{52}{section.6.2}%
