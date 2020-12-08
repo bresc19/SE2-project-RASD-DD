@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  3 DEC 2020 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  8 DEC 2020 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -489,12 +489,12 @@ LaTeX Info: Redefining \nameref on input line 16.
 \@outlinefile=\write4
 \openout4 = `DD.out'.
 
-<images/polimi.jpg, id=4, 1303.87125pt x 1013.7875pt>
+<images/polimi.jpg, id=136, 1303.87125pt x 1013.7875pt>
 File: images/polimi.jpg Graphic file (type jpg)
 <use images/polimi.jpg>
 Package pdftex.def Info: images/polimi.jpg  used on input line 20.
 (pdftex.def)             Requested size: 150.0pt x 116.62178pt.
-<images/CLup_logo.png, id=5, 259.97125pt x 258.9675pt>
+<images/CLup_logo.png, id=137, 259.97125pt x 258.9675pt>
 File: images/CLup_logo.png Graphic file (type png)
 <use images/CLup_logo.png>
 Package pdftex.def Info: images/CLup_logo.png  used on input line 28.
@@ -502,18 +502,43 @@ Package pdftex.def Info: images/CLup_logo.png  used on input line 28.
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/polimi.jpg> <./images/CLup_logo.png>] (./DD.toc)
-\tf@toc=\write5
-\openout5 = `DD.toc'.
+s/polimi.jpg> <./images/CLup_logo.png>] (./DD.toc
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+.
 
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+3.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 3.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \chapter
-             {Introduction} [1
+l.32 ... Integration and Test Plan}{33}{chapter.5}
+                                                  % [1
 
-]
+])
+\tf@toc=\write5
+\openout5 = `DD.toc'.
+
+ [2]
 Chapter 1.
 (./chapters/introduction.tex Excluding 'comment' comment.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
@@ -521,20 +546,20 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2
+) [3
 
-]) [3]
+]) [4]
 Chapter 2.
 (./chapters/architectural_design.tex
-<diagrams/3_tiers.jpeg, id=41, 1058.95625pt x 1248.665pt>
+<diagrams/3_tiers.jpeg, id=201, 1058.95625pt x 1248.665pt>
 File: diagrams/3_tiers.jpeg Graphic file (type jpg)
 <use diagrams/3_tiers.jpeg>
 Package pdftex.def Info: diagrams/3_tiers.jpeg  used on input line 5.
 (pdftex.def)             Requested size: 264.73842pt x 312.16548pt.
- [4
+ [5
 
  <./diagrams/3_tiers.jpeg>]
-<diagrams/h_level.png, id=49, 743.77875pt x 733.74126pt>
+<diagrams/h_level.png, id=208, 743.77875pt x 733.74126pt>
 File: diagrams/h_level.png Graphic file (type png)
 <use diagrams/h_level.png>
 Package pdftex.def Info: diagrams/h_level.png  used on input line 38.
@@ -545,109 +570,122 @@ Package caption Warning: \label without proper reference on input line 36.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:highlevel' on page 5 undefined on input line 45.
+LaTeX Warning: Reference `fig:highlevel' on page 6 undefined on input line 45.
 
-[5 <./diagrams/h_level.png>]
+[6 <./diagrams/h_level.png>]
 
 Package caption Warning: \label without proper reference on input line 81.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `component_diagram' on page 6 undefined on input line 
+LaTeX Warning: Reference `component_diagram' on page 7 undefined on input line 
 66.
 
-[6]
-<diagrams/component_diagram.png, id=68, 1397.22pt x 874.26625pt>
+[7]
+<diagrams/component_diagram.png, id=223, 1397.22pt x 874.26625pt>
 File: diagrams/component_diagram.png Graphic file (type png)
 <use diagrams/component_diagram.png>
 Package pdftex.def Info: diagrams/component_diagram.png  used on input line 84.
 
 (pdftex.def)             Requested size: 530.94913pt x 332.22462pt.
- [7 <./diagrams/component_diagram.png>]
-<diagrams/deployment.png, id=75, 1109.14375pt x 713.66624pt>
+ [8 <./diagrams/component_diagram.png>]
+<diagrams/deployment.png, id=229, 1109.14375pt x 713.66624pt>
 File: diagrams/deployment.png Graphic file (type png)
 <use diagrams/deployment.png>
 Package pdftex.def Info: diagrams/deployment.png  used on input line 115.
 (pdftex.def)             Requested size: 421.479pt x 271.19598pt.
- [8]
+ [9]
 
 Package caption Warning: \label without proper reference on input line 112.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:deployment' on page 9 undefined on input line 121
-.
+LaTeX Warning: Reference `fig:deployment' on page 10 undefined on input line 12
+1.
 
-[9 <./diagrams/deployment.png>]
-<diagrams/ReservationSD.png, id=90, 1230.5975pt x 679.53876pt>
+[10 <./diagrams/deployment.png>]
+<diagrams/LoginSD.png, id=243, 1010.77625pt x 352.31625pt>
+File: diagrams/LoginSD.png Graphic file (type png)
+<use diagrams/LoginSD.png>
+Package pdftex.def Info: diagrams/LoginSD.png  used on input line 167.
+(pdftex.def)             Requested size: 525.60667pt x 183.20549pt.
+ [11]
+<diagrams/RegistrationSD.png, id=250, 921.4425pt x 452.69125pt>
+File: diagrams/RegistrationSD.png Graphic file (type png)
+<use diagrams/RegistrationSD.png>
+Package pdftex.def Info: diagrams/RegistrationSD.png  used on input line 176.
+(pdftex.def)             Requested size: 479.15286pt x 235.4008pt.
+ [12 <./diagrams/LoginSD.png> <./diagrams/RegistrationSD.png>]
+<diagrams/ReservationSD.png, id=260, 1116.17pt x 460.72125pt>
 File: diagrams/ReservationSD.png Graphic file (type png)
 <use diagrams/ReservationSD.png>
-Package pdftex.def Info: diagrams/ReservationSD.png  used on input line 160.
-(pdftex.def)             Requested size: 639.9144pt x 353.3622pt.
- [10]
-<diagrams/VisitSD.png, id=97, 1210.5225pt x 626.34pt>
+Package pdftex.def Info: diagrams/ReservationSD.png  used on input line 189.
+(pdftex.def)             Requested size: 580.41174pt x 239.57643pt.
+<diagrams/VisitSD.png, id=261, 1098.1025pt x 569.12625pt>
 File: diagrams/VisitSD.png Graphic file (type png)
 <use diagrams/VisitSD.png>
-Package pdftex.def Info: diagrams/VisitSD.png  used on input line 169.
-(pdftex.def)             Requested size: 629.47533pt x 325.69867pt.
- [11 <./diagrams/ReservationSD.png>]
-<diagrams/EntryExitSD.png, id=105, 987.69pt x 646.415pt>
-File: diagrams/EntryExitSD.png Graphic file (type png)
-<use diagrams/EntryExitSD.png>
-Package pdftex.def Info: diagrams/EntryExitSD.png  used on input line 178.
-(pdftex.def)             Requested size: 513.60176pt x 336.13773pt.
-
-[12 <./diagrams/VisitSD.png>]
-<diagrams/PostponeReservationSD.png, id=113, 1054.94125pt x 604.2575pt>
+Package pdftex.def Info: diagrams/VisitSD.png  used on input line 198.
+(pdftex.def)             Requested size: 571.01659pt x 295.94736pt.
+ [13 <./diagrams/ReservationSD.png>]
+<diagrams/PostponeReservationSD.png, id=268, 1024.82875pt x 261.97874pt>
 File: diagrams/PostponeReservationSD.png Graphic file (type png)
 <use diagrams/PostponeReservationSD.png>
 Package pdftex.def Info: diagrams/PostponeReservationSD.png  used on input line
- 187.
-(pdftex.def)             Requested size: 548.57262pt x 314.21571pt.
- [13 <./diagrams/EntryExitSD.png>]
-<diagrams/DeleteVisitSD.png, id=120, 1054.94125pt x 604.2575pt>
+ 206.
+(pdftex.def)             Requested size: 532.91402pt x 136.22972pt.
+<diagrams/DeleteVisitSD.png, id=269, 964.60374pt x 242.9075pt>
 File: diagrams/DeleteVisitSD.png Graphic file (type png)
 <use diagrams/DeleteVisitSD.png>
-Package pdftex.def Info: diagrams/DeleteVisitSD.png  used on input line 196.
-(pdftex.def)             Requested size: 548.57262pt x 314.21571pt.
- [14 <./diagrams/PostponeReservationSD.png>]
-<diagrams/MobileUserSD.png, id=127, 1229.59375pt x 1285.80376pt>
+Package pdftex.def Info: diagrams/DeleteVisitSD.png  used on input line 215.
+(pdftex.def)             Requested size: 501.59683pt x 126.3126pt.
+ [14 <./diagrams/VisitSD.png> <./diagrams/PostponeReservationSD.png>]
+<diagrams/EntryExitSD.png, id=278, 1015.795pt x 534.99875pt>
+File: diagrams/EntryExitSD.png Graphic file (type png)
+<use diagrams/EntryExitSD.png>
+Package pdftex.def Info: diagrams/EntryExitSD.png  used on input line 228.
+(pdftex.def)             Requested size: 528.21645pt x 278.20094pt.
+ [15 <./diagrams/DeleteVisitSD.png>]
+
+LaTeX Warning: Reference `ReservationSD' on page 16 undefined on input line 234
+.
+
+<diagrams/MobileUserSD.png, id=285, 1136.245pt x 630.355pt>
 File: diagrams/MobileUserSD.png Graphic file (type png)
 <use diagrams/MobileUserSD.png>
-Package pdftex.def Info: diagrams/MobileUserSD.png  used on input line 204.
-(pdftex.def)             Requested size: 639.39244pt x 668.62181pt.
- [15 <./diagrams/DeleteVisitSD.png>]
-Overfull \vbox (140.62181pt too high) has occurred while \output is active []
-
-
-[16 <./diagrams/MobileUserSD.png>]
-<diagrams/NotificationsSD.png, id=140, 1079.03125pt x 606.265pt>
+Package pdftex.def Info: diagrams/MobileUserSD.png  used on input line 240.
+(pdftex.def)             Requested size: 590.8508pt x 327.78648pt.
+[16 <./diagrams/EntryExitSD.png>]
+<diagrams/NotificationsSD.png, id=292, 960.58875pt x 317.185pt>
 File: diagrams/NotificationsSD.png Graphic file (type png)
 <use diagrams/NotificationsSD.png>
-Package pdftex.def Info: diagrams/NotificationsSD.png  used on input line 213.
-(pdftex.def)             Requested size: 561.09949pt x 315.25961pt.
-
-Overfull \hbox (8.22183pt too wide) in paragraph at lines 230--230
+Package pdftex.def Info: diagrams/NotificationsSD.png  used on input line 251.
+(pdftex.def)             Requested size: 499.50902pt x 164.93713pt.
+ [17 <./diagrams/MobileUserSD.png>] [18 <./diagrams/NotificationsSD.png>] [19]
+Overfull \hbox (8.22183pt too wide) in paragraph at lines 327--327
 []\OT1/lmr/bx/n/14.4 Selected ar-chi-tec-tural styles and pat-terns 
  []
 
-) [17 <./diagrams/NotificationsSD.png>]
+
+LaTeX Warning: Reference `Overview: High-level components and their interaction
+' on page 20 undefined on input line 331.
+
+[20] [21]) [22]
 Chapter 3.
 (./chapters/user_interface_design.tex
-<images/userinterfaces/login_reg.png, id=150, 1025.8325pt x 1138.2525pt>
+<images/userinterfaces/login_reg.png, id=324, 1025.8325pt x 1138.2525pt>
 File: images/userinterfaces/login_reg.png Graphic file (type png)
 <use images/userinterfaces/login_reg.png>
 Package pdftex.def Info: images/userinterfaces/login_reg.png  used on input lin
 e 9.
 (pdftex.def)             Requested size: 430.84673pt x 478.0628pt.
- [18
+ [23
 
-] [19]
+] [24]
 Overfull \vbox (13.89882pt too high) has occurred while \output is active []
 
 
-[20 <./images/userinterfaces/login_reg.png>]
-<images/userinterfaces/menu.png, id=169, 831.105pt x 1255.69125pt>
+[25 <./images/userinterfaces/login_reg.png>]
+<images/userinterfaces/menu.png, id=340, 831.105pt x 1255.69125pt>
 File: images/userinterfaces/menu.png Graphic file (type png)
 <use images/userinterfaces/menu.png>
 Package pdftex.def Info: images/userinterfaces/menu.png  used on input line 20.
@@ -657,8 +695,8 @@ Package pdftex.def Info: images/userinterfaces/menu.png  used on input line 20.
 Overfull \vbox (49.05585pt too high) has occurred while \output is active []
 
 
-[21 <./images/userinterfaces/menu.png>]
-<images/userinterfaces/Visit_steps.png, id=176, 961.5925pt x 1142.2675pt>
+[26 <./images/userinterfaces/menu.png>]
+<images/userinterfaces/Visit_steps.png, id=347, 961.5925pt x 1142.2675pt>
 File: images/userinterfaces/Visit_steps.png Graphic file (type png)
 <use images/userinterfaces/Visit_steps.png>
 Package pdftex.def Info: images/userinterfaces/Visit_steps.png  used on input l
@@ -668,76 +706,70 @@ ine 31.
 Overfull \vbox (31.71599pt too high) has occurred while \output is active []
 
 
-[22 <./images/userinterfaces/Visit_steps.png>]
-<images/userinterfaces/Reservation_steps.png, id=183, 1028.84375pt x 1076.02pt>
+[27 <./images/userinterfaces/Visit_steps.png>]
+<images/userinterfaces/Reservation_steps.png, id=354, 1028.84375pt x 1076.02pt>
 
 File: images/userinterfaces/Reservation_steps.png Graphic file (type png)
 <use images/userinterfaces/Reservation_steps.png>
 Package pdftex.def Info: images/userinterfaces/Reservation_steps.png  used on i
 nput line 40.
 (pdftex.def)             Requested size: 504.13785pt x 527.25443pt.
-<images/userinterfaces/QRCode_handle2.png, id=184, 915.42pt x 1083.04625pt>
+<images/userinterfaces/QRCode_handle2.png, id=355, 915.42pt x 1083.04625pt>
 File: images/userinterfaces/QRCode_handle2.png Graphic file (type png)
 <use images/userinterfaces/QRCode_handle2.png>
 Package pdftex.def Info: images/userinterfaces/QRCode_handle2.png  used on inpu
 t line 49.
 (pdftex.def)             Requested size: 434.82903pt x 514.45232pt.
- [23 <./images/userinterfaces/Reservation_steps.png>]
+ [28 <./images/userinterfaces/Reservation_steps.png>]
 Overfull \vbox (22.45232pt too high) has occurred while \output is active []
 
 
-[24 <./images/userinterfaces/QRCode_handle2.png>]
-<images/userinterfaces/QRCode_handle.png, id=198, 976.64874pt x 627.34375pt>
+[29 <./images/userinterfaces/QRCode_handle2.png>]
+<images/userinterfaces/QRCode_handle.png, id=368, 976.64874pt x 627.34375pt>
 File: images/userinterfaces/QRCode_handle.png Graphic file (type png)
 <use images/userinterfaces/QRCode_handle.png>
 Package pdftex.def Info: images/userinterfaces/QRCode_handle.png  used on input
  line 58.
 (pdftex.def)             Requested size: 488.32318pt x 313.6711pt.
-<images/userinterfaces/Receptionist1.png, id=199, 951.555pt x 828.09375pt>
+<images/userinterfaces/Receptionist1.png, id=369, 951.555pt x 828.09375pt>
 File: images/userinterfaces/Receptionist1.png Graphic file (type png)
 <use images/userinterfaces/Receptionist1.png>
 Package pdftex.def Info: images/userinterfaces/Receptionist1.png  used on input
  line 69.
 (pdftex.def)             Requested size: 494.81145pt x 430.61124pt.
- [25 <./images/userinterfaces/QRCode_handle.png>]
-<images/userinterfaces/Receptionist2.png, id=206, 984.67876pt x 854.19125pt>
+ [30 <./images/userinterfaces/QRCode_handle.png>]
+<images/userinterfaces/Receptionist2.png, id=377, 984.67876pt x 854.19125pt>
 File: images/userinterfaces/Receptionist2.png Graphic file (type png)
 <use images/userinterfaces/Receptionist2.png>
 Package pdftex.def Info: images/userinterfaces/Receptionist2.png  used on input
  line 78.
 (pdftex.def)             Requested size: 512.0359pt x 444.18202pt.
- [26 <./images/userinterfaces/Receptionist1.png>]) [27 <./images/userinterfaces
+ [31 <./images/userinterfaces/Receptionist1.png>]) [32 <./images/userinterfaces
 /Receptionist2.png>]
 Chapter 4.
-(./chapters/requirements_traceabiity.tex) [28
+(./chapters/requirements_traceabiity.tex [33
 
-]
+]) [34]
 Chapter 5.
-(./chapters/implementation_integration_testplan.tex) [29
+(./chapters/implementation_integration_testplan.tex) [35
 
 ]
 Chapter 6.
-[30
+[36
 
 ]
 Chapter 7.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
-[31
+[37
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
  (./DD.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `DD.out' has not changed.
+(rerunfilecheck)             Checksum: 9BF5D74B46BD9C4D84F8409D0AF0E2BB;2221.
 
-
-Package rerunfilecheck Warning: File `DD.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `DD.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  80CE076B81F1C798CDB3CA51E272B79B;1843.
 
 LaTeX Warning: There were undefined references.
 
@@ -747,25 +779,27 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 10249 strings out of 480608
- 164180 string characters out of 5903629
- 485718 words of memory out of 5000000
- 25775 multiletter control sequences out of 15000+600000
- 577895 words of font info for 76 fonts, out of 8000000 for 9000
+ 10418 strings out of 480608
+ 166931 string characters out of 5903629
+ 489249 words of memory out of 5000000
+ 25867 multiletter control sequences out of 15000+600000
+ 588067 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,45p,905b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/
-texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/f
-onts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
-/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
-/lmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on DD.pdf (32 pages, 3121392 bytes).
+ 41i,8n,45p,905b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+20/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist
+/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
+/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on DD.pdf (38 pages, 3197173 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 83 named destinations out of 1000 (max. 500000)
- 13930 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 465 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 15228 words of extra memory for PDF output out of 17280 (max. 10000000)
 

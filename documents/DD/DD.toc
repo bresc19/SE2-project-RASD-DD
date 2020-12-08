@@ -1,29 +1,34 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Purpose}{2}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Scope}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{2}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Definitions}{2}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Acronyms}{3}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{3}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}Revision history}{3}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Reference Documents}{3}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Document Structure}{3}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Architectural Design}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Overview: High-level components and their interaction}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Component view}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Application layer}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Client's layers: CLup and CLup Operator}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Data Layer}{7}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Deployment view}{9}{section.2.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Purpose}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Scope}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Definitions}{3}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Acronyms}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{4}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Revision history}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Reference Documents}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Document Structure}{4}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Architectural Design}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Overview: High-level components and their interaction}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Component view}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Application layer}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Client's layers: CLup and CLup Operator}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Data Layer}{8}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Deployment view}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Runtime view}{11}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Component interfaces}{17}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Selected architectural styles and patterns}{17}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Other design decisions}{17}{section.2.7}%
-\contentsline {chapter}{\numberline {3}User Interface Design}{18}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Mobile Interface: CLup}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Desktop Interface: CLup Operator}{26}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Requirements Tracebility}{28}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Implementation, Integration and Test Plan}{29}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Effort Spent}{30}{chapter.6}%
-\contentsline {chapter}{\numberline {7}References}{31}{chapter.7}%
+\contentsline {subsection}{\numberline {2.4.1}Login and registration}{11}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Booking, delay and cancellation}{12}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Enter and Exit from the market}{15}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Receptionist}{16}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Notifications}{17}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Component interfaces}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Selected architectural styles and patterns}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Other design decisions}{21}{section.2.7}%
+\contentsline {chapter}{\numberline {3}User Interface Design}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Mobile Interface: CLup}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Desktop Interface: CLup Operator}{31}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Requirements Tracebility}{33}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Implementation, Integration and Test Plan}{35}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Effort Spent}{36}{chapter.6}%
+\contentsline {chapter}{\numberline {7}References}{37}{chapter.7}%
