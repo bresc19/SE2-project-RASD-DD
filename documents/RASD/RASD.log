@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  8 DEC 2020 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.14)  8 DEC 2020 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1097,9 +1097,64 @@ Overfull \hbox (206.09865pt too wide) in paragraph at lines 100--102
 [][][][][] 
  []
 
-[47] [48] [49])) [50]
+[47] [48] [49])
+<report_alloy/marketOpened.png, id=859, 1421.31pt x 692.5875pt>
+File: report_alloy/marketOpened.png Graphic file (type png)
+<use report_alloy/marketOpened.png>
+Package pdftex.def Info: report_alloy/marketOpened.png  used on input line 45.
+(pdftex.def)             Requested size: 739.08546pt x 360.14757pt.
+ [50]
+<report_alloy/marketClosed.png, id=908, 288.07625pt x 250.9375pt>
+File: report_alloy/marketClosed.png Graphic file (type png)
+<use report_alloy/marketClosed.png>
+Package pdftex.def Info: report_alloy/marketClosed.png  used on input line 53.
+(pdftex.def)             Requested size: 149.8005pt x 130.48824pt.
+ [51 <./report_alloy/marketOpened.png>]
+<report_alloy/shorReserv.png, id=915, 1349.04pt x 684.5575pt>
+File: report_alloy/shorReserv.png Graphic file (type png)
+<use report_alloy/shorReserv.png>
+Package pdftex.def Info: report_alloy/shorReserv.png  used on input line 61.
+(pdftex.def)             Requested size: 701.50485pt x 355.97194pt.
+ [52 <./report_alloy/marketClosed.png>]
+<report_alloy/showVisit.png, id=922, 1199.48125pt x 685.56125pt>
+File: report_alloy/showVisit.png Graphic file (type png)
+<use report_alloy/showVisit.png>
+Package pdftex.def Info: report_alloy/showVisit.png  used on input line 69.
+(pdftex.def)             Requested size: 623.73386pt x 356.4939pt.
+ [53 <./report_alloy/shorReserv.png>]
+<report_alloy/addInQueue.png, id=930, 1414.28375pt x 671.50874pt>
+File: report_alloy/addInQueue.png Graphic file (type png)
+<use report_alloy/addInQueue.png>
+Package pdftex.def Info: report_alloy/addInQueue.png  used on input line 78.
+(pdftex.def)             Requested size: 735.4318pt x 349.18655pt.
+ [54 <./report_alloy/showVisit.png>]
+<report_alloy/deInQueue.png, id=938, 1354.05875pt x 481.8pt>
+File: report_alloy/deInQueue.png Graphic file (type png)
+<use report_alloy/deInQueue.png>
+Package pdftex.def Info: report_alloy/deInQueue.png  used on input line 87.
+(pdftex.def)             Requested size: 704.11461pt x 250.53743pt.
+ [55 <./report_alloy/addInQueue.png>]
+<report_alloy/pred1.png, id=945, 627.34375pt x 589.20125pt>
+File: report_alloy/pred1.png Graphic file (type png)
+<use report_alloy/pred1.png>
+Package pdftex.def Info: report_alloy/pred1.png  used on input line 96.
+(pdftex.def)             Requested size: 326.22063pt x 306.3864pt.
+ [56 <./report_alloy/deInQueue.png>]
+<report_alloy/pred2.png, id=952, 639.38875pt x 295.1025pt>
+File: report_alloy/pred2.png Graphic file (type png)
+<use report_alloy/pred2.png>
+Package pdftex.def Info: report_alloy/pred2.png  used on input line 104.
+(pdftex.def)             Requested size: 332.48405pt x 153.45416pt.
+<report_alloy/reportAssert.png, id=953, 637.38126pt x 436.63126pt>
+File: report_alloy/reportAssert.png Graphic file (type png)
+<use report_alloy/reportAssert.png>
+Package pdftex.def Info: report_alloy/reportAssert.png  used on input line 112.
+
+(pdftex.def)             Requested size: 331.44016pt x 227.04956pt.
+) [57 <./report_alloy/pred1.png> <./report_alloy/pred2.png>] [58 <./report_allo
+y/reportAssert.png>]
 Chapter 5.
-(./chapters/effort_spent.tex Excluding 'comment' comment.) [51
+(./chapters/effort_spent.tex Excluding 'comment' comment.) [59
 
 ]
 Chapter 6.
@@ -1111,7 +1166,7 @@ Overfull \hbox (8.92802pt too wide) in paragraph at lines 24--26
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
- [52
+ [60
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
@@ -1238,6 +1293,15 @@ diagrams/SD_reservation.png
 chapters/formal_analysis_alloy.tex
  ot1lmtt.fd    2009/10/30 v1.6 Font defs for Latin Modern
 model/alloy.als
+report_alloy/marketOpened.png
+report_alloy/marketClosed.png
+report_alloy/shorReserv.png
+report_alloy/showVisit.png
+report_alloy/addInQueue.png
+report_alloy/deInQueue.png
+report_alloy/pred1.png
+report_alloy/pred2.png
+report_alloy/reportAssert.png
 chapters/effort_spent.tex
 chapters/references.tex
  ***********
@@ -1251,10 +1315,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 12854 strings out of 480608
- 200372 string characters out of 5903629
+ 12944 strings out of 480608
+ 202328 string characters out of 5903629
  747564 words of memory out of 5000000
- 27919 multiletter control sequences out of 15000+600000
+ 27982 multiletter control sequences out of 15000+600000
  595051 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,51p,938b,2072s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1277,10 +1341,10 @@ f-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020/texmf-dist/fon
 ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
 tti10.pfb>
-Output written on RASD.pdf (53 pages, 3189423 bytes).
+Output written on RASD.pdf (61 pages, 3821796 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 927 compressed objects within 10 object streams
- 429 named destinations out of 1000 (max. 500000)
- 20079 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 1148 PDF objects out of 1200 (max. 8388607)
+ 967 compressed objects within 10 object streams
+ 446 named destinations out of 1000 (max. 500000)
+ 20124 words of extra memory for PDF output out of 20736 (max. 10000000)
 
