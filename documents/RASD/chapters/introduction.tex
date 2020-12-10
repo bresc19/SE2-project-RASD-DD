@@ -13,10 +13,9 @@ To do this, we will analyze:
 \end{itemize}
 \medskip
 These will be shown using different languages, starting from the natural to the structured (such as Alloy and UML).
-Then, we will define the context in which our application will be developed.
+Then, we will define the context in which our application will be developed.\\
 During Sars-Cov-2 emergency, several countries imposed the lockdown in order to hinter the virus diffusion.
-People had to change their habits, in fact they could go out only for necessary needs, such as going to the market or pharmacy.
-A lot of rules were introduced: not only using the masks or clean your hands but also keeping a social distance.
+People had to change their habits, in fact they could go out only for necessary needs, such as going to the market or pharmacy.\\
 For instance people must pay attention while they're entering in the market due to the long queue, which could increase the possibility of virus diffusion.
 This fact obliged people to stay for a long time standing up and waiting their turn losing a lots of time. 
 
@@ -26,7 +25,7 @@ This fact obliged people to stay for a long time standing up and waiting their t
 
 \begin{itemize}
     \item An User can access to the market;
-    \item Put a limit to the number of Users in the market;
+    \item Put a limit to the number of Users in the market; ??
     \item User uses his smartphone / mobilephone;
     \item User leave his accomodation to reach the market;
 \end{itemize}
@@ -42,27 +41,14 @@ In order to do that we offer customers three grocery shopping option:
 \item \textbf{Reservation}: it consits in reserving a virtual seat in market's queue;
 \item \textbf{Direct Entrance}: it allows aged customers to enter without any bookings;
 \end{itemize}
-The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for Smart and Mobile Users.
-In particular, in order to avoid to wait in line, Users will be allerted by a notification (Smart Users) or a SMS (Mobile Users). These inform them about his time schedule required to reach the market in time.
-Only for Smart User the application will provide the position in queue and the time estimation of his turn.
+The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for Smart and Mobile Users.\\
+In particular, in order to avoid to wait in line, Users will be allerted by a \textbf{notification} (Smart Users) or a \textbf{SMS} (Mobile Users). These inform them about his time schedule required to reach the market in time.
+Only for Smart User the application will provide the position in queue and the time estimation of his turn.\\
 Instead an alphanueric string will be provided to Mobile Users for going in and out from the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
-Instead, the third option is only avaiable if an user is older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. 
-In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. This third option is made especially for aged people who don't have even a mobile phone. Anyway the RASD document is not focused on this last option.
-
-
-
-
-\begin{comment}
-The application will provide a QRCode as a virtual ticket on your own smartphone and to wait easily at home or everywhere instead of doing the physical queue for minutes or hours. 
-The system will generate a QR code for the authentication at the entry, in order to verify the position in the queue. 
-Moreover, the application gives the possibility to "book a visit" for who indicates the approximate expected duration of the visit and how many products they'll buy. \par \medskip
-Although the reservation is made entirely with your smartphone, the market gives anyway the possibilities to provide the ticket, acting as proxies for the customers. 
-[...]
-This is mostly for aged people who are technologically backward or has no smartphone.
-Once this procedure is completed, a SMS will be sent to the customers for noticing their turn. [todo]\par \medskip
-In order to achieve the goal, we adopt the "World and Machine" model in order to analyse the domain.
-\end{comment}
-
+Instead, the third option is only avaiable if an user is older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. \\
+In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. \\
+This third option is made especially for aged people who don't have even a mobile phone. \\
+Anyway the RASD document is not focused on this last option.
 
 
 \subsection{World}
@@ -78,7 +64,7 @@ The main \textit{World Phenomena} are:
 \item Respecting social distance;
 \end{itemize}
 
-In our application we are going to focus on this World Phenomena excepting for the last one.
+In our application we are going to focus on this World Phenomena excepting for the last one. //TODOOO
 
 \subsection{Machine}
 It represents the portion of system to be developed.
@@ -90,7 +76,8 @@ The main \textit{Machine Phenomena} are:
 \item Data queries;
 \end{itemize}
 \subsection{Shared Phenomena} 
-In this model it needs a common interface to link World and Machine which is composed by the Shared phenomena. Graphically is represent by an intersection between the World and the Machine. In this way World and Machine phenomena are observed from each other.  
+In this model it needs a common interface to link World and Machine which is composed by the Shared phenomena. \\
+Graphically is represent by an intersection between the World and the Machine. In this way World and Machine phenomena are observed from each other.  
 The main application Shared Phenomena are the following:
 
 \begin{itemize}
@@ -116,16 +103,17 @@ The main application Shared Phenomena are the following:
 
 \item \textbf{Mobilephone}: Elettronic device without CLup App;
 \item \textbf{Smartphone}: Elettronic devide with Clup App; 
-\item \textbf{CLup App}: It's the application described in this document. It's an application used to make and manage Booking in order to go grocery shopping;
+\item \textbf{CLup}: It's the application described in this document. It's an application used to make and manage Booking in order to go grocery shopping;
+[TODO AGGIUNGERE CLUP OPERATOR]
 \item \textbf{User}: Generic customer who plan to shop in the market. He could be a Smart or Mobile User;
-\item \textbf{Smart User}: User who has got CLup App and so he's able to manage Booking by himself;
-\item \textbf{Mobile User}: User who hasn't got CLup App and so he's not able to manage Booking by himself. For instance could be an User who has a dated mobile phone or simply he doesn't install the CLup App. A Mobile User allows a Receptionist to manage his booking by calling a telephone number by interacting with him;
+\item \textbf{Smart User}: User who has got a smartphone which has CLup App. So he's able to manage bookings by himself;
+\item \textbf{Mobile User}: User who hasn't got a smartphone (only mobilephone) and so he's not able to manage Booking by himself. A Mobile User allows a Receptionist to manage his booking by calling a telephone number by interacting with him;
 \item \textbf{Shopping Size}: It's the dimensione of the grocery shopping. It could be \textit{Small}, \textit{Medium}, \textit{Large} depending on the number of items that is going to be purchased;  % [S 10, M 20, L 30];
 \item \textbf{Booking}: It indicates the generic appointment of a User in the market. It could be a Reservation or a Visit;
 \item \textbf{Reservation}: It's a type of Booking. Users simply book a seat at the market's queue. In addition User have to indicate the Shopping Size; 
 \item \textbf{Visit}: It's a Booking planned in advance by Users. It is planned by putting the date and the range time in which the User is going grocery shopping. In addition User have to indicate the Shopping Size; 
 \item \textbf{Reader}: It reads QRCode at the market's entrance. It allows User to go in;
-\item \textbf{Booking submitted}: It means that the QRCode referred to the actual Booking is already submitted in the Reader;
+\item \textbf{Booking submitted}: It means that the QRCode related to it is already submitted in the Reader;
 \item \textbf{Visit activated}: It's a Visit which already booked but not yet submitted by the User;
 \item \textbf{Reservation activated}: It's a Reservation which already booked but not yet submitted by the User;
 \item \textbf{Waiting Time}: It's the time estimated by the system in which, by prevision, an User waits before he enters in the market;
@@ -161,12 +149,16 @@ The main application Shared Phenomena are the following:
 \subsection{Abbreviations}
 \begin{itemize}
 \item \textbf{App}: Application;
-
+\item \textbf{Gn}: n-th goal;
+\item \textbf{Rn}: n-th requirement;
 \end{itemize}
 
 
 
 \section{Revision history}
+\pagebreak
+
+
 
 \section{Reference Documents}
 This document is strictly based on:

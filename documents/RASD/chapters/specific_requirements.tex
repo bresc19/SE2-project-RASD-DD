@@ -2,19 +2,15 @@
 The following mockups provide a model of graphic interface that will show our program. \\
 We will create a user interface that will be user friendly in order to be easy to use also from non-technical users. \\
 The mockups has the aim to illustrate the main aspects of the CLup and the Receptionist's app.
-\subsection{User Interfaces}
+\subsection{User Interfaces (CLup)}
 The development of CLup app aims to have a easy-to-use interface for User who has a Smartphone. In particular the application have to be intuitive and reliable in order to give Users the possobility to book an appointment without any obstacles.
 The following mockups show the main operation allowed by Clup to the Smart User:
-
-
-
 \begin{figure}[h]
   \caption{Login: Users already registered signes in with their credential.}
   \label{fig: Login}
   \centering
   \includegraphics[scale=0.35]{images/mockup/login.png}
 \end{figure}
-
 \begin{figure}[H]
   \caption{Market selection: After the login, the user have to select in which market wants to go shopping, due to his position.}
   \label{fig:Login}
@@ -31,27 +27,19 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 
 \begin{figure}[H]
   \centering
-  \subfloat[Page 1.]{\includegraphics[scale=0.315]{images/mockup/reg1.png}\label{fig:f1}}
+  \subfloat[Page 1.]{\includegraphics[scale=0.288]{images/mockup/reg1.png}\label{fig:f1}}
   \hfill
-  \subfloat[Page 2]{\includegraphics[scale=0.35]{images/mockup/reg2.png}\label{fig:f2}}
+  \subfloat[Page 2]{\includegraphics[scale=0.32]{images/mockup/reg2.png}\label{fig:f2}}
   \caption{Registration: Users not registered can register himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
 \end{figure}
-
-
-
-
-
 \begin{figure}[H]
-  \caption{Home: Homepage of CLup from which the USer can select to book a Visit or a Reservation.}
+ 
   \label{fig:Home}
   \centering
   \includegraphics[scale=0.30]{images/mockup/home1.png}
+   \caption{Home: Homepage of CLup from which the User can select to book a Visit or a Reservation.}
 
 \end{figure}
-
-
-
-
 \begin{figure}[H]
      \begin{center}
 
@@ -154,15 +142,12 @@ The following mockups show the main operation allowed by Clup to the Smart User:
   \caption{Notifification and SMS: User receive his information about his Booking depending on whether is a Smart or Mobile User.}
 \end{figure}
 
+\pagebreak
 
-
-\subsection{Receptionist Interfaces}
-CLup desktop app is introduced to give Users who has no Smartphone the possibility to book an appointment at the market. Mobile Users have to call a Receptionist through a customer service number. The Receptionist so aims to interact between the User and the system in order to manage his appointment, acting like a proxy. 
+\subsection{Receptionist Interfaces (CLup Operator)}
+\textbf{CLup Operator}, the desktop app, is introduced to give Users who has no Smartphone the possibility to book an appointment at the market. Mobile Users have to call a Receptionist through a customer service number. The Receptionist so aims to interact between the User and the system in order to manage his appointment, acting like a proxy. 
 Even this application must be simple, in order to allow Receptionist to interact with Mobile User in a proper and effective way.
 The following mockups show the main operation allowed by Receptionist through his application to manage Booking of the Mobile Users.
-
-
-
 \begin{figure}[H]
   \caption{Receptionist signes in with their credential.}
   \label{fig:Login}
@@ -220,8 +205,8 @@ The following mockups show the main operation allowed by Receptionist through hi
   \includegraphics[scale=0.35]{images/mockup/Done_Rec.png}
 
 \end{figure}
-
-
+\par
+\pagebreak
 
 \subsection{Hardware Interfaces}
 The supermarket will have two scanners in order to validate the reservation:
@@ -238,7 +223,7 @@ The scanners will be used to obtain useful information about client shopping tim
 \subsection{Software Interfaces}
 CLup notice User when leave in order to reach the market in time also thanks to Google Maps APIs. Infact CLup use them in order to determine how much time a User have to put due to his position.
 The choice of using Google Maps APIs derives from the easy usability, frequency update and very large documentation.
-The system, in addition to CLup and CLupRec application doesn't use any external interfaces.
+The system, in addition to CLup and CLup Operator application doesn't use any external interfaces.
 
 
 \subsection{Communication Interfaces}
@@ -1038,18 +1023,21 @@ In this section are reported the main operation (Reservation and Visit) made by 
 
 
 \section{Performance Requirements}
-The system has been designed to give possibility to Users to make and to manage their booking every time they need. So it's essential that the CLup's server have to handle a big number of connections. The most reliable requests must be the booking request. User could book his appointment when he needs without any error or denial. So it's important that the server has enough resources to accept a large number of request which we estimate a maximum of 1000.
-
-
-
+The system has been designed to give possibility to Users to make and to manage their booking every time they need. So it's essential that the CLup's server have to handle a big number of connections. \\
+The most reliable requests must be about the booking. User could book his appointment when he needs without any error or denial. 
+Anyway there's one exception: the booking of a reservation is not avaialable when a market is closed.\\
+It's important that the server has enough resources to accept a large number of request which we estimate a maximum of 1000.
+\bigskip
 
 \section{Design Constraints}
 \subsection{Standards compliance}
-Especially, the system will be released in the main digital distribution platform (such as App Store or Google Play). So it must follow their guidelines in order to have a proper and a lawful distribution. In addition, due to the fact that it retrives and analyses many sensitive data, application must respect tha main privacy guidance. In particular in Europe must follow the General Data Privacy Regulation (GDPR), due to a safe and aware processing of data. 
+Especially, the system will be released in the main digital distribution platform (such as App Store or Google Play). So it must follow their guidelines in order to have a proper and a lawful distribution. \\
+In addition, due to the fact that it retrives and analyses many sensitive data, application must respect tha main privacy guidance. In particular in Europe must follow the General Data Privacy Regulation (GDPR), due to a safe and aware processing of data. 
+\par
 \subsection{Users in the market}
-An important constraint that must applied is about the number of presences in the market of the Users. In fact, due to the Covid-19 pandemic, it's important that Users respect the social distance rule that is at least 1 meter. So it's necessary that the market's provide the maximum number of Users allowed in the market that is, in a general way, it will be indicated with N.
-
-
+An important constraint that must applied is about the number of presences in the market of the Users. In fact, due to the Covid-19 pandemic, it's important that Users respect the social distance rule that is at least 1 meter.\\
+So it's necessary that the market's provide the maximum number of Users allowed in the market that is, in a general way, it will be indicated with N.
+\par
 \subsection{Hardware limitations}
 \begin{itemize}
 \item 2G/3G/4G/5G connection: they're essential due to server connection to compile booking request;
@@ -1057,17 +1045,21 @@ An important constraint that must applied is about the number of presences in th
 \end{itemize}
 \subsection{Any other constraint}
 There are no other constraint.
+\bigskip
+\par
 \section{Software System Attributes}
 \subsection{Reliability}
 The application have to provide user the possibility to book both reservation and visit successfully. 
-
 \subsection{Availability}
-Due to the fact that nowadays grocery shopping is avaiable almost all day, the availability of the system is very high. So the required availability is close to 99\%. However, the reservation function has a lower avaibility because of the inability to book a seat in queue if the market is closed in some hours of the day. 
+Due to the fact that nowadays grocery shopping is avaiable almost all day, the availability of the system is very high. So the required availability is close to 99\%. \\
+However, the reservation function has a lower avaibility because of the inability to book a seat in queue if the market is closed in some hours of the day. 
 \subsection{Security}
-Security is one of the most critical aspect of CLup. So User's sensitive data are stored safely in DBMS accessibile only by strict level of privilege. In addition, communication towards the application server (like login or booking requests) are implemented using  HTTPS protocol, which, with TLS protocol, ensure the encryption of every packets. Another important risk that must by avoid is the Denial of Service, which occurs when the server is unavailable due to incoming traffic flooding from malevoulous Users. So it's important that the Server mitigate this, by using for instance SYN cookies or any possible arrangements in order to allocate less resources if it's not necessary.
+Security is one of the most critical aspect of CLup. So User's sensitive data are stored safely in DBMS accessibile only by strict level of privilege.\\ 
+In addition, communication towards the application server (like login or booking requests) are implemented using  HTTPS protocol, which, with TLS protocol, ensure the encryption of every packets. Another important risk that must by avoid is the Denial of Service, which occurs when the server is unavailable due to incoming traffic flooding from malevoulous Users.\\
+So it's important that the Server mitigates this, by using for instance SYN cookies or any possible arrangements in order to allocate less resources if it's not necessary.
 \subsection{Maintainability}
 The application implementation must be oriented towards an high scalability in order to gurantee an efficient and cheaper maintenance. This could be done by using design patterns.
 \subsection{Portability}
-The system must be smoothly portable almost for the main smartphone on the market (i.e Android or iOS). So CLup must be distributed for the main mobile store (i.e App Store and Google Play), coding it with the main program languages such as Android or Swing. In addition CLup Guest
+The system must be smoothly portable almost for the main smartphone on the market (i.e Android or iOS). So CLup must be distributed for the main mobile store (i.e App Store and Google Play), coding it with the main program languages such as Android or Swing. Instead, CLup Operator
 %, the application used by receptionist to book visit and reservation of the Users not %registered, 
 must be compatible with the main Operating system such as Windows and Mac OS X. 
