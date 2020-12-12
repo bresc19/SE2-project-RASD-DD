@@ -5,29 +5,29 @@ The main scope of this document is to define requirements for the application de
 To do this, we will analyze:
 
 \begin{itemize}
-\item System;
-\item Functional and unfunctional requirements;
-\item Constraints;
-\item Relationships between stakeholders;
-\item Possible scenarios and tests;
+\item system;
+\item functional and unfunctional requirements;
+\item constraints;
+\item relationships between stakeholders;
+\item possible scenarios and tests;
 \end{itemize}
-\medskip
+\bigskip
 These will be shown using different languages, starting from the natural to the structured (such as Alloy and UML).
 Then, we will define the context in which our application will be developed.\\
 During Sars-Cov-2 emergency, several countries imposed the lockdown in order to hinter the virus diffusion.
 People had to change their habits, in fact they could go out only for necessary needs, such as going to the market or pharmacy.\\
 For instance people must pay attention while they're entering in the market due to the long queue, which could increase the possibility of virus diffusion.
 This fact obliged people to stay for a long time standing up and waiting their turn losing a lots of time. 
-
+\pagebreak
 
 \subsection{Goals}
 
 
 \begin{itemize}
     \item An User can access to the market;
-    \item Put a limit to the number of Users in the market; ??
-    \item User uses his smartphone / mobilephone;
-    \item User leave his accomodation to reach the market;
+    \item Put a limit to the number of Users in the market;
+    \item User can use his smartphone / mobilephone;
+    \item User can leave his accomodation to reach the market;
 \end{itemize}
 
  
@@ -41,13 +41,14 @@ In order to do that we offer customers three grocery shopping option:
 \item \textbf{Reservation}: it consits in reserving a virtual seat in market's queue;
 \item \textbf{Direct Entrance}: it allows aged customers to enter without any bookings;
 \end{itemize}
-The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for Smart and Mobile Users.\\
-In particular, in order to avoid to wait in line, Users will be allerted by a \textbf{notification} (Smart Users) or a \textbf{SMS} (Mobile Users). These inform them about his time schedule required to reach the market in time.
-Only for Smart User the application will provide the position in queue and the time estimation of his turn.\\
-Instead an alphanueric string will be provided to Mobile Users for going in and out from the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.
+\bigskip
+The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for \textbf{Smart} and \textbf{Mobile Users} (their definitions are in 1.3.1 subsection).\par
+In particular, in order to avoid to wait in line, Users will be allerted by \textbf{notifications} (Smart Users) or a \textbf{SMS} (Mobile Users). These inform them about his time schedule required to reach the market in time.
+Only for Smart User the application will provide the position in queue and the time estimation of his turn.\par
+An alphanueric string will be provided to Mobile Users for going in and out from the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.\par
 Instead, the third option is only avaiable if an user is older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. \\
-In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. \\
-This third option is made especially for aged people who don't have even a mobile phone. \\
+In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. \par
+This third option is made especially for aged people who don't have even a mobile phone. \par
 Anyway the RASD document is not focused on this last option.
 
 
@@ -57,11 +58,11 @@ It represents the environment in which the system is placed. In particular it's 
 The main \textit{World Phenomena} are:
 
 \begin{itemize}
-\item An User can access to the market;
-\item Limit number of Users in the market;
+\item an User can access to the market;
+\item limit number of Users in the market;
 \item User can book his appointment for grocery shopping;
 \item User use his mobilephone / smartphone;
-\item Respecting social distance;
+\item respecting social distance;
 \end{itemize}
 
 In our application we are going to focus on this World Phenomena excepting for the last one. //TODOOO
@@ -70,10 +71,10 @@ In our application we are going to focus on this World Phenomena excepting for t
 It represents the portion of system to be developed.
 The main \textit{Machine Phenomena} are:
 \begin{itemize}
-\item Internal operations;
-\item Queue menager;
-\item Waiting time estimation;
-\item Data queries;
+\item internal operations;
+\item managing any bookings;
+\item waiting time estimation;
+\item data storage operations;
 \end{itemize}
 \subsection{Shared Phenomena} 
 In this model it needs a common interface to link World and Machine which is composed by the Shared phenomena. \\
@@ -82,10 +83,10 @@ The main application Shared Phenomena are the following:
 
 \begin{itemize}
 \item Notifications;
-\item Sign in / Sign up;
+\item sign in / sign up;
 \item Booking management;
 \item QRCode submission;
-\item Appointment request;
+\item appointment request;
 \end{itemize}
 
 \begin{figure}[H]
@@ -101,35 +102,27 @@ The main application Shared Phenomena are the following:
 
 \begin{itemize}
 
-\item \textbf{Mobilephone}: Elettronic device without CLup App;
-\item \textbf{Smartphone}: Elettronic devide with Clup App; 
-\item \textbf{CLup}: It's the application described in this document. It's an application used to make and manage Booking in order to go grocery shopping;
-[TODO AGGIUNGERE CLUP OPERATOR]
+\item \textbf{Mobilephone}: elettronic device without CLup app;
+\item \textbf{Smartphone}: elettronic devide with Clup app; 
+\item \textbf{CLup}: it's the mobile application used by Smart Users to make and manage bookings in order to go grocery shopping;
 \item \textbf{User}: Generic customer who plan to shop in the market. He could be a Smart or Mobile User;
-\item \textbf{Smart User}: User who has got a smartphone which has CLup App. So he's able to manage bookings by himself;
+\item \textbf{Smart User}: User who has got a smartphone with CLup app. He's able to manage bookings by himself;
 \item \textbf{Mobile User}: User who hasn't got a smartphone (only mobilephone) and so he's not able to manage Booking by himself. A Mobile User allows a Receptionist to manage his booking by calling a telephone number by interacting with him;
-\item \textbf{Shopping Size}: It's the dimensione of the grocery shopping. It could be \textit{Small}, \textit{Medium}, \textit{Large} depending on the number of items that is going to be purchased;  % [S 10, M 20, L 30];
-\item \textbf{Booking}: It indicates the generic appointment of a User in the market. It could be a Reservation or a Visit;
-\item \textbf{Reservation}: It's a type of Booking. Users simply book a seat at the market's queue. In addition User have to indicate the Shopping Size; 
-\item \textbf{Visit}: It's a Booking planned in advance by Users. It is planned by putting the date and the range time in which the User is going grocery shopping. In addition User have to indicate the Shopping Size; 
-\item \textbf{Reader}: It reads QRCode at the market's entrance. It allows User to go in;
-\item \textbf{Booking submitted}: It means that the QRCode related to it is already submitted in the Reader;
-\item \textbf{Visit activated}: It's a Visit which already booked but not yet submitted by the User;
-\item \textbf{Reservation activated}: It's a Reservation which already booked but not yet submitted by the User;
-\item \textbf{Waiting Time}: It's the time estimated by the system in which, by prevision, an User waits before he enters in the market;
-\item \textbf{Shopping Time}: It's the time needed by a User to complete his own grocery shopping;
-\item \textbf{Closure Time}: It's the range time in which the market is closed;
+\item \textbf{CLup Operator}: desktop application used by Receptionists to manage bookings of Mobile Users;
+\item \textbf{Shopping Size}: it's the dimensione of the grocery shopping. It could be \textit{small}, \textit{medium}, \textit{large} depending on the duration of the permanence inside the market; 
+\item \textbf{Booking}: it indicates the generic appointment of a User in the market. It could be a Reservation or a Visit;
+\item \textbf{Reservation}: it's a type of booking. Users simply book a seat at the market's queue. In addition User have to indicate the Shopping Size; 
+\item \textbf{Visit}: it's a Booking planned in advance by Users. It is planned by putting the date and the range time in which the User is going grocery shopping. In addition User have to indicate the Shopping Size; 
+\item \textbf{Reader}: it reads QRCode at the market's entrance. It allows User to go in / out ;
+\item \textbf{Booking submitted}: it means that the QRCode related to it is already submitted in the Reader;
+\item \textbf{Visit activated}: it's a Visit which already booked but not yet submitted by the User;
+\item \textbf{Reservation activated}: it's a Reservation which already booked but not yet submitted by the User;
+\item \textbf{Waiting Time}: it's the time estimated by the system in which, by prevision, an User waits before he enters in the market;
+\item \textbf{Shopping Time}: it's the time needed by a User to complete his own grocery shopping;
+\item \textbf{Closure Time}: it's the range time in which the market is closed;
 \end{itemize}
 
-\begin{comment}
 
-
-\item \textbf{Delayed ticket}: a ticket is delayed when, after the its ticket call, the user is not submit the QRCode in time (threshold of 1-2 minutes);
-\item \textbf{Cancelled ticket}: a ticket is cancelled when it's already delayed and passed too much time (threshold of 15-20 minutes);
-\item \textbf{BookingID}: string of n alphanumerical characters that is represented by the QRCode. If the user is not registered [...];
-
-
-\end{comment}
 \begin{itemize}
 \subsection{Acronyms}
 \item \textbf{RASD}: Requirement Analysis and Specification Document;
@@ -156,7 +149,6 @@ The main application Shared Phenomena are the following:
 
 
 \section{Revision history}
-\pagebreak
 
 
 

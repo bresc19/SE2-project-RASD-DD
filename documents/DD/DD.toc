@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{4}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Definitions}{4}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Acronyms}{4}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{4}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{5}{subsection.1.3.3}%
 \contentsline {section}{\numberline {1.4}Revision history}{5}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Reference Documents}{5}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Document Structure}{5}{section.1.6}%
@@ -29,8 +29,11 @@
 \contentsline {section}{\numberline {3.1}Mobile Interface: CLup}{24}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Desktop Interface: CLup Operator}{30}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Requirements Tracebility}{32}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Implementation, Integration and Test Plan}{36}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Effort Spent}{37}{chapter.6}%
-\contentsline {chapter}{\numberline {7}References}{38}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Software used}{38}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Bibliography}{38}{section.7.2}%
+\contentsline {chapter}{\numberline {5}Implementation, Integration and Test Plan}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Implementation}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Integration}{36}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Testing}{36}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Effort Spent}{38}{chapter.6}%
+\contentsline {chapter}{\numberline {7}References}{39}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software used}{39}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Bibliography}{39}{section.7.2}%

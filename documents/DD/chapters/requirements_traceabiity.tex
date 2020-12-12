@@ -5,184 +5,100 @@ Each component is accurately described in the section 2.2.
 
 
 \begin{description}
-   
-   \item[R1] Smart User received a notification due to reach the market
+    \item[G1]User enters once arrived at the market. \textbf{[R1]-[R2]-[R3]-[R4]-[R5]-[R8]}
+    
     \begin{itemize}
-        \item \textbf{Notification Manager}
-        \item \textbf{Network Manager(Server)}
-        \item \textbf{Network Manager(CLup)}
-        \item \textit{SmartPhone}
+        \item \textbf{GUI (CLup)}; 
+        \item \textbf{QR Reader};  
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
     
-    \item[R2] Mobile User received a SMS due to reach the market.
-        \begin{itemize}
-            \item \textbf{Notification Manager}
-            \item \textbf{Network Manager (Server)}
-            \item \textbf{Network Manager (CLup Operator)}
-            \item \textit{MobilePhone}
-        \end{itemize}
-
-    \item[R3] The system provide the time estimation to reach the market.TODO
-        \begin{itemize}
-            \item \textit{Google Maps Interface}
-        \end{itemize}
-
-    \item[R4] The User chooses the start and end time of the Visit.
-        \begin{itemize}
-            \item \textbf{GUI}
-            \item \textbf{Request Handler}
-            \item \textbf{Network Manager (Server)}
-            \item \textbf{Network Manager (CLup Operator)}
-            \item \textbf{Network Manager (CLup)}
-            \item \textbf{Visit Schedule}
-        \end{itemize}
-   
-   
-   \item[R5] The User can postpone his turn by 10 turns.
-        \begin{itemize}
-            \item \textbf{GUI}
-            \item \textbf{Request Handler}
-            \item \textbf{Reservation Queue}
-            \item \textbf{Network Manager (CLup)}
-            \item \textbf{Network Manager (Server)}
-            \item \textbf{RDBMS}
-        \end{itemize}
+    \item[G2]Put a limit to the number of Users in the market. \textbf{[R4]-[R6]-[R7]}
     
-    
-    \item[R6] The system get the entrance time by a User when submits his own      QRCode.
-        \begin{itemize}
-            \item \textbf{QR Reader}
-            \item \textbf{Network Manager (Server)}
-            \item \textbf{Controller}
-            \item \textbf{RDBMS}
-        \end{itemize}
-    
-    
-    
-\item[R7] The system get the exit time by a User when submits his own QRCode.
     \begin{itemize}
-        \item \textbf{QR Reader}
-        \item \textbf{Network Manager (Server)}
-        \item \textbf{Controller}
-        \item \textbf{RDBMS}
+        
+        \item \textbf{Notification Manager};  
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
     
+    \item[G3]Smart User can make a Reservation. \textbf{[R8]-[R10]-[R11]-[R15]-[R18]}
+    \begin{itemize}
+        \item \textbf{Auth User};  
+        \item \textbf{GUI (CLup)};  
+        \item \textbf{Request Handler}; 
+        \item \textbf{Network Manager (CLup)}; 
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Reservation Queue};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
+    \end{itemize}
+        
     
-\item[R8] The system provides the number Users in queue.%--
+    \item[G4]Smart User can make a Visit. \textbf{[R10]-[R11]-[R14]-[R15]-[R16]-[R18]}
     \begin{itemize}
-        \item \textbf{GUI}
-        \item \textbf{Network Manager (Server)}
-        \item \textbf{Network Manager (CLup)}
-        \item \textbf{Reservation Queue}
+        \item \textbf{Auth User};  
+        \item \textbf{GUI (CLup)};  
+        \item \textbf{Request Handler}; 
+        \item \textbf{Network Manager (CLup)}; 
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Visit Schedule};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
-
-\item[R9] The system provides the estimation time of leaving to reach the market in time.
+    
+    \item[G5]Mobile User can make a Reservation. \textbf{[R2]-[R8]-[R12]-[R13]-[R14]-[R17]-[R21]}
     \begin{itemize}
-        \item \textit{Google Maps Interface}
-        \item \textbf{Notification Manager}
-        \item \textbf{Controller}
-        \item \textbf{Reservation Queue}
+        \item \textbf{Auth User}; 
+        \item \textbf{Auth Receptionist};  
+        \item \textbf{GUI (CLup Operator)};  
+        \item \textbf{Booking Manager}; 
+        \item \textbf{Network Manager (CLup Operator)}; 
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Reservation Queue};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
-
-
-\item[R10] The Smart User must be registered.
-    \begin{itemize}
-        \item \textbf{RDBMS}
-        \item \textbf{Auth User}
-        \item \textit{Smartphone}
+    
+    \item[G6]Mobile User can make a Visit. \textbf{[R2]-[R12]-[R13]-[R14]-[R15]-[R16]-[R17]-[R21]}
+     \begin{itemize}
+        \item \textbf{Auth User}; 
+        \item \textbf{Auth Receptionist};  
+        \item \textbf{GUI (CLup Operator)};  
+        \item \textbf{Booking Manager}; 
+        \item \textbf{Network Manager (CLup Operator)}; 
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Visit Schedule};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
-
-
-
-\item[R11] The Smart User must be already logged in.
+    
+    \item[G7]Smart User can cancel a Booking. \textbf{[R10]-[R11]-[R19/R20]}
     \begin{itemize}
-        \item \textbf{RDBMS}
-        \item \textbf{Auth Receptionist}
-        \item \textit{Smartphone}
+        \item \textbf{Auth User}; 
+        \item \textbf{GUI (CLup)};  
+        \item \textbf{Request Handler}; 
+        \item \textbf{Network Manager (CLup)}; 
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Reservation Queue / Visit Schedule};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
-
-
-\item[R12] The Mobile User must be registered. %--
+    
+    \item[G8]Mobile User can cancel a Booking. \textbf{[R12]-[R13]-[R17]-[R19/R20]-[R21]}
     \begin{itemize}
-        \item \textbf{RDBMS}
-        \item \textbf{Auth Receptionist}
-        \item \textit{Mobile}
-        \item \textit{CLup Operator}
+        \item \textbf{Auth User};
+        \item \textbf{Auth Receptionist};
+        \item \textbf{GUI (CLup Operator)};  
+        \item \textbf{Booking Manager}; 
+        \item \textbf{Network Manager (CLup Operator)}; 
+        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Reservation Queue / Visit Schedule};  
+        \item \textbf{Controller};
+        \item \textbf{RDBMS};
     \end{itemize}
-
-\item[R13] The Mobile User provide personal data to the Receptionist. %--
-\begin{itemize}
-        \item \textit{Mobilephone}
-        \item \textit{CLup Operator}
-  \end{itemize}
-
-\item[R14] User have to choose the size of his grocery shopping between Shopping size.
-    \begin{itemize}
-        \item \textbf{GUI}
-        \item \textbf{Booking Manager}
-        \item \textbf{Request Handler}
-    \end{itemize}
-
-
-\item[R15] User must select a date in which the market is opened.
-    \begin{itemize}
-        \item \textbf{GUI}
-        \item \textbf{Booking Manager}
-        \item \textbf{Request Handler}
-    \end{itemize}
-
-
-\item[R16] The User must select a start and end time available.
-    \begin{itemize}
-        \item \textbf{GUI}
-        \item \textbf{Booking Manager}
-        \item \textbf{Request Handler}
-    \end{itemize}
-
-
-\item[R17] The Mobile User calls the Receptionist.
-    \begin{itemize}
-        \item \textit{Mobilephone}
-  \end{itemize}
-
-\item[R18] The system provides Smart User the Booking’s QRCode in CLup application.
-    \begin{itemize}
-        \item \textbf{Visit Schedule}
-        \item \textbf{Reservation Queue}
-        \item \textbf{Network Manager (Server)}
-        \item \textbf{Network Manager (CLup)}
-  \end{itemize}
-
-
-\item[R19] The system provides Mobile User the Booking’s Identification Code through SMS.
-    \begin{itemize}
-        \item \textbf{Auth Manager}
-        \item \textbf{Network Manager (Server)}
-        \item \textit{Mobilephone}
-    \end{itemize}
-
-
-
-\item[R20] Smart User have to be recognized at the entrance.[MOBILE???]
-    \begin{itemize}
-        \item \textit{Employee}
-    \end{itemize}
-
-
-\item[R21] User must have an activated Visit not yet submitted.
-    \begin{itemize}
-        \item \textbf{RDBMS}
-        \item \textbf{Visit Schedule}
-        \item \textbf{GUI}
-    \end{itemize}
-
-
-\item[R22] User must have an activated Reservation not yet submitted.
-    \begin{itemize}
-        \item \textbf{RDBMS}
-        \item \textbf{Reservation Queue}
-        \item \textbf{GUI}
-    \end{itemize}
-
+    
 \end{description}
-
