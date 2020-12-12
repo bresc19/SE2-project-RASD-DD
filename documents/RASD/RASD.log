@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  12 DEC 2020 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  12 DEC 2020 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1321,8 +1321,14 @@ chapters/references.tex
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
-Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: 3AF9B446E8ED2BFFA385BAD29F8DD7C9;3559.
+
+Package rerunfilecheck Warning: File `RASD.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `RASD.out':
+(rerunfilecheck)             Before: 3AF9B446E8ED2BFFA385BAD29F8DD7C9;3559
+(rerunfilecheck)             After:  49AECA9156CCCE426BA06A75E3354D8B;3549.
 
 LaTeX Warning: There were undefined references.
 
@@ -1358,7 +1364,7 @@ f-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020/texmf-dist/fon
 ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
 tti10.pfb>
-Output written on RASD.pdf (62 pages, 3849860 bytes).
+Output written on RASD.pdf (62 pages, 3849784 bytes).
 PDF statistics:
  1290 PDF objects out of 1440 (max. 8388607)
  1108 compressed objects within 12 object streams
