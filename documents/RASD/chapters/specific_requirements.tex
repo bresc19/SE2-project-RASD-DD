@@ -27,16 +27,16 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 
 \begin{figure}[H]
   \centering
-  \subfloat[Page 1.]{\includegraphics[scale=0.288]{images/mockup/reg1.png}\label{fig:f1}}
+  \subfloat[Page 1.]{\includegraphics[scale=0.35]{images/mockup/reg1.png}\label{fig:f1}}
   \hfill
-  \subfloat[Page 2]{\includegraphics[scale=0.32]{images/mockup/reg2.png}\label{fig:f2}}
+  \subfloat[Page 2]{\includegraphics[scale=0.35]{images/mockup/reg2.png}\label{fig:f2}}
   \caption{Registration: Users not registered can register himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
 \end{figure}
 \begin{figure}[H]
  
   \label{fig:Home}
   \centering
-  \includegraphics[scale=0.30]{images/mockup/home1.png}
+  \includegraphics[scale=0.35]{images/mockup/home1.png}
    \caption{Home: Homepage of CLup from which the User can select to book a Visit or a Reservation.}
 
 \end{figure}
@@ -250,8 +250,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D4] The Smart User have to be connected to Internet through Wi-Fi/Cellular network
     \item[D5] The Mobile User have to be connected to his own mobile operator
     \item[D6] A Visit is associated to a Date and a period of time (start/end time); 
-    \item[D7] A booking is associated to one and only one QRCode; 
-    \item[D14] Smart User must be recognized at the entrance by an employee by his identity document;   
+    \item[D7] A booking is associated to one and only one QRCode;  
     \end{description}
     
     \item[G2]Put a limit to the number of Users in the market.
@@ -307,12 +306,12 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R14] User must choose the size of his grocery shopping between small, medium and large;
     \item[R17] The Mobile User can call the Receptionist; 
     \item[R21] Receptionist must be logged in;
+    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
     \item[D3] The system handles the threshold number of Users allowed in the market;
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
     \item[D11] The time of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
-    \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
-    \item[D14] Smart User must be recognized at the entrance by an employee by his identity document;    
+    \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time;     
     \end{description}
     
     \item[G6]Mobile User can make a Visit.
@@ -325,12 +324,12 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R16] The User must select a start and end time available;
     \item[R17] The Mobile User can call the Receptionist; 
     \item[R21] Receptionist must be logged in;
+    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
     \item[D3] The system handles the threshold number of Users allowed in the market;  
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
     \item[D11] The time of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
-    \item[D14] Smart User have to be recognized at the entrance;
     \end{description}
     
     \item[G7]Smart User can cancel a Booking.
@@ -350,6 +349,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R17] The Mobile User can call the Receptionist;  
     \item[R19 or R20] User must have an activated Visit/Reservation not yet submitted;
     \item[R21] Receptionist must be logged in;
+    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
     \item[D3] The system handles the threshold number of Users allowed in the market;
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
@@ -383,6 +383,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R19] User must have an activated Visit not yet submitted; 
     \item[R20] User must have an activated Reservation not yet submitted;  
     \item[R21] Receptionist must be logged in;
+    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
 \end{description}
 
 
@@ -1061,7 +1062,11 @@ So it's necessary that the market's provide the maximum number of Users allowed 
 \item GPS: it's used to allow user to estimate the time spending to reach the market in time. But it's not mandatory for booking;
 \end{itemize}
 \subsection{Any other constraint}
-There are no other constraint.
+
+\textbf{Mobile User telephone number}. Every Smart User in the system provides at the registration many data but only one will be subject to a constraint: the telephone number. Indeed, the system memorize it, being for him the unique allowed to call the Receptionist for managing his booking. \par
+The respective recognition made for a Smart User are their credential (e-mail and password).
+
+
 \bigskip
 \par
 \section{Software System Attributes}

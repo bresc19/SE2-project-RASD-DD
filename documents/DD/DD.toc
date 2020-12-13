@@ -15,16 +15,16 @@
 \contentsline {subsection}{\numberline {2.2.1}Application layer}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Client's layers: CLup and CLup Operator}{9}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Data Layer}{9}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Deployment view}{11}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Runtime view}{12}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Login and registration}{13}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Booking, delay and cancellation}{14}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Enter and Exit from the market}{16}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Receptionist}{17}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Notifications}{18}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Component interfaces}{19}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Selected architectural styles and patterns}{21}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Other design decisions}{21}{section.2.7}%
+\contentsline {section}{\numberline {2.3}Deployment view}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Runtime view}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Login and registration}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Booking, delay and cancellation}{13}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Enter and Exit from the market}{15}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Receptionist}{16}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Notifications}{17}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Component interfaces}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Selected architectural styles and patterns}{20}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Other design decisions}{20}{section.2.7}%
 \contentsline {chapter}{\numberline {3}User Interface Design}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Mobile Interface: CLup}{24}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Desktop Interface: CLup Operator}{30}{section.3.2}%
