@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  13 DEC 2020 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  13 DEC 2020 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,7 +667,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...ne {3.3.2}Reception}{39}{subsection.3.3.2}
+l.35 ...ne {3.3.2}Reception}{37}{subsection.3.3.2}
                                                   % [1
 
 ])
@@ -1165,7 +1165,7 @@ Overfull \hbox (1.95822pt too wide) in paragraph at lines 22--23
  []
 
 
-Underfull \vbox (badness 10000) detected at line 36
+Underfull \vbox (badness 10000) detected at line 35
  []
 
 ) [61
@@ -1357,7 +1357,7 @@ f-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020/texmf-dist/fon
 ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
 tti10.pfb>
-Output written on RASD.pdf (63 pages, 11533751 bytes).
+Output written on RASD.pdf (63 pages, 11533654 bytes).
 PDF statistics:
  1294 PDF objects out of 1440 (max. 8388607)
  1111 compressed objects within 12 object streams
