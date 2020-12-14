@@ -1,7 +1,8 @@
 \section{Purpose}
 \subsection{General Purpose}
 
-The main scope of this document is to define requirements for the application development, in order to make a correct project planification. 
+The main scope of this document is to define requirements for the application development, in order to make a correct project planification.
+\par
 To do this, we will analyze:
 
 \begin{itemize}
@@ -22,13 +23,19 @@ This fact obliged people to stay for a long time standing up and waiting their t
 
 \subsection{Goals}
 
+This are the goals 
 
-\begin{itemize}
-    \item An User can access to the market;
-    \item Put a limit to the number of Users in the market;
-    \item User can use his smartphone / mobilephone;
-    \item User can leave his accomodation to reach the market; [TODOOOOOO]
-\end{itemize}
+\begin{description}
+    \item[G1]User enters once arrived at the market.
+    \item[G2]Put a limit to the number of Users in the market.
+    \item[G3]Smart User can make a Reservation.
+    \item[G4]Smart User can make a Visit.
+    \item[G5]Mobile User can make a Reservation.
+    \item[G6]Mobile User can make a Visit.
+    \item[G7]Smart User can cancel a Booking.
+    \item[G8]Mobile User can cancel a Booking.
+\end{description}
+
 
  
 \section{Scope}
@@ -62,10 +69,8 @@ The main \textit{World Phenomena} are:
 \item limit number of Users in the market;
 \item User can book his appointment for grocery shopping;
 \item User use his mobilephone / smartphone;
-\item respecting social distance;
 \end{itemize}
 
-In our application we are going to focus on this World Phenomena excepting for the last one. //TODOOO
 
 \subsection{Machine}
 It represents the portion of system to be developed.
@@ -80,7 +85,6 @@ The main \textit{Machine Phenomena} are:
 In this model it needs a common interface to link World and Machine which is composed by the Shared phenomena. \\
 Graphically is represent by an intersection between the World and the Machine. In this way World and Machine phenomena are observed from each other.  
 The main application Shared Phenomena are the following:
-
 \begin{itemize}
 \item Notifications;
 \item sign in / sign up;
@@ -88,23 +92,16 @@ The main application Shared Phenomena are the following:
 \item QRCode submission;
 \item appointment request;
 \end{itemize}
-
 \begin{figure}[H]
   \caption{World and Machine rapresentation}
   \label{fig:Reservation}
   \centering
   \includegraphics[scale = 0.38]{diagrams/VENN.png}
 \end{figure}
-
-
+\pagebreak
 \section{Definitions, Acronyms, Abbreviations}
 \subsection{Definitions}
-
 \begin{itemize}
-
-\item \textbf{Mobilephone}: elettronic device without CLup app;
-\item \textbf{Smartphone}: elettronic device with Clup app; 
-\item \textbf{CLup}: it's the mobile application used by Smart Users to make and manage bookings in order to go grocery shopping;
 \item \textbf{User}: Generic customer who plan to shop in the market. He could be a Smart or Mobile User;
 \item \textbf{Smart User}: User who has got a smartphone with CLup app. He's able to manage bookings by himself;
 \item \textbf{Mobile User}: User who hasn't got a smartphone (only mobilephone) and so he's not able to manage Booking by himself. A Mobile User allows a Receptionist to manage his booking by calling a telephone number by interacting with him;
@@ -113,17 +110,15 @@ The main application Shared Phenomena are the following:
 \item \textbf{Booking}: it indicates the generic appointment of a User in the market. It could be a Reservation or a Visit;
 \item \textbf{Reservation}: it's a type of booking. Users simply book a seat at the market's queue. In addition User have to indicate the Shopping Size; 
 \item \textbf{Visit}: it's a Booking planned in advance by Users. It is planned by putting the date and the range time in which the User is going grocery shopping. In addition User have to indicate the Shopping Size; 
-\item \textbf{Reader}: it reads QRCode at the market's entrance. It allows User to go in / out ;
+\item \textbf{Reader}: it reads QRCode at the market's entrance. It allows User to go in / out;
 \item \textbf{Booking submitted}: it means that the QRCode related to it is already submitted in the Reader;
 \item \textbf{Visit activated}: it's a Visit which already booked but not yet submitted by the User;
 \item \textbf{Reservation activated}: it's a Reservation which already booked but not yet submitted by the User;
-\item \textbf{Waiting Time}: it's the time estimated by the system in which, by prevision, an User waits before he enters in the market;
-\item \textbf{Shopping Time}: it's the time needed by a User to complete his own grocery shopping;
-\item \textbf{Closure Time}: it's the range time in which the market is closed;
-\item \textbf{Timestamp}: a digital record of the time of occurrence of a particular event.
-
+\item \textbf{Timestamp}: a digital record of the time of occurrence of a particular event;
+\item\textbf{Mirroring}: Mirroring is a technique to allow server to automatically maintain a dual backup of the system;
 \end{itemize}
 
+\pagebreak
 
 \begin{itemize}
 \subsection{Acronyms}
@@ -164,9 +159,9 @@ This document is strictly based on:
 Mainly the current document is divided in 4 chapters, which are:
 \begin{itemize}
 \item[1]\textbf{Introduction}: it aims to describe the environment and the demands taken into account for this project. In particular it's focused on the reasons and the goals that are going to be achieved with its development;
-\item[2]\textbf{Overall Description}: it's a high-level description of the system by focusing on the shared phenomena and the domain model (with its assumption). 
+\item[2]\textbf{Overall Description}: it's a high-level description of the system by focusing on the shared phenomena and the domain model (with its assumption); 
 \item[3]\textbf{Specific Requirements}: it describes in very detail the requirements needed to reach the goals. In addition it contains more details useful for developers (i.e information about HW and SW interfaces);
-\item[4]\textbf{Formal Analysis}: this section contains a formal description of the main aspect of the World phenomena by using Alloy. 
+\item[4]\textbf{Formal Analysis}: this section contains a formal description of the main aspect of the World phenomena by using Alloy;
 \item[5]\textbf{Effort Spent}: it shows the time spent to realize this document, divided for each section;
 \item[6]\textbf{References}: it contains the references to any documents and to the Softwares used in this document.
 \end{itemize}

@@ -30,7 +30,7 @@ Moreover, it's possible to book a visit choosing the date and the schedule in ad
 The timetable will be splitted into 30 minutes slots, and customers will choose which they want among the free ones. \par
 For each Visit an User can occupy at most 3 slots consecutively.
 In addition each market will provide customer, who don't have the application or even a smartphone, a toll-free number in order to make an appointment.
-This would be easy-manageble because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option. 
+This would be easy-manageble because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option.\\
 At the beginning, the user will be sign up for booking: so the receptionist will ask the required data from him and will create a customer profile in the system.
 The user can also manage (either \textit{delete} or \textit{postpone}), in a later moment, his reservation by calling the same number of the registration.
 \\
@@ -137,12 +137,11 @@ One of the possible information asked could be the shopping duration. This will 
 We distinguish the actors into our application based on actions and interactions with the external world:
 
 \begin{itemize}
-\item \textit{User}: he’s a client who has signed in the system and he can book a visit or take his queue number.
-\item \textit{User in Queue}: he’s a User who has taken his own turn in queue and he’s waiting for the system notification
-\item \textit{User visiting}: he’s a User who has booked a visit and he’s still waiting for entering into the supermarket.
-\item \textit{User in market}: he’s a client who has taken his own queue ticket or he has booked a visit. After that he is arrived at the supermarket, he has scanned the QR code and he has entered into the shop.
+\item\textbf{Mobile User}: She/He's a User that hasn't a phone able to running CLup. The user will interface with receptionist to registers and manages the own bookings;
+\item\textbf{Smart User}: She/He's a User that has downloaded the CLup and uses it to manages the own bookings;
+\item\textbf{Receptionist} : A Market employee that receive the Mobile Users calls and help them to manages their bookings and account settings;
+\item\textbf{Security}: A Market employee, located at the entrance that thanks to business phone will manage the access to supermarket checking the clients QR Code.
 \end{itemize}
-
 
 \section{Assumptions, dependencies and constraints}
 \begin{description}
