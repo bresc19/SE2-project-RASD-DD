@@ -14,22 +14,26 @@ In addition Users have to indicate how long the shopping time will be, putting p
 \\
 The application analyses the customers’ statistics and computes the average shopping time.
 The calculation considers the time range between the moments in which the User goes in and out.  
+In this way, the system will schedule for each User \textit{2 timestamp} by 2 notifications:
+\begin{itemize}
+\item the moment in which the User, from his position, have to leave to reach the market;
+\item the moment in which the User is estimeted to enter in the market;
+\end{itemize}
+
+
+
 In this way, the other customers in queue will be notified as soon as it's the right time to leave and reach the market in time due to the queue's congestion and his position.  
 
 \par
-Moreover, it's possible to book a visit choosing the date and the schedule in advance choosing the \textbf{Visit} option. 
+Moreover, it's possible to book a visit choosing the date and the schedule in advance in the \textbf{Visit} option. 
 \\
 The timetable will be splitted into 30 minutes slots, and customers will choose which they want among the free ones. \par
-
+For each Visit an User can occupy at most 3 slots consecutively.
 In addition each market will provide customer, who don't have the application or even a smartphone, a toll-free number in order to make an appointment.
-%book a visit or reserve a seat in a virtual queue 
-This would be easy-manageble because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option. %as clients' necessary. 
+This would be easy-manageble because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option. 
 At the beginning, the user will be sign up for booking: so the receptionist will ask the required data from him and will create a customer profile in the system.
-
 The user can also manage (either \textit{delete} or \textit{postpone}), in a later moment, his reservation by calling the same number of the registration.
-
-
-
+\\
 An \textbf{SMS} will provide:
 \begin{itemize}
 \item the time in which he have to access to the market;
@@ -57,11 +61,11 @@ In the UML diagram below will be list the main classes in order to understand ho
 \medskip
 As we can see from the class diagram in figure~\ref{fig:UML}, the User can book once or a Visit or a Reservation.
 In both cases will be provide him a QRcode, which will be submitted to enter in the market. 
-If the the User decided to undo his Reservation in the queue could do it by making a cancellation from the application. 
+If the User decided to undo his Reservation in the queue could do it by making a cancellation from the application. 
 \par
 \medskip
 
-In addition the system will notice to Smart User through a notification  when it's almost his turn.
+In addition, the system will notice to Smart User through a notification  when it's almost his turn.
 
 Now we will analyze the interaction between the User and the system, in order to understand possible criticities.
 \par 
@@ -77,7 +81,7 @@ Now we will analyze the interaction between the User and the system, in order to
 \par 
 \medskip
 
-In the first state diagram (figure~\ref{fig:Reservation}) it can be osserved how a generic User can make a reservation thorugh the system. It's sufficient making this action to be added in queue to enter in the market.
+In the first state diagram (figure~\ref{fig:Reservation}) it can be osserved how a generic User can make a reservation through the system. It's sufficient making this action to be added in queue to enter in the market.
 \\If something goes wrong the User will be redirect to the initial state.
 \\Usually the system reject the request if the market is next to closure (or for logistic problem).
 
@@ -109,17 +113,17 @@ It will also have to decide whether to accept or refuse an appointment, dependin
 
 
 
-To anticipated the unexpected, the system will use a grace.
+To anticipated the unexpected, the system will use a tolerance.
 Let us assume that the maximum number of Users into the market is 100. Well, the system will provide only 90 users.
 \\
 The remaining 10 will be used only for emergency or in the time period in which the customer will enter or exit from the market.
-This grace will be a usefull resource for the system because it can manage non-deterministic event, like user's shopping time.
+This tolerance will be a useful resource for the system because it can manage non-deterministic event, like user's shopping time.
 \\%, which is a stochastic prediction.
 The system will determine the average shopping time according to the information who the user enter during his booking.
 \par
 In particular accuracy of the computation depends on the quality of User's data.
 In this way, when the shopping time will be near to the average shopping time, the system will notice the first user in queue to reach the supermarket.  
-Our goal is to monitor the User's influx and to keep it under critical boundary (more or less 95\%). Therefore this could be possibile by flowing slowly the virtual queue.
+Our goal is to monitor the User's influx and to keep it under critical boundary (more or less 95\%). Therefore this could be possibile by slowing down the virtual queue.
 \par
 \subsection{Data Collection}
 The \textit{Data Collection} is essential for the correct regulation of users' flow, because it will have to provide precise dates according to client’s information. 
@@ -127,7 +131,7 @@ Therefore, the system will have to ask clients precise information according to 
 \\
 In order to achieve this goal, it needs to oblige the user to register himself in the system and to check the item to allow the processing of his personal data, necessary to reserve virtually the seat in the queue.
 \\
-One of the possible information asked could be the duration of the expenses. This will be used, with the entry time, to track the number of user inside the market who is finishing. Then, will be possibile to notify in advance users in queue about the closeness of their turn.
+One of the possible information asked could be the shopping duration. This will be used, with the entry time, to track the number of user inside the market who is finishing. Then, will be possibile to notify in advance users in queue about the closeness of their turn.
 
 \section{User characteristics}
 We distinguish the actors into our application based on actions and interactions with the external world:
@@ -141,7 +145,6 @@ We distinguish the actors into our application based on actions and interactions
 
 
 \section{Assumptions, dependencies and constraints}
-\subsection{Assumptions}
 \begin{description}
     \item[D1] The system can delete the Reservation when the Smart User accumulates a delay to reach the market greater than 10 minutes; 
     \item[D2] The system can delete the Reservation the Mobile User accumulates a delay to reach the market greater than 15 minutes; 
@@ -154,7 +157,7 @@ We distinguish the actors into our application based on actions and interactions
     \item[D9] User must have one and only one Reservation activated;
     \item[D10] A Booking belongs to one and only one User;
     \item[D11] The time  of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
-    \item[D12] In each Date and Slot Time must contain at most N ;
+    \item[D12] Each Date and Slot Time must contain at most N threshold value depended on the market's area;
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time;
 \end{description}
 

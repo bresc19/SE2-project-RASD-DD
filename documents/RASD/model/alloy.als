@@ -266,6 +266,7 @@ fact userInShop{
 all u :  Market.userInShop  | one q : QRCode | q in ( u.hasVisit.ID_code + u.hasReservation.ID_code) and q.isSubmitted = True and q.isValid = True 
 }
 
+// Condition for a User to be in the Market
 fact userInShop2 
 {
 no u: (User - Market.userInShop) | one q : QRCode |   q in ( u.hasVisit.ID_code + u.hasReservation.ID_code) and q.isSubmitted = True and q.isValid = True 
@@ -283,23 +284,25 @@ fact smartUserCanOwnPosition
 all p : Position | one su : SmartUser |  p in su.hasPosition
 }
 
-
+//The market is open from Monday to Frida and from 8 A.M to 8 P.M
 fact openMarket
 {
 Market.state = "Opened" <=> (Date.day in ("Monday"+"Tuesday"+"Wednesday"+"Thursday"+"Friday") and Date.time.hours > 8 and Date.time.hours < 20 )
 }
 
+//Otherwise che Market is close
 fact closeMarket
 {
 not Market.state ="Opened" implies Market.state ="Closed"
 }
 
+//Telephone number unique for every user
 fact uniqNumber 
 {
 all pn : phoneNum | one mb : MobileUser |  pn in mb.number
 }
 
-
+//Age constraint
 fact noUnderAge
 {
 all u : User | u.age > 18 and u.age < 100

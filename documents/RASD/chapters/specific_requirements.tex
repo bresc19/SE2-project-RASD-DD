@@ -15,7 +15,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
   \caption{Market selection: After the login, the user have to select in which market wants to go shopping, due to his position.}
   \label{fig:Login}
   \centering
- \includegraphics[scale=0.35]{images/mockup/select2.png}
+ \includegraphics[scale=0.31]{images/mockup/select2.png}
 
 \end{figure}
 
@@ -27,18 +27,18 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 
 \begin{figure}[H]
   \centering
-  \subfloat[Page 1.]{\includegraphics[scale=0.35]{images/mockup/reg1.png}\label{fig:f1}}
+  \subfloat[Page 1.]{\includegraphics[scale=0.30]{images/mockup/reg1.png}\label{fig:f1}}
   \hfill
-  \subfloat[Page 2]{\includegraphics[scale=0.35]{images/mockup/reg2.png}\label{fig:f2}}
-  \caption{Registration: Users not registered can register himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
+  \subfloat[Page 2]{\includegraphics[scale=0.30]{images/mockup/reg2.png}\label{fig:f2}}
+  \caption{Registration: Users not registered can sig n up himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
 \end{figure}
 \begin{figure}[H]
- 
+ \caption{Home: Homepage of CLup from which the User can select to book a Visit or a Reservation.}
+
   \label{fig:Home}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/home1.png}
-   \caption{Home: Homepage of CLup from which the User can select to book a Visit or a Reservation.}
-
+  \includegraphics[scale=0.]{images/mockup/home1.png}
+   
 \end{figure}
 \begin{figure}[H]
      \begin{center}
@@ -145,7 +145,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 \pagebreak
 
 \subsection{Receptionist Interfaces (CLup Operator)}
-\textbf{CLup Operator}, the desktop app, is introduced to give Users who has no Smartphone the possibility to book an appointment at the market. Mobile Users have to call a Receptionist through a customer service number. The Receptionist so aims to interact between the User and the system in order to manage his appointment, acting like a proxy. 
+\textbf{CLup Operator}, the desktop app, is introduced to give Users who has no Smartphone the possibility to book an appointment at the market. Mobile Users have to call a Receptionist through a customer service number. The Receptionist so aims to interact between the User and the system in order to manage his appointment, acting like an intermediary. 
 Even this application must be simple, in order to allow Receptionist to interact with Mobile User in a proper and effective way.
 The following mockups show the main operation allowed by Receptionist through his application to manage Booking of the Mobile Users.
 \begin{figure}[H]
@@ -160,15 +160,15 @@ The following mockups show the main operation allowed by Receptionist through hi
   \caption{Receptionist can register a new Mobile User or select a new one if it's already registered.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/LOGREG.png}
+  \includegraphics[scale=0.32]{images/mockup/LOGREG.png}
 
 \end{figure}
 
 \begin{figure}[H]
-  \caption{Receptionist selects the Mobile User if he's already registered.}
+  \caption{Receptionist selects the Mobile User already registered.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/Select_User.png}
+  \includegraphics[scale=0.32]{images/mockup/Select_User.png}
 
 \end{figure}
 
@@ -176,33 +176,33 @@ The following mockups show the main operation allowed by Receptionist through hi
   \caption{Receptionist can manage Mobile User's Booking.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/Home_Rec.png}
+  \includegraphics[scale=0.32]{images/mockup/Home_Rec.png}
 
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
   \caption{Receptionist selects the grocery shopping size told by Mobile User.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/Size_Rec.png}
+  \includegraphics[scale=0.31]{images/mockup/Size_Rec.png}
 
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
   \caption{Receptionist inserts visit information told by Mobile User.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/info_visit_rec.png}
+  \includegraphics[scale=0.31]{images/mockup/info_visit_rec.png}
 
 \end{figure}
 
 \begin{figure}[H]
-  \caption{Booking made by Recpetionist is finished.}
+  \caption{Booking made by Receptionist is finished.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.35]{images/mockup/Done_Rec.png}
+  \includegraphics[scale=0.32]{images/mockup/Done_Rec.png}
 
 \end{figure}
 \par
@@ -216,7 +216,7 @@ The supermarket will have two scanners in order to validate the reservation:
 \item	One at the entry, that will read QR code and will confirm client reservations in case they will be valid. \\
 The scanner will reject reservation if QR code will result invalid or will have passed to much time from its call.
 \item One at the exit, that when clients will finish shopping allow them to exit to supermarket opening the doors. \\
-Another features of exit QR code is to monitor the numbers of client into the shop.
+Another usage of exit QR code is to monitor the numbers of client into the shop.
 \end{itemize} 
 \par \medskip 
 The scanners will be used to obtain information about client shopping time
@@ -239,7 +239,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     
     \begin{description}
     \item[R1] Smart User can receive the first notification to reach the market; 
-    \item[R2] Mobile User can receive a SMS with  to reach the market;   %-- 
+    \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R3] The system provide the time estimation to reach the market;
     \item[R4] The User chooses the start and end time of the Visit;
     \item[R5] The User can postpone his turn by 10 turns;
@@ -257,8 +257,8 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     
     \begin{description}
     \item[R4] The User chooses the start and end time of the Visit;
-    \item[R6] The system allows the User to enter/exit from the market with the QRCode subimission; 
-    \item[R7] The system store the enter/exit time from the market after the QRCode subimission; 
+    \item[R6] The system allows the User to enter/exit from the market with the QRCode submission; 
+    \item[R7] The system store the enter/exit time from the market after the QRCode submission; 
     \item[D3] The system handles the threshold number of Users allowed in the market;
     \end{description}
     
@@ -293,13 +293,13 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D8] User must have one and only one Visit activated;
     \item[D10] A booking belongs to one and only one User;
     \item[D11] The time of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
-    \item[D12] In each Date and Slot Time must contain at most N Visits;
+    \item[D12] Each Date and Slot Time must contain at most N threshold value depended on the market's area;
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
     \end{description}
     
     \item[G5]Mobile User can make a Reservation.
     \begin{description}
-    \item[R2] Mobile User can receive a SMS with  to reach the market;   %-- 
+    \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R8] The system provides the number Users in queue; %--
     \item[R12] The Mobile User must be registered; %--
     \item[R13] The Mobile User provide personal data to the Receptionist; %--
@@ -316,7 +316,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     
     \item[G6]Mobile User can make a Visit.
     \begin{description}
-    \item[R2] Mobile User can receive a SMS with  to reach the market;   %-- 
+    \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R12] The Mobile User must be registered; %--
     \item[R13] The Mobile User provide personal data to the Receptionist; %--
     \item[R14] User must choose the size of his grocery shopping between small, medium and large;
@@ -329,6 +329,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
     \item[D11] The time of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
+    \item[D12] Each Date and Slot Time must contain at most N threshold value depended on the market's area;
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
     \end{description}
     
@@ -363,12 +364,12 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
 {\normalsize \textbf{Requirements}}
 \begin{description}
     \item[R1] Smart User can receive the first notification to reach the market; 
-    \item[R2] Mobile User can receive a SMS to reach the market;   %-- 
+    \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R3] Smart User can receive the second notification because is his turn;  
     \item[R4] The User chooses the start and end time of the Visit;
     \item[R5] The User can postpone his turn by 10 turns;
-    \item[R6] The system allows the User to enter/exit from the market with the QRCode subimission; 
-    \item[R7] The system store the enter/exit time from the market after the QRCode subimission; 
+    \item[R6] The system allows the User to enter/exit from the market with the QRCode submission; 
+    \item[R7] The system store the enter/exit time from the market after the QRCode submission; 
     \item[R8] The system provides the number Users in queue; %--
     \item[R9] Google Maps APIs provides the estimation time to reach the market; 
     \item[R10] The Smart User must be registered;
@@ -386,14 +387,10 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R22] Mobile User must call the Receptionist with his personal telephone number;
 \end{description}
 
-
-
- \pagebreak
-
-
+\pagebreak
 
 \section{Use Case}
-
+\par
 \subsection{User}
 {\normalsize \textbf{Scenario 1}}
 Giovanna, a career woman who is always in trouble to find free time, needs to go grocery shopping for her family. 
@@ -413,12 +410,12 @@ At the end Jonhathan will go shopping without waiting on feet his turn during a 
 
 
 
-\begin{figure}[h]
-	\caption{Use case USER}
+\begin{figure}[H]
+	\caption{Use case of the Smart User.}
 	\label{fig:UML2}
 	
 	\centering
-	\includegraphics[width=1\textwidth, height=1\textwidth]{diagrams/UseCaseUser.png}
+	\includegraphics[scale=0.5]{diagrams/UseCaseUser.png}
 	
 \end{figure}
 
@@ -426,29 +423,30 @@ At the end Jonhathan will go shopping without waiting on feet his turn during a 
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 \hline
-Name & Login \\
+Name & \textbf{Login} \\
 \hline
-Actor & User \\
+Actor & \textbf{Smart User} \\
 \hline
 Entry condition &
 \begin{itemize}
-\item The user has register
-\item The user opened the application
+\item User is already registered with his credential. 
+\item User open the application.
 \end{itemize} \\
 \hline
 Events flow & 
 \begin{itemize}
-	\item The user open the application
-	\item Enters username and password
-	\item Click “Login button”
+	\item User open the application.
+	\item The fields of username and password are filled by the User. 
+	\item User send thr request to the system by clicking "Login".
 \end{itemize} \\
 \hline
-Exit condition & User log in \\
+Exit condition & User is logged in and the homepage of CLup is provided \\
 \hline 
 Exceptions &
 \begin{itemize}
-	\item User enters wrong username
-	\item User enters wrong password
+	\item Username inserted by the User is not registered in the system yet.
+	\item Password inserted by the User is wrong.
+    \item Communication with the Server is unavaialable.
 \end{itemize} \\
 \hline
 \end{tabular}
@@ -457,32 +455,35 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Sign up \\
+	Name & \textbf{Sign up} \\
 	\hline
-	Actor & User \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item User enters for the first time on the app 
-		\item The user hasn’t registered
+		\item User open the application.
+        \item User is not registered with his credential yet. 
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user selects “Create new account” option
-		\item The user enters required fields
-		\item The user accepts CLup privacy policy
-		\item The user clicks “Register” button
+		\item User selects “Create new account”.
+		\item The fields of sensitive data, username and password are filled by the User.
+		\item User accepts CLup privacy policy by checking its box.
+		\item User clicks on "Register" button to send to the Server his request to be registered.
 	\end{itemize} \\
 	\hline
-	Exit condition & The users is registered \\
+	Exit condition & \begin{itemize} 
+    \item User is registered and already logged in. 
+    \item CLup provides a page where User will select his market.
+    \end{itemize}\\
 	\hline 
 	Exceptions &
 	\begin{itemize}
-		\item The users has already been registered
-		\item The user did not accept CLup privacy policy
-		\item The user enters username that has already been used
-		\item The user enters prohibited characters
+		\item Username inserted by the User is already registered in the system.
+		\item Userser did not accept CLup privacy policy.
+		\item User has inserted forbidden characters in one or more fields.
+        \item Communication with the Server is unavaialable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
@@ -491,28 +492,36 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Book a visit \\
+	Name & \textbf{Book a Visit} \\
 	\hline
-	Actor & User \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in 
+		\item User has already logged in CLup with his credential.  
+		\item User hasn't a Visit not yet submitted. 
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user click on Home Page
-		\item Click on “Book a visit” button
-		\item Select the visit date
-		\item Select the visit time
-		\item Insert shopping size
-		\item Click on “Next” button
+		\item User clicks on "Homepage" option.
+		\item User clicks “Book a visit” button.
+		\item User selects the date and the time in which want to schedule the Visit.
+		\item User chooses the shopping size of his grocery shopping.
+		\item User confirms and sends the request to the Server by clicking "Next". 
 	\end{itemize} \\
 	\hline
-	Exit condition & The user book a visit \\
+	Exit condition & 	
+    \begin{itemize}
+    \item The user has booked his Visit.
+    \item QRCode associated to the Visit is provided to the User. 
+    \end{itemize}
+ \\
 	\hline 
-	Exceptions & \\
+	Exceptions & \begin{itemize}
+		\item The time table choosen by the User is unavailable or already full.
+        \item Communication with the Server is unavaialable.
+	\end{itemize}  \\ 
 	\hline
 \end{tabular}
 
@@ -520,29 +529,34 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Take reservation \\
+	Name & \textbf{Take Reservation} \\
 	\hline
-	Actor & User \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in 
+		\item User has already logged in CLup with his credential. 
+		\item User hasn't a Reservation not yet submitted. 
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user click on “Home Page” menù
-		\item Click on “Reserve a seat” button
-		\item Confirm the reservation
+		\item User clicks on "Homepage" option.
+		\item User clicks “Reserve a seat” button.
+		\item User confirms and sends the request to the Server by clicking "Yes".
 	\end{itemize} \\
 	\hline
 	Exit condition &
 	\begin{itemize}	
-		\item The user has been queued
-		\item The QR code has been associated with user 
+		\item User is inserted in the queue.
+		\item QRCode associated to the Reservation is provided to the User. 
 	\end{itemize} \\
 	\hline 
-	Exceptions & The shop is closed \\
+	Exceptions & \begin{itemize}
+    \item The market choosen is closed in the current moment of the request.
+    \item Communication with the Server is unavaialable.
+    \end{itemize}
+ \\
 	\hline
 \end{tabular}
 
@@ -550,31 +564,31 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Delete Visit \\
+	Name & \textbf{Delete Visit} \\
 	\hline
-	Actor & UserVisiting \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in
-		\item The user took a visit
+		\item User has already logged in CLup with his credential. 
+		\item User has already booked a Visit not yet submitted. 
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user clicks on “QR code” menù
-		\item The visits and reservation are listed
-		\item The user clicks on “Delete” button near the visit
-		\item The user confirms the cancellation
+		\item User clicks on “QRCode” menù.
+		\item Visit and Reservation booked are provided.
+		\item User clicks on “Delete” button of the Visit.
+		\item User send the cancellation request to the Server by confirming it with "Yes".
 	\end{itemize} \\
 	\hline
 	Exit condition &
 	\begin{itemize}	
-		\item The system delete user visit
-		\item The system make available date and time of user visit
+		\item The system deletes the User's Visit from his application.
+		\item The system release the seat occupied in the slot/slots selected by the User's Visit.
 	\end{itemize} \\
 	\hline 
-	Exceptions & \\
+	Exceptions & Communication with the Server is unavaialable. \\ 
 	\hline
 \end{tabular}
 
@@ -582,28 +596,31 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Delete reservation \\
+	Name & \textbf{Delete Reservation} \\
 	\hline
-	Actor & UserInQueue \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in
-		\item The user took a reservation
+		\item User has already logged in CLup with his credential. 
+		\item User has already booked a Reservation not yet submitted.
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user clicks on “QR code” menù
-		\item The visits and reservation are listed
-		\item The user clicks on “Delete” button near the reservation
-		\item The user confirms the cancellation
+		\item User clicks on “QRCode” menù.
+		\item Visit and Reservation booked are provided.
+		\item User clicks on “Delete” button of the Reservation.
+		\item User send the cancellation request to the Server by confirming it with "Yes".
 	\end{itemize} \\
 	\hline
 	Exit condition &
-	The system delete user reservation \\
+	\begin{itemize}	
+		\item The system deletes the User's Reservation from his application.
+		\item The system release the seat occupied in the queue by the User.
+	\end{itemize} \\
 	\hline 
-	Exceptions & \\
+	Exceptions & Communication with the Server is unavaialable.\\
 	\hline
 \end{tabular}
 
@@ -611,22 +628,22 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Delay reservation \\
+	Name & \textbf{Delay Reservation} \\
 	\hline
-	Actor & UserInQueue \\
+	Actor & \textbf{Smart User}\\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in
-		\item The user took a reservation
+		\item User has already logged in CLup with his credential. 
+		\item User has already booked a Reservation not yet submitted.
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user clicks on “QR code” menù
-		\item The visits and reservation are listed
-		\item The user clicks on “Delay” button near the reservation
-		\item The user confirms the delay
+		\item User clicks on “QRCode” menù.
+		\item Visit and Reservation booked are provided.
+		\item User clicks on “Delay” button of the Reservation.
+		\item User send the delay request to the Server by confirming it with "Yes", in order to go back in the queue by 10 seats.
 	\end{itemize} \\
 	\hline
 	Exit condition &
@@ -637,8 +654,9 @@ Exceptions &
 	\hline 
 	Exceptions & 
 	\begin{itemize}
-		\item The user queue is too small
-		\item The user delay function has already been used
+		\item Queue is too small for a delay.
+		\item Delay option was already used by the User for this Reservation.
+    	\item Communication with the Server is unavaialable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
@@ -647,18 +665,27 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Recap visit \\
+	Name & \textbf{Recap Visit} \\
 	\hline
-	Actor & User \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
-	The user has logged in \\
+    \begin{itemize}
+	    \item User has already logged in CLup with his credential. 
+		\item User has already booked a Visit not yet submitted.
+        \end{itemize}\\
 	\hline
-	Events flow & 
-	The user click on “history” menù \\
+	Events flow & \begin{itemize}
+	\item User clicks on “QRCode” menù.
+    \item User clicks on the QRCode of the Visit.
+    \end{itemize}\\
 	\hline
-	Exit condition &
-	The visits and reservation are listed \\
+	Exit condition & CLup provided:
+    \begin{itemize}
+    \item QRCOde;
+    \item startTime of the Visit;
+    \item endTime of the Visit;
+    \end{itemize}\\
 	\hline 
 	Exceptions & \\
 	\hline
@@ -668,21 +695,28 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Visualize own turn \\
+	Name & \textbf{Visualize turn in queue} \\
 	\hline
-	Actor & UserInQueue \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in
-		\item The user took a reservation
-	\end{itemize} \\
+	    \item User has already logged in CLup with his credential. 
+		\item User has already booked a Reservation not yet submitted.
+        \end{itemize}\\
 	\hline
 	Events flow & 
-	The user clicks on “history” menù \\
+	\begin{itemize}
+	\item User clicks on “QRCode” menù.
+    \item User clicks on the QRCode of the Reservation.
+    \end{itemize} \\
 	\hline
-	Exit condition &
-	The system show the user turn near the reservation QR code \\
+	Exit condition & CLup provided:
+    \begin{itemize}
+    \item QRCode;
+    \item Number of people ahead the User in the queue;
+    \item Time estimated to reach the market;
+    \end{itemize} \\
 	\hline 
 	Exceptions & \\
 	\hline
@@ -692,30 +726,30 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Update position  \\
+	Name & \textbf{Update position}  \\
 	\hline
-	Actor & UserInQueue \\
+	Actor & \textbf{Smart User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The user has logged in
-		\item The user took a reservation
-	\end{itemize} \\
+	    \item User has already logged in CLup with his credential. 
+		\item User has already booked a Reservation not yet submitted.
+        \end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The user clicks on “QR code” menù
-		\item The user clicks on “Update position”
+		\item User clicks on “QRCode” menù.
+        \item User clicks on the QRCode of the Reservation.
+        \item User clicks on "Update" botton.
 	\end{itemize} \\
 	\hline
 	Exit condition &
-	The system calculate the number of customers in queue after which will send the message  \\
+	The system, through Google Maps, provided the time estimated to reach the market depending on his position. \\
 	\hline 
 	Exceptions & 
 	\begin{itemize}
-		\item GPS position too far from supermarket
-		\item Invalid GPS position
-		\item GPS is inactive
+		\item The GPS position too far from market.
+		\item GPS is unavailable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
@@ -724,24 +758,22 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Choice market  \\
+	Name & \textbf{Market selection}  \\
 	\hline
-	Actor & User \\
+	Actor & \textbf{Smart User} \\
 	\hline
-	Entry condition &
-	User login for the first time on the app \\
+	Entry condition & User has already logged in CLup with his credential. \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item Select the supermarket
-		\item Click “Next” to confirm
+		\item User selects the market in which wants to go grocery shopping.
+		\item User confirms and sends his choice clicking on "Next". 
 	\end{itemize} \\
 	\hline
 	Exit condition &
-	The system calculate the number of customers in queue after which will send the message  \\
+	The homepage of CLup is provided.  \\
 	\hline 
-	Exceptions & 
-	The user is linked to supermarket \\
+	Exceptions & Communication with the Server is unavaialable.\\
 	\hline
 \end{tabular}
 
@@ -760,118 +792,132 @@ Exceptions &
  
  \par \medskip 
  
+ 
  \begin{figure}[h]
- 	\caption{Use case RECEPTION}
+ 	\caption{Use case of the Receptionist.}
  	\label{fig:UML}
  	
  	\centering
  	\includegraphics[width=1\textwidth, height=1\textwidth]{diagrams/UseCaseReception.png}
  	
  \end{figure}
- 
- \addvspace{1cm} 
- {\normalsize \textbf{Use cases}}
+
  \par \medskip
  
  \begin{tabular}{|p{5cm} | p{7cm} | }
  	\hline
- 	Name & Sign up user  \\
+ 	Name & \textbf{Sign up Mobile User}  \\
  	\hline
- 	Actor & Reception \\
+ 	Actor & \textbf{Reception, Mobile User} \\
  	\hline
  	Entry condition &
  	\begin{itemize}
- 		\item The receptionist has logged in 
- 		\item The user has not registered
+ 		\item Receptionist has already logged in CLup Operator. 
+ 		\item The Mobile User is not registered yet by a Receptionist.
+        \item Mobile User calls the Receptionist to register himself.
  	\end{itemize} \\
  	\hline
  	Events flow & 
  	\begin{itemize}
- 		\item The receptionist asks required information to do registration
- 		\item The receptionist fills the fields
- 		\item The receptionist confirms the registration
+ 		\item Receptionist asks Mobile user the required sensitive data.
+ 		\item Receptionist fills the fields of the registration request.
+ 		\item Receptionist confirm and send the registration to the Server.
  	\end{itemize} \\
  	\hline
  	Exit condition &
- 	The user has registered \\
+ 	The Mobile User is registered in the CLup system. \\
  	\hline 
  	Exceptions & 
  	\begin{itemize}
- 		\item The phone cuts out
- 		\item The user has already registered
+ 		\item The phone call was aborted.
  	\end{itemize} \\
  	\hline
  \end{tabular}
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Delete user visit  \\
+	Name & \textbf{Delete Mobile User Visit}  \\
 	\hline
-	Actor & Reception \\
+	Actor & \textbf{Reception, Mobile User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The receptionist has logged in 
-		\item The user wants delete a visit
+        \item Receptionist has already logged in CLup Operator. 
+ 		\item Mobile User is already registered by a Receptionist.
+		\item User has already booked a Visit not yet submitted. 
+        \item Mobile User calls the Receptionist to delete his Visit.
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The receptionist asks user information
-		\item The receptionist asks visit information
-		\item The receptionist checks the visit on the menù
-		\item Delete user visit clicking “delete” button
+		\item User provides his sensitive data to the Receptionist in order to be recognized by him. 
+        \item Receptionist selects the Mobile User once he find him in th system.
+		\item Receptionist has accessed to the booking's information of the Mobile User.
+		\item Receptionist sends the cancellation request to the Server by clicking the “delete” button near the Visit.
 	\end{itemize} \\
 	\hline
-	Exit condition &
-	The user visit is deleted\\
+	Exit condition & \begin{itemize}	
+		\item The system deletes the User's Visit from his application.
+		\item The system release the seat occupied in the slot/slots selected by the User's Visit.
+	\end{itemize}\\
 	\hline 
 	Exceptions & 
-	The user has not booked any visits \\
+	Communication with the Server is unavaialable. \\
 	\hline
 \end{tabular}
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Book user visit  \\
+	Name & \textbf{Book Mobile User Visit}  \\
 	\hline
-	Actor & Reception \\
+	Actor & \textbf{Reception, Mobile User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The receptionist has logged in 
-		\item The user must be registered
+		\item Receptionist has already logged in CLup Operator. 
+ 		\item Mobile User is already registered by a Receptionist.
+		\item User hasn't a Visit not yet submitted. 
+        \item Mobile User calls the Receptionist to book his Visit.
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The receptionist asks the credentials
-		\item The receptionist enters the credentials in the system to check registration
-		\item Click “select” button on user row
-		\item Click “book a visit” button 
-		\item The receptionist check free slot and agree with user date and time
-		\item Enter date,start time, end time
-		\item The receptionist confirms the visit
+		\item User provides his sensitive data to the Receptionist in order to be recognized by him. 
+        \item Receptionist selects the Mobile User once he find him in th system.
+		\item Receptionist has accessed to the booking's information of the Mobile User.
+        \item Recepetionist clicks on "Book" button near Visit.
+		\item Receptionist selects the date and the time in which Mobile User wants to schedule the Visit.
+		\item Receptionist chooses the shopping size of his grocery shopping.
+		\item Receptionist confirms and sends the request to the Server by clicking "Next".
 	\end{itemize} \\
 	\hline
-	Exit condition &
-	The user book a visit\\
+	Exit condition & \begin{itemize}
+	\item The user has booked his Visit
+    \item SMS is sent to the Mobile User with the string code and Visit schedule informations. 
+    \end{itemize}\\
 	\hline 
 	Exceptions & 
-	The phone cuts out \\
+	\begin{itemize}
+    \item The time table choosen by the Mobile User is unavailable or already full.
+    \item Communication with the Server is unavaialable.
+    \end{itemize} \\
 	\hline
 \end{tabular}
  
+ 
+ \begin{comment}
  \begin{tabular}{|p{5cm} | p{7cm} | }
  	\hline
- 	Name & Check user visit  \\
+ 	Name & Check Mobile Visit  \\
  	\hline
  	Actor & Reception \\
  	\hline
  	Entry condition &
  	\begin{itemize}
- 		\item The receptionist has logged in 
- 		\item The user must be registered
+ 		\item Receptionist has already logged in CLup Operator. 
+ 		\item Mobile User is already registered by a Receptionist.
+		\item User has a Visit not yet submitted. 
+        \item Mobile User calls the Receptionist to delete his Visit.
  	\end{itemize} \\
  	\hline
  	Events flow & 
@@ -891,7 +937,6 @@ Exceptions &
  	\hline
  \end{tabular}
 
-
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
 	Name & Check visit schedule \\
@@ -909,7 +954,10 @@ Exceptions &
 	\end{itemize} \\
 	\hline
 	Exit condition &
-	The system lists all date free slot \\
+	\begin{itemize}
+    \item Mobile User is inserted in the queue.
+    \item SMS is sent to the Mobile User with the string code and queue informations.
+    \end{itemize}\\
 	\hline 
 	Exceptions & \\
 	\hline
@@ -933,26 +981,28 @@ Exceptions &
 	Exceptions & The queue is empty \\
 	\hline
 \end{tabular}
+\end{comment}
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Take user reservation \\
+	Name & \textbf{Take Mobile User Reservation} \\
 	\hline
-	Actor & Reception \\
+	Actor & \textbf{Reception, Mobile User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The receptionist has logged in 
-		\item The user must be registered
+		\item Receptionist has already logged in CLup Operator. 
+ 		\item Mobile User is already registered by a Receptionist.
+		\item User hasn't a Reservation not yet submitted. 
+        \item Mobile User calls the Receptionist to delete his Reservation.
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The receptionist asks the credentials
-		\item The receptionist enters the credentials in the system to check registration
-		\item Click “select” button on user row
-		\item Click “reserve a sit” button 
-		\item The receptionist confirms the reservation
+        \item User provides his sensitive data to the Receptionist in order to be recognized by him. 
+        \item Receptionist selects the Mobile User once he find him in th system.
+		\item Receptionist has accessed to the booking's information of the Mobile User.
+        \item Receptionist sends the request to the Server by clicking on "book" button near Reservation.
 	\end{itemize} \\
 	\hline
 	Exit condition &
@@ -965,25 +1015,29 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Delete user reservation \\
+	Name & \textbf{Delete Mobile User Reservation} \\
 	\hline
-	Actor & Reception \\
+	Actor & \textbf{Reception, Mobile User} \\
 	\hline
 	Entry condition &
 	\begin{itemize}
-		\item The receptionist has logged in 
-		\item The user must be registered
+		\item Receptionist has already logged in CLup Operator. 
+ 		\item Mobile User is already registered by a Receptionist.
+		\item User has a Reservation not yet submitted. 
+        \item Mobile User calls the Receptionist to delete his Reservation.
 	\end{itemize} \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The receptionist asks user information
-		\item The receptionist checks the reservation on the menù
-		\item Delete user reservation clicking “delete” button
+		\item User provides his sensitive data to the Receptionist in order to be recognized by him. 
+        \item Receptionist selects the Mobile User once he find him in th system.
+		\item Receptionist has accessed to the booking's information of the Mobile User.
+        \item Receptionist sends the request to the Server by clicking on "delete" button near Reservation.
 	\end{itemize} \\
 	\hline
-	Exit condition &
-	The user reservation is deleted \\
+	Exit condition & \begin{itemize}
+	\item The system deletes the User’s Visit from his application.
+    \item The system release the seat occupied in the slot/slots selected by the Mobile User’s Visit. \end{itemize} \\
 	\hline 
 	Exceptions & 
 	The user has not booked any reservation \\
@@ -992,32 +1046,39 @@ Exceptions &
 
 \begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & Login reception account \\
+	Name & \textbf{Login Reception account} \\
 	\hline
-	Actor & Reception \\
+	Actor & \textbf{Reception} \\
 	\hline
 	Entry condition &
-	The receptionist open desktop app  \\
+	The receptionist opens CLup Operator on desktop device.  \\
 	\hline
 	Events flow & 
 	\begin{itemize}
-		\item The receptionist enter the credentials to log in 
-		\item Click on “Sign in” button
+		\item Receptionist fills his credentials.
+		\item Receptionist send the request to the Server to be authenticated and handle Mobile Users' booking by clicking "Login" button.
 	\end{itemize} \\
 	\hline
-	Exit condition &
-	The receptionist has logged in \\
+	Exit condition & \begin{itemize}
+	\item The receptionist has logged in CLup Operator.
+    \item CLup Operator provides the homepage where can handle bookings.
+    \end{itemize}
+    \\
 	\hline 
 	Exceptions & 
 	\begin{itemize}
-		\item Wrong password
-		\item Wrong username
+		\item Username inserted by the Receptionist is not registered in the system yet.
+	    \item Password inserted by the Receptionist is wrong.
+        \item Communication with the Server is unavaialable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
 
+\pagebreak
+
 \subsection{Sequence Diagrams}
-In this section are reported the main operation (Reservation and Visit) made by  Users to make an appointment in the market. Note that are attached request of User with a Smartphone. Requests for Mobile Users are the same, with a difference: the presence of the actor Receptionist, who acts as a proxy in order to manage the requests.
+In this section are reported the main operation (Reservation and Visit) made by  Users to make an appointment in the market.\\
+Note that are attached request of User with a Smartphone. Requests for Mobile Users are the same, with a difference: the presence of the actor Receptionist, who acts as a proxy in order to manage the requests.
 
 
 \begin{figure}[H]
@@ -1058,7 +1119,7 @@ So it's necessary that the market's provide the maximum number of Users allowed 
 \par
 \subsection{Hardware limitations}
 \begin{itemize}
-\item 2G/3G/4G/5G connection: they're essential due to server connection to compile booking request;
+\item 3G/4G/5G connection: they're essential due to server connection to compile booking request;
 \item GPS: it's used to allow user to estimate the time spending to reach the market in time. But it's not mandatory for booking;
 \end{itemize}
 \subsection{Any other constraint}
