@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  14 DEC 2020 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  14 DEC 2020 15:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -927,105 +927,105 @@ ugh Wi-Fi/Cellular
  []
 
 [30] [31]
-<diagrams/UseCaseUser.png, id=524, 924.45375pt x 854.19125pt>
+<diagrams/UseCaseUser.png, id=524, 948.54375pt x 854.19125pt>
 File: diagrams/UseCaseUser.png Graphic file (type png)
 <use diagrams/UseCaseUser.png>
-Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 418.
-(pdftex.def)             Requested size: 462.22574pt x 427.09459pt.
-
-Overfull \hbox (117.22574pt too wide) in paragraph at lines 418--419
- [][] 
- []
-
-[32]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 424--453
+Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 414.
+(pdftex.def)             Requested size: 474.2707pt x 427.09459pt.
+ [32]
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 420--449
 [][] 
  []
 
 [33 <./diagrams/UseCaseUser.png>]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 456--490
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 452--486
 [][] 
  []
 
 [34]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 493--527
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 489--523
 [][] 
  []
 
 [35]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 530--562
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 526--558
 [][] 
  []
 
 [36]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 565--594
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 561--590
 [][] 
  []
 
 [37]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 597--626
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 593--622
 [][] 
  []
 
 [38]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 629--663
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 625--659
 [][] 
  []
 
 [39]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 666--693
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 662--689
 [][] 
  []
 
 [40]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 696--724
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 692--720
 [][] 
  []
 
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 727--756
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 723--752
 [][] 
  []
 
 [41]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 759--779
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 755--775
 [][] 
  []
 
 [42]
-<diagrams/UseCaseReception.png, id=573, 843.15pt x 623.32875pt>
+<diagrams/UseCaseReception.png, id=573, 875.27pt x 623.32875pt>
 File: diagrams/UseCaseReception.png Graphic file (type png)
 <use diagrams/UseCaseReception.png>
-Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 801.
+Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 797.
 
-(pdftex.def)             Requested size: 344.999pt x 345.00043pt.
+(pdftex.def)             Requested size: 437.63393pt x 311.6636pt.
 
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 807--836
+Overfull \hbox (92.63393pt too wide) in paragraph at lines 797--798
+ [][] 
+ []
+
+
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 803--832
 [][] 
  []
 
 [43 <./diagrams/UseCaseReception.png>]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 837--868
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 833--864
 [][] 
  []
 
 [44]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 869--906
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 865--902
 [][] 
  []
 
 Excluding 'comment' comment. [45]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 986--1015
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 982--1011
 [][] 
  []
 
 [46]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 1016--1046
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 1012--1042
 [][] 
  []
 
 [47]
-Overfull \hbox (50.43306pt too wide) in paragraph at lines 1047--1076
+Overfull \hbox (50.43306pt too wide) in paragraph at lines 1043--1072
 [][] 
  []
 
@@ -1033,12 +1033,12 @@ Overfull \hbox (50.43306pt too wide) in paragraph at lines 1047--1076
 <diagrams/SD_visit.png, id=604, 453.695pt x 302.12875pt>
 File: diagrams/SD_visit.png Graphic file (type png)
 <use diagrams/SD_visit.png>
-Package pdftex.def Info: diagrams/SD_visit.png  used on input line 1088.
+Package pdftex.def Info: diagrams/SD_visit.png  used on input line 1084.
 (pdftex.def)             Requested size: 204.16086pt x 135.95668pt.
 <diagrams/SD_reservation.png, id=605, 452.69125pt x 271.0125pt>
 File: diagrams/SD_reservation.png Graphic file (type png)
 <use diagrams/SD_reservation.png>
-Package pdftex.def Info: diagrams/SD_reservation.png  used on input line 1098.
+Package pdftex.def Info: diagrams/SD_reservation.png  used on input line 1094.
 (pdftex.def)             Requested size: 203.70917pt x 121.95448pt.
  [50 <./diagrams/SD_visit.png> <./diagrams/SD_reservation.png>]
 [51]) [52]
@@ -1294,10 +1294,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 13077 strings out of 480608
- 204287 string characters out of 5903629
- 776177 words of memory out of 5000000
- 27989 multiletter control sequences out of 15000+600000
+ 13076 strings out of 480608
+ 204277 string characters out of 5903629
+ 776114 words of memory out of 5000000
+ 27988 multiletter control sequences out of 15000+600000
  592430 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,51p,938b,2072s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1320,7 +1320,7 @@ f-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020/texmf-dist/fon
 ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
 tti10.pfb>
-Output written on RASD.pdf (69 pages, 12815262 bytes).
+Output written on RASD.pdf (69 pages, 12865896 bytes).
 PDF statistics:
  1318 PDF objects out of 1440 (max. 8388607)
  1129 compressed objects within 12 object streams
