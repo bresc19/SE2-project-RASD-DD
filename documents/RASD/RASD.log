@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  15 DEC 2020 00:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  15 DEC 2020 13:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -931,57 +931,57 @@ File: diagrams/UseCaseUser.png Graphic file (type png)
 Package pdftex.def Info: diagrams/UseCaseUser.png  used on input line 419.
 (pdftex.def)             Requested size: 467.74635pt x 415.04962pt.
  [34] [35 <./diagrams/UseCaseUser.png>]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 425--453
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 425--454
 [][] 
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 456--489
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 460--494
 [][] 
  []
 
 [36]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 493--526
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 499--533
 [][] 
  []
 
 [37]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 530--561
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 538--570
 [][] 
  []
 
 [38] [39]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 565--593
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 575--604
 [][] 
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 598--626
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 611--640
 [][] 
  []
 
 [40]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 630--663
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 645--679
 [][] 
  []
 
 [41]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 667--693
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 684--711
 [][] 
  []
 
 [42]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 697--724
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 716--744
 [][] 
  []
 
 
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 728--756
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 749--778
 [][] 
  []
 
 [43]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 760--779
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 784--804
 [][] 
  []
 
@@ -989,41 +989,41 @@ Overfull \hbox (20.43306pt too wide) in paragraph at lines 760--779
 <diagrams/UseCaseReception.png, id=592, 875.27pt x 623.32875pt>
 File: diagrams/UseCaseReception.png Graphic file (type png)
 <use diagrams/UseCaseReception.png>
-Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 803.
+Package pdftex.def Info: diagrams/UseCaseReception.png  used on input line 829.
 
 (pdftex.def)             Requested size: 437.63393pt x 311.6636pt.
 
-Overfull \hbox (92.63393pt too wide) in paragraph at lines 803--804
+Overfull \hbox (92.63393pt too wide) in paragraph at lines 829--830
  [][] 
  []
 
 [45]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 809--838
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 835--864
 [][] 
  []
 
 [46 <./diagrams/UseCaseReception.png>]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 842--872
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 868--899
 [][] 
  []
 
 [47]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 875--911
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 904--941
 [][] 
  []
 
-[48] Excluding 'comment' comment.
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 995--1023
+[48]
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 945--974
 [][] 
  []
 
 [49]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 1026--1055
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 979--1009
 [][] 
  []
 
 [50]
-Overfull \hbox (20.43306pt too wide) in paragraph at lines 1058--1086
+Overfull \hbox (20.43306pt too wide) in paragraph at lines 1013--1042
 [][] 
  []
 
@@ -1031,12 +1031,12 @@ Overfull \hbox (20.43306pt too wide) in paragraph at lines 1058--1086
 <diagrams/SD_visit.png, id=634, 453.695pt x 302.12875pt>
 File: diagrams/SD_visit.png Graphic file (type png)
 <use diagrams/SD_visit.png>
-Package pdftex.def Info: diagrams/SD_visit.png  used on input line 1099.
+Package pdftex.def Info: diagrams/SD_visit.png  used on input line 1056.
 (pdftex.def)             Requested size: 204.16086pt x 135.95668pt.
 <diagrams/SD_reservation.png, id=635, 452.69125pt x 271.0125pt>
 File: diagrams/SD_reservation.png Graphic file (type png)
 <use diagrams/SD_reservation.png>
-Package pdftex.def Info: diagrams/SD_reservation.png  used on input line 1109.
+Package pdftex.def Info: diagrams/SD_reservation.png  used on input line 1066.
 (pdftex.def)             Requested size: 203.70917pt x 121.95448pt.
  [53 <./diagrams/SD_visit.png> <./diagrams/SD_reservation.png>]
 [54]) [55]
@@ -1067,4 +1067,254 @@ Package pdftex.def Info: report_alloy/marketOpened.png  used on input line 66.
 (pdftex.def)             Requested size: 580.50482pt x 271.91402pt.
 <report_alloy/marketClosed.png, id=1097, 288.07625pt x 250.9375pt>
 File: report_alloy/marketClosed.png Graphic file (type png)
-<use report_alloy/market
+<use report_alloy/marketClosed.png>
+Package pdftex.def Info: report_alloy/marketClosed.png  used on input line 75.
+(pdftex.def)             Requested size: 149.8005pt x 130.48824pt.
+<report_alloy/shorReserv.png, id=1098, 1349.04pt x 684.5575pt>
+File: report_alloy/shorReserv.png Graphic file (type png)
+<use report_alloy/shorReserv.png>
+Package pdftex.def Info: report_alloy/shorReserv.png  used on input line 87.
+(pdftex.def)             Requested size: 593.57944pt x 301.20622pt.
+ [65 <./report_alloy/marketOpened.png> <./report_alloy/marketClosed.png>]
+<report_alloy/showVisit.png, id=1107, 1199.48125pt x 685.56125pt>
+File: report_alloy/showVisit.png Graphic file (type png)
+<use report_alloy/showVisit.png>
+Package pdftex.def Info: report_alloy/showVisit.png  used on input line 97.
+(pdftex.def)             Requested size: 563.75627pt x 322.21382pt.
+ [66 <./report_alloy/shorReserv.png>]
+<report_alloy/addInQueue.png, id=1115, 1392.20125pt x 657.45625pt>
+File: report_alloy/addInQueue.png Graphic file (type png)
+<use report_alloy/addInQueue.png>
+Package pdftex.def Info: report_alloy/addInQueue.png  used on input line 106.
+(pdftex.def)             Requested size: 584.72055pt x 276.12975pt.
+ [67 <./report_alloy/showVisit.png>]
+<report_alloy/deInQueue.png, id=1122, 1324.95pt x 432.61626pt>
+File: report_alloy/deInQueue.png Graphic file (type png)
+<use report_alloy/deInQueue.png>
+Package pdftex.def Info: report_alloy/deInQueue.png  used on input line 115.
+(pdftex.def)             Requested size: 596.222pt x 194.6755pt.
+<report_alloy/pred1.png, id=1123, 628.3475pt x 708.6475pt>
+File: report_alloy/pred1.png Graphic file (type png)
+<use report_alloy/pred1.png>
+Package pdftex.def Info: report_alloy/pred1.png  used on input line 125.
+(pdftex.def)             Requested size: 219.92491pt x 248.03033pt.
+ [68 <./report_alloy/addInQueue.png> <./report_alloy/deInQueue.png>]
+<report_alloy/reportAssert.png, id=1132, 637.38126pt x 436.63126pt>
+File: report_alloy/reportAssert.png Graphic file (type png)
+<use report_alloy/reportAssert.png>
+Package pdftex.def Info: report_alloy/reportAssert.png  used on input line 133.
+
+(pdftex.def)             Requested size: 223.08678pt x 152.82323pt.
+) [69 <./report_alloy/pred1.png> <./report_alloy/reportAssert.png>]
+Chapter 5.
+(./chapters/effort_spent.tex
+Overfull \hbox (1.95822pt too wide) in paragraph at lines 4--5
+[]|\OT1/lmr/bx/n/10 Hours| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 18
+ []
+
+
+Overfull \hbox (1.95822pt too wide) in paragraph at lines 22--23
+[]|\OT1/lmr/bx/n/10 Hours| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 35
+ []
+
+) [70
+
+]
+Chapter 6.
+(./chapters/references.tex Excluding 'comment' comment.
+Overfull \hbox (8.92802pt too wide) in paragraph at lines 24--26
+[]\OT1/lmr/m/it/10 (-20) GDPR \OT1/lmr/m/n/10 (-20) [[]$\OT1/lmtt/m/n/10 https 
+: / / eur-[]lex . europa . eu / legal-[]content / EN / TXT / PDF / ?uri =
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+ [71
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ (./RASD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+
+
+ *File List*
+  report.cls    2019/12/20 v1.4l Standard LaTeX document class
+  size10.clo    2019/12/20 v1.4l Standard LaTeX file (size option)
+ lmodern.sty    2009/10/30 v1.6 Latin Modern Fonts
+   babel.sty    2020/03/22 3.42 The Babel package
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+blindtext.sty    2012/01/06 V2.0 blindtext-Package
+  xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
+microtype.sty    2019/11/18 v2.7d Micro-typographical refinements (RS)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+microtype-pdftex.def    2019/11/18 v2.7d Definitions specific to pdftex (RS)
+microtype.cfg    2019/11/18 v2.7d microtype main configuration file (RS)
+ comment.sty    
+subfiles.sty    2020/02/14 v1.6 Multi-file projects (package)
+  import.sty    2020/01/22  v 6.0
+graphicx.sty    2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2018/01/08 v1.0l Graphics/color driver for pdftex
+ caption.sty    2020/01/03 v3.4h Customizing captions (AR)
+caption3.sty    2020/01/03 v1.8h caption3 kernel (AR)
+longtable.sty    2020/01/07 v4.13 Multi-page Table package (DPC)
+  subfig.sty    2005/06/28 ver: 1.3 subfig package
+fancyhdr.sty    2019/01/31 v3.10 Extensive control of page headers and footers
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+hyperref.sty    2020/01/14 v7.00d Hypertext links for LaTeX
+ ltxcmds.sty    2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+   iftex.sty    2020/03/06 v1.0d TeX engine tests
+pdftexcmds.sty    2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+kvsetkeys.sty    2019/12/15 v1.18 Key value parser (HO)
+kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
+pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+letltxmacro.sty    2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+ auxhook.sty    2019-12-17 v1.6 Hooks for auxiliary files (HO)
+kvoptions.sty    2019/11/29 v3.13 Key value format for package options (HO)
+  pd1enc.def    2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+ intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
+etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
+bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
+atbegshi.sty    2019/12/05 v1.19 At begin shipout hook (HO)
+ hpdftex.def    2020/01/14 v7.00d Hyperref driver for pdfTeX
+atveryend.sty    2019-12-11 v1.11 Hooks at the very end of document (HO)
+rerunfilecheck.sty    2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
+ parskip.sty    2020-01-22 v2.0d non-zero parskip adjustments
+etoolbox.sty    2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+dvipsnam.def    2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+listings.sty    2020/03/24 1.8d (Carsten Heinz)
+ lstmisc.sty    2020/03/24 1.8d (Carsten Heinz)
+listings.cfg    2020/03/24 1.8d listings configuration
+alloy-style.sty    
+l3backend-pdfmode.def    2020-03-12 L3 backend support: PDF mode
+  ot1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+  mt-cmr.cfg    2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ltcaption.sty    2018/08/26 v1.4a longtable captions (AR)
+ nameref.sty    2019/09/16 v2.46 Cross-referencing by name of section
+refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
+gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
+    RASD.out
+    RASD.out
+images/polimi.jpg
+images/CLup_logo.png
+  omllmm.fd    2009/10/30 v1.6 Font defs for Latin Modern
+ omslmsy.fd    2009/10/30 v1.6 Font defs for Latin Modern
+ omxlmex.fd    2009/10/30 v1.6 Font defs for Latin Modern
+chapters/introduction.tex
+  ts1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+diagrams/VENN.png
+chapters/overall_description.tex
+diagrams/UML_simple.png
+diagrams/2-reservation.png
+diagrams/2-visit.png
+chapters/specific_requirements.tex
+images/mockup/login.png
+images/mockup/select2.png
+images/mockup/reg1.png
+images/mockup/reg2.png
+images/mockup/home1.png
+images/mockup/reserve1.png
+images/mockup/reservation_size.png
+images/mockup/reserve2.png
+images/mockup/qrcode_reservation_done.png
+images/mockup/visit00.png
+images/mockup/visit1.png
+images/mockup/visit2.png
+images/mockup/visit_size.png
+images/mockup/qr2.png
+images/mockup/qr4.png
+images/mockup/qr5.png
+images/mockup/qr_reservation.png
+images/mockup/qr1.png
+images/mockup/qr7.png
+images/mockup/notify1.png
+images/mockup/visit_SMS.png
+images/mockup/LOGIN_REC.png
+images/mockup/LOGREG.png
+images/mockup/Select_User.png
+images/mockup/Home_Rec.png
+images/mockup/Size_Rec.png
+images/mockup/info_visit_rec.png
+images/mockup/Done_Rec.png
+diagrams/UseCaseUser.png
+diagrams/UseCaseReception.png
+diagrams/SD_visit.png
+diagrams/SD_reservation.png
+chapters/formal_analysis_alloy.tex
+ ot1lmtt.fd    2009/10/30 v1.6 Font defs for Latin Modern
+model/alloy.als
+report_alloy/marketOpened.png
+report_alloy/marketClosed.png
+report_alloy/shorReserv.png
+report_alloy/showVisit.png
+report_alloy/addInQueue.png
+report_alloy/deInQueue.png
+report_alloy/pred1.png
+report_alloy/reportAssert.png
+chapters/effort_spent.tex
+chapters/references.tex
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package rerunfilecheck Info: File `RASD.out' has not changed.
+(rerunfilecheck)             Checksum: 5C5677AA22B1A8991584E99141CDF024;3484.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
+ ) 
+Here is how much of TeX's memory you used:
+ 13093 strings out of 480608
+ 204529 string characters out of 5903629
+ 775987 words of memory out of 5000000
+ 27989 multiletter control sequences out of 15000+600000
+ 592132 words of font info for 109 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,11n,51p,938b,2072s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
+l/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020
+/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2020/texmf-dist/fonts/en
+c/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm
+-rmsc.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx7.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
+ic/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr7.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2020/texmf-dist/fon
+ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/lm/lmtt8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lm
+tti10.pfb>
+Output written on RASD.pdf (72 pages, 12816962 bytes).
+PDF statistics:
+ 1351 PDF objects out of 1440 (max. 8388607)
+ 1159 compressed objects within 12 object streams
+ 591 named destinations out of 1000 (max. 500000)
+ 19599 words of extra memory for PDF output out of 20736 (max. 10000000)
+

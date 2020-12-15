@@ -1,0 +1,54 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Purpose}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}General Purpose}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Goals}{4}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Scope}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}World}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Machine}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Shared Phenomena}{5}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{7}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Definitions}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Acronyms}{8}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{8}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Revision history}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Reference Documents}{8}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Document Structure}{8}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Overall Description}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Product perspective}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Product functions}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Queue manager}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Data Collection}{13}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}User characteristics}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Assumptions, dependencies and constraints}{14}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Specific Requirements}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}External Interface Requirements}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}User Interfaces (CLup)}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Receptionist Interfaces (CLup Operator)}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Hardware Interfaces}{27}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Software Interfaces}{27}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Communication Interfaces}{27}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Functional Requirements}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Use Case}{34}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}User}{34}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Reception}{45}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Sequence Diagrams}{53}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Performance Requirements}{53}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Design Constraints}{54}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Standards compliance}{54}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Users in the market}{54}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Hardware limitations}{54}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Any other constraint}{54}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Software System Attributes}{55}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Reliability}{55}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Availability}{55}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Security}{55}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Maintainability}{55}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Portability}{55}{subsection.3.6.5}%
+\contentsline {chapter}{\numberline {4}Formal Analysis Using Alloy}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Alloy Model}{56}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Alloy Results}{69}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Effort Spent}{70}{chapter.5}%
+\contentsline {chapter}{\numberline {6}References}{71}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software used}{71}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Bibliography}{71}{section.6.2}%

@@ -264,7 +264,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D3] The system handles the threshold number of Users allowed in the market;
     \end{description}
     
-    \item[G3]Smart User can make a Reservation.
+    \item[G3]Smart User can make a Reservation of a seat in the market's queue.
     \begin{description}
     \item[R8] The system provides the number Users in queue; %--
     \item[R10] The Smart User must be registered;
@@ -280,7 +280,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
     \end{description}
     
-    \item[G4]Smart User can make a Visit.
+    \item[G4]Smart User can book in advance a Visit in the market.
     \begin{description}
     \item[R10] The Smart User must be registered;
     \item[R11] The Smart User must be already logged in;
@@ -299,7 +299,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
     \end{description}
     
-    \item[G5]Mobile User can make a Reservation.
+    \item[G5]Mobile User can make a Reservation of a seat in the market's queue.
     \begin{description}
     \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R8] The system provides the number Users in queue; %--
@@ -316,7 +316,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time;     
     \end{description}
     
-    \item[G6]Mobile User can make a Visit.
+   \item[G6]Mobile User can book in advance a Visit in the market.
     \begin{description}
     \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R12] The Mobile User must be registered; %--
@@ -335,7 +335,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
     \end{description}
     
-    \item[G7]Smart User can cancel a Booking.
+    \item[G7]Smart User can cancel a booking which can be either a Visit or a Reservation.
     \begin{description}
     \item[R10] The Smart User must be registered;
     \item[R11] The Smart User must be already logged in;
@@ -345,7 +345,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[D10] A booking belongs to one and only one User;
     \end{description}
     
-    \item[G8]Mobile User can cancel a Booking.
+    \item[G8]Mobile User can cancel a booking which can be either a Visit or a Reservation.
     \begin{description}
     \item[R12] The Mobile User must be registered; %--
     \item[R13] The Mobile User provide personal data to the Receptionist; %--
@@ -450,7 +450,11 @@ Exceptions &
     \item Communication with the Server is unavaialable.
 \end{itemize} \\
 \hline
-\end{tabular}\end{table}
+\end{tabular}
+
+\caption{Login use case (smart User).}
+
+\end{table}
 
 \bigbreak
 \begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
@@ -486,7 +490,9 @@ Exceptions &
         \item Communication with the Server is unavaialable.
 	\end{itemize} \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of sign up (Smart User).}
+\end{table}
 
 \bigbreak
 
@@ -523,7 +529,9 @@ Exceptions &
         \item Communication with the Server is unavaialable.
 	\end{itemize}  \\ 
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Visit booking (Smart User).}
+\end{table}
 
 \bigbreak
 
@@ -558,7 +566,9 @@ Exceptions &
     \end{itemize}
  \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Reservation booking (Smart User).}
+\end{table}
 
 \pagebreak
 
@@ -590,7 +600,10 @@ Exceptions &
 	\hline 
 	Exceptions & Communication with the Server is unavaialable. \\ 
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Visit delete (Smart User).}
+
+\end{table}
 
 \bigbreak
 
@@ -623,7 +636,9 @@ Exceptions &
 	\hline 
 	Exceptions & Communication with the Server is unavaialable.\\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Delete Reservation use case (Smart User).}
+\end{table}
 
 \bigbreak
 
@@ -660,7 +675,9 @@ Exceptions &
     	\item Communication with the Server is unavaialable.
 	\end{itemize} \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Delay Reservation use case (Smart User).}
+\end{table}
 
 \bigbreak
 
@@ -690,7 +707,9 @@ Exceptions &
 	\hline 
 	Exceptions & \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Recap Visit use case (Smart User).}
+\end{table}
 
 \bigbreak
 
@@ -721,7 +740,9 @@ Exceptions &
 	\hline 
 	Exceptions & \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of turn in queue visualization.}
+\end{table}
 
 \bigbreak
 
@@ -753,7 +774,10 @@ Exceptions &
 		\item GPS is unavailable.
 	\end{itemize} \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Update position use case.}
+
+\end{table}
 
 \bigbreak
 
@@ -776,7 +800,9 @@ Exceptions &
 	\hline 
 	Exceptions & Communication with the Server is unavaialable.\\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of market selection.}
+\end{table}
 
 \pagebreak
 
@@ -835,7 +861,7 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
  	\end{itemize} \\
  	\hline
  \end{tabular}
-\caption{Sign up use case.}
+\caption{Use case of sign up (Mobile User).}
  \end{table}
 \bigbreak
 
@@ -869,7 +895,10 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 	Exceptions & 
 	Communication with the Server is unavaialable. \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Visit delete (Mobile User).}
+
+\end{table}
 \bigbreak
 
 \begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
@@ -908,89 +937,10 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
     \item Communication with the Server is unavaialable.
     \end{itemize} \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Book Visit use case (Mobile User).}
+\end{table}
 \bigbreak
-
- 
- \begin{comment}
- \begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
- 	\hline
- 	Name & Check Mobile Visit  \\
- 	\hline
- 	Actor & Reception \\
- 	\hline
- 	Entry condition &
- 	\begin{itemize}
- 		\item Receptionist has already logged in CLup Operator. 
- 		\item Mobile User is already registered by a Receptionist.
-		\item User has a Visit not yet submitted. 
-        \item Mobile User calls the Receptionist to delete his Visit.
- 	\end{itemize} \\
- 	\hline
- 	Events flow & 
- 	\begin{itemize}
- 		\item The receptionist check user registration
- 		\item The receptionist check user visits
- 	\end{itemize} \\
- 	\hline
- 	Exit condition &
- 	The system list all user visits \\
- 	\hline 
- 	Exceptions & 
- 	\begin{itemize}
- 		\item The user does not exist
- 		\item The user has not booked any visits
- 	\end{itemize} \\
- 	\hline
- \end{tabular}\end{table}
-\bigbreak
-
-\begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
-	\hline
-	Name & Check visit schedule \\
-	\hline
-	Actor & Reception \\
-	\hline
-	Entry condition & 
-	The receptionist has logged in \\
-	\hline
-	Events flow & 
-	\begin{itemize}
-		\item The receptionist click on calendar
-		\item The system lists all free dates
-		\item The receptionist click on date
-	\end{itemize} \\
-	\hline
-	Exit condition &
-	\begin{itemize}
-    \item Mobile User is inserted in the queue.
-    \item SMS is sent to the Mobile User with the string code and queue informations.
-    \end{itemize}\\
-	\hline 
-	Exceptions & \\
-	\hline
-\end{tabular}\end{table}
-\bigbreak
-
-\begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
-	\hline
-	Name & Check system queue \\
-	\hline
-	Actor & Reception \\
-	\hline
-	Entry condition & 
-	The receptionist has logged in  \\
-	\hline
-	Events flow & 
-	The receptionist clicks on “Check queue”  \\
-	\hline
-	Exit condition &
-	The system lists all user in queue information \\
-	\hline 
-	Exceptions & The queue is empty \\
-	\hline
-\end{tabular}\end{table}
-\end{comment}
 
 \begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
@@ -1020,7 +970,10 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 	Exceptions & 
 	The queue is full \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Reservation booking (Mobile User).}
+
+\end{table}
 \bigbreak
 
 \begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
@@ -1052,12 +1005,14 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 	Exceptions & 
 	The user has not booked any reservation \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Reservation delete (Mobile User).}
+\end{table}
 \bigbreak
 
 \begin{table}[H]\begin{tabular}{|p{5cm} | p{7cm} | }
 	\hline
-	Name & \textbf{Login Reception account} \\
+	Name & \textbf{Login Receptionist account} \\
 	\hline
 	Actor & \textbf{Reception} \\
 	\hline
@@ -1083,7 +1038,9 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
         \item Communication with the Server is unavaialable.
 	\end{itemize} \\
 	\hline
-\end{tabular}\end{table}
+\end{tabular}
+\caption{Use case of Receptionist's login.}
+\end{table}
 
 \pagebreak
 
