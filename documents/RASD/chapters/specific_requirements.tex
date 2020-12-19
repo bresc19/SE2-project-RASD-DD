@@ -3,7 +3,7 @@ The following mockups provide a model of the graphic interface provided by the s
 We will create a user interface that will be user friendly in order to be easy to use also from non-technical users. \\
 The mockups has the aim to illustrate the main aspects of the CLup and CLup operator.
 \subsection{User Interfaces (CLup)}
-The development of CLup app aims to have a easy-to-use interface for User who has a Smartphone. In particular the application have to be intuitive and reliable in order to give Users the possibility to book an appointment without any obstacles.
+The development of CLup app aims to have a easy-to-use interface for User who has a Smartphone. In particular the application have to be intuitive and reliable in order to give Users the possibility to book an appointment without any obstacles.\\
 The following mockups show the main operation allowed by Clup to the Smart User:
 \begin{figure}[h]
   \caption{Login: Users already registered signes in with their credential.}
@@ -30,7 +30,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
   \subfloat[Page 1.]{\includegraphics[scale=0.260]{images/mockup/reg1.png}\label{fig:f1}}
   \hfill
   \subfloat[Page 2.]{\includegraphics[scale=0.260]{images/mockup/reg2.png}\label{fig:f2}}
-  \caption{Registration: Users not registered can sig n up himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
+  \caption{Registration: Users not registered can sign up himself putting his own data, e-mail and password. In addition Users have to accepts the Term of Service and the CLup privacy policy to proceed.}
 \end{figure}
 \begin{figure}[H]
  
@@ -62,7 +62,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
         }
 %
     \end{center}
-    \caption{Reservation: The Smart User can book a Reservation following the following steps.}
+    \caption{Reservation: The Smart User can book a Reservation with the following steps.}
    \label{fig:subfigures}
 \end{figure}
 
@@ -88,7 +88,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 %
     \end{center}
     \caption{%
-       Visit: The Smart User can book a Visit following the following steps. At the end Visit's QRCode is provided.
+       Visit: The Smart User can book a Visit with the following steps. At the end Visit's QRCode is provided.
      }%
    \label{fig:subfigures}
 \end{figure}
@@ -99,7 +99,7 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 
 
 \caption{
-        QRCode section: in this section the user can manage his booking. A Smart User can cancel, delay (only for Reservation), or visualize his QRCode in order to access to the market.
+        QRCode section: the User can manage his booking. A Smart User can cancel, delay (only for Reservation), or visualize his QRCode in order to access to the market.
      }
      \begin{center}
 %
@@ -212,11 +212,11 @@ The following mockups show the main operation allowed by Receptionist through hi
 \pagebreak
 
 \subsection{Hardware Interfaces}
-The supermarket will have two scanners in order to validate the reservation:
+The supermarket will have two scanners associated to an employee's device in order to validate the booking:
 
 \par \medskip 
 \begin{itemize}
-\item	One at the entry, that will read QR code and will confirm client reservations in case they will be valid. \\
+\item One at the entry, that will read QR code and will confirm client reservations in case they will be valid. \\
 The scanner will reject reservation if QR code will result invalid or will have passed to much time from its call.
 \item One at the exit, that when clients will finish shopping allow them to exit to supermarket opening the doors. \\
 Another usage of exit QR code is to monitor the numbers of client into the shop.
@@ -243,7 +243,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R1] Smart User can receive the first notification to reach the market; 
     \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R3] The system provide the time estimation to reach the market;
-    \item[R4] The User chooses the start and end time of the Visit;
+    \item[R4] The User chooses the startTime / endTime of the Visit;
     \item[R5] The User can postpone his turn by 10 turns;
     \item[R8] The system provides the number Users in queue; %--
     \item[D1] The system can delete the Reservation when the Smart User accumulates a delay to reach the market greater than 10 minutes; 
@@ -258,7 +258,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[G2]Put a limit to the number of Users in the market.
     
     \begin{description}
-    \item[R4] The User chooses the start and end time of the Visit;
+    \item[R4] The User chooses the startTime / endTime of the Visit;
     \item[R6] The system allows the User to enter/exit from the market with the QRCode submission; 
     \item[R7] The system store the enter/exit time from the market after the QRCode submission; 
     \item[D3] The system handles the threshold number of Users allowed in the market;
@@ -368,7 +368,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R1] Smart User can receive the first notification to reach the market; 
     \item[R2] Mobile User can receive an SMS needed to enter / exit from the market;   %-- 
     \item[R3] Smart User can receive the second notification because is his turn;  
-    \item[R4] The User chooses the start and end time of the Visit;
+    \item[R4] The User chooses the startTime / endTime of the Visit;
     \item[R5] The User can postpone his turn by 10 turns;
     \item[R6] The system allows the User to enter/exit from the market with the QRCode submission; 
     \item[R7] The system store the enter/exit time from the market after the QRCode submission; 
@@ -416,7 +416,7 @@ At the end Jonhathan will go shopping without waiting on feet his turn during a 
 \begin{figure}[H]
   \centering
   \makebox[\linewidth]{
-  \includegraphics[scale=0.50]{diagrams/UseCaseUser.png}}
+  \includegraphics[scale=0.45]{diagrams/UseCaseUser.png}}
     \caption{Use case of the Smart User.}
 \end{figure}
 
@@ -438,16 +438,16 @@ Events flow &
 \begin{itemize}
 	\item User open the application.
 	\item The fields of username and password are filled by the User. 
-	\item User send thr request to the system by clicking "Login".
+	\item User send the request to the system by clicking "Login".
 \end{itemize} \\
 \hline
-Exit condition & User is logged in and the homepage of CLup is provided \\
+Exit condition & User is logged in and the homepage of CLup is provided. \\
 \hline 
 Exceptions &
 \begin{itemize}
 	\item Username inserted by the User is not registered in the system yet.
 	\item Password inserted by the User is wrong.
-    \item Communication with the Server is unavaialable.
+    \item Communication with the Server is unavailable.
 \end{itemize} \\
 \hline
 \end{tabular}
@@ -487,7 +487,7 @@ Exceptions &
 		\item Username inserted by the User is already registered in the system.
 		\item Userser did not accept CLup privacy policy.
 		\item User has inserted forbidden characters in one or more fields.
-        \item Communication with the Server is unavaialable.
+        \item Communication with the Server is unavailable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
@@ -526,7 +526,7 @@ Exceptions &
 	\hline 
 	Exceptions & \begin{itemize}
 		\item The time table choosen by the User is unavailable or already full.
-        \item Communication with the Server is unavaialable.
+        \item Communication with the Server is unavailable.
 	\end{itemize}  \\ 
 	\hline
 \end{tabular}
@@ -562,7 +562,7 @@ Exceptions &
 	\hline 
 	Exceptions & \begin{itemize}
     \item The market choosen is closed in the current moment of the request.
-    \item Communication with the Server is unavaialable.
+    \item Communication with the Server is unavailable.
     \end{itemize}
  \\
 	\hline
@@ -598,7 +598,7 @@ Exceptions &
 		\item The system release the seat occupied in the slot/slots selected by the User's Visit.
 	\end{itemize} \\
 	\hline 
-	Exceptions & Communication with the Server is unavaialable. \\ 
+	Exceptions & Communication with the Server is unavailable. \\ 
 	\hline
 \end{tabular}
 \caption{Use case of Visit delete (Smart User).}
@@ -634,7 +634,7 @@ Exceptions &
 		\item The system release the seat occupied in the queue by the User.
 	\end{itemize} \\
 	\hline 
-	Exceptions & Communication with the Server is unavaialable.\\
+	Exceptions & Communication with the Server is unavailable.\\
 	\hline
 \end{tabular}
 \caption{Delete Reservation use case (Smart User).}
@@ -672,7 +672,7 @@ Exceptions &
 	\begin{itemize}
 		\item Queue is too small for a delay.
 		\item Delay option was already used by the User for this Reservation.
-    	\item Communication with the Server is unavaialable.
+    	\item Communication with the Server is unavailable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
@@ -700,7 +700,7 @@ Exceptions &
 	\hline
 	Exit condition & CLup provided:
     \begin{itemize}
-    \item QRCOde;
+    \item QRCode;
     \item startTime of the Visit;
     \item endTime of the Visit;
     \end{itemize}\\
@@ -798,7 +798,7 @@ Exceptions &
 	Exit condition &
 	The homepage of CLup is provided.  \\
 	\hline 
-	Exceptions & Communication with the Server is unavaialable.\\
+	Exceptions & Communication with the Server is unavailable.\\
 	\hline
 \end{tabular}
 \caption{Use case of market selection.}
@@ -815,7 +815,7 @@ Exceptions &
  Due to the fact that Gustavo is sick of waiting too much in the queue decide to call this market number to book the visit. \\
  On the other side Marta, a gentle receptionist who works for the market, answers to Gustavo's call; she takes care of the registration of his own data, the credentials and the all visit information (i.e data and range time).\\
 Gustavo will be notified about the appointment with an SMS on his mobilephone in time. \\
-  In addition the SMS will provide the schedule for the visit and the code which will be submitted at the entrance.
+In addition the SMS will provide the schedule for the visit and the code which will be submitted at the entrance.
  
 \bigbreak
 
@@ -893,7 +893,7 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 	\end{itemize}\\
 	\hline 
 	Exceptions & 
-	Communication with the Server is unavaialable. \\
+	Communication with the Server is unavailable. \\
 	\hline
 \end{tabular}
 \caption{Use case of Visit delete (Mobile User).}
@@ -934,7 +934,7 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 	Exceptions & 
 	\begin{itemize}
     \item The time table choosen by the Mobile User is unavailable or already full.
-    \item Communication with the Server is unavaialable.
+    \item Communication with the Server is unavailable.
     \end{itemize} \\
 	\hline
 \end{tabular}
@@ -1035,7 +1035,7 @@ Gustavo will be notified about the appointment with an SMS on his mobilephone in
 	\begin{itemize}
 		\item Username inserted by the Receptionist is not registered in the system yet.
 	    \item Password inserted by the Receptionist is wrong.
-        \item Communication with the Server is unavaialable.
+        \item Communication with the Server is unavailable.
 	\end{itemize} \\
 	\hline
 \end{tabular}
@@ -1092,7 +1092,7 @@ So it's necessary that the market's provide the maximum number of Users allowed 
 \end{itemize}
 \subsection{Any other constraint}
 
-\textbf{Mobile User telephone number}. Every Smart User in the system provides at the registration many data but only one will be subject to a constraint: the telephone number. Indeed, the system memorize it, being for him the unique allowed to call the Receptionist for managing his booking. \par
+\textbf{Mobile User telephone number}. Every Mobile User in the system provides at the registration many data but only one will be subject to a constraint: the telephone number. Indeed, the system memorize it, being for him the unique allowed to call the Receptionist for managing his booking. \par
 The respective recognition made for a Smart User are their credential (e-mail and password).
 
 
