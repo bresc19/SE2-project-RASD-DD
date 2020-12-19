@@ -39,7 +39,7 @@ The model is organized temporaly in time slots of 30 minutes each. This way make
 \end{itemize}
 
 
-In the following model, we describe the situation in which one reservation is booked and consequently inserted in the queue. (figure 4.6)
+In the following model, we describe the situation in which one reservation is booked and consequently inserted in the queue. (figure \ref{addInQueue})
 
 In particular we will list 2 queue:
 \begin{itemize}
@@ -49,7 +49,7 @@ In particular we will list 2 queue:
 
 
 
-Instead, in the figure 4.4 describes the situation in which one reservation is deleted from the queue.
+Instead, in the figure \ref{deInQueue} describes the situation in which one reservation is deleted from the queue.
 This means that the reservation will be removed by its user.
 We prefer not to update the reservation number, because it implies to duplicate all reservation in the queue behind the one that was cancelled. This could involve less readability.
 
@@ -60,76 +60,83 @@ We prefer not to update the reservation number, because it implies to duplicate 
 \pagebreak
 
 \begin{figure}[H]
-  \label{marketOpened}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.42]{report_alloy/marketOpened.png}}
     \caption{Rapresentation of the market opened in a generic day.}
+      \label{marketOpened}
+
 \end{figure}
 
 \begin{figure}[H]
 
-  \label{marketClosed}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.52]{report_alloy/marketClosed.png}}
    \caption{The market is closed. In this case, there aren't any users in the market.}
+  \label{marketClosed}
 
    
 \end{figure}
 
 \begin{figure}[H]
-  \label{shorReserv}
   
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.44]{report_alloy/shorReserv.png}
   }
    \caption{Rapresentation of the market opened in a generic day. This is the result of the showReservation predicate that focuses on Reservations.} 
+     \label{shorReserv}
+
 \end{figure}
 
 \begin{figure}[H]
 
-  \label{showVisit}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.47]{report_alloy/showVisit.png}
   }\caption{Rapresentation of the market opened in a generic day. This is the result of the showVisit predicate that focuses on Visits.}
+    \label{showVisit}
+
     
 \end{figure}
 
 
 \begin{figure}[H]
-  \label{addInQueue}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.42]{report_alloy/addInQueue.png}}
     \caption{Queue insert reservation}
+      \label{addInQueue}
+
 \end{figure}
 
 
 \begin{figure}[H]
-  \label{deInQueue}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.45]{report_alloy/deInQueue.png}}
     \caption{Queue remove reservation}
+      \label{deInQueue}
+
 \end{figure}
 
 \section{Alloy Results}
 
 \begin{figure}[H]
-  \label{pred1}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.35]{report_alloy/pred1.png}}
     \caption{Results of the predicates}
+      \label{pred1}
+
 \end{figure}
 
 \begin{figure}[H]
-  \label{reportAssert}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.35]{report_alloy/reportAssert.png}}
     \caption{Results of the assers}
+      \label{reportAssert}
+
 \end{figure}
