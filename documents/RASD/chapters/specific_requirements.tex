@@ -97,10 +97,6 @@ The following mockups show the main operation allowed by Clup to the Smart User:
 
 \begin{figure}[H]
 
-
-\caption{
-        QRCode section: the User can manage his booking. A Smart User can cancel, delay (only for Reservation), or visualize his QRCode in order to access to the market.
-     }
      \begin{center}
 %
         \subfloat[Only Reservation booked.]{%
@@ -116,12 +112,13 @@ The following mockups show the main operation allowed by Clup to the Smart User:
             \includegraphics[scale=0.30]{images/mockup/qr5.png}
         }%
         \subfloat[Booking's QRCode.]{%
-            \label{fig:fourth}
             \includegraphics[scale=0.30]{images/mockup/qr_reservation.png}
         }%
 %
     \end{center}
-    
+    \caption{
+        QRCode section: the User can manage his booking. A Smart User can cancel, delay (only for Reservation), or visualize his QRCode in order to access to the market.
+     }
    \label{fig:subfigures}
 \end{figure}
 
@@ -205,12 +202,10 @@ The following mockups show the main operation allowed by Receptionist through hi
   \caption{Booking made by Receptionist is finished.}
   \label{fig:Login}
   \centering
-  \includegraphics[scale=0.32]{images/mockup/Done_Rec.png}
+  \includegraphics[scale=0.25]{images/mockup/Done_Rec.png}
 
 \end{figure}
 \par
-\pagebreak
-
 \subsection{Hardware Interfaces}
 The supermarket will have two scanners associated to an employee's device in order to validate the booking:
 
@@ -361,8 +356,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     
 \end{description}
 
-\pagebreak
-
+\bigskip
 {\normalsize \textbf{Requirements}}
 \begin{description}
     \item[R1] Smart User can receive the first notification to reach the market; 
@@ -1055,9 +1049,6 @@ Note that are attached request of User with a Smartphone. Requests for Mobile Us
   \includegraphics[scale=0.45]{diagrams/SD_visit.png}
 
 \end{figure}
-
-
-
 \begin{figure}[H]
   \caption{Sequnce diagram of a Reservation request from Smart User.}
   \label{fig:SD_reservation}
@@ -1066,15 +1057,11 @@ Note that are attached request of User with a Smartphone. Requests for Mobile Us
 
 \end{figure}
 
-\medskip
-
 \section{Performance Requirements}
 The system has been designed to give possibility to Users to make and to manage their booking every time they need. So it's essential that the CLup's server have to handle a big number of connections. \\
 The most reliable requests must be about the booking. User could book his appointment when he needs without any error or denial. 
 Anyway there's one exception: the booking of a reservation is not avaialable when a market is closed.\\
-It's important that the server has enough resources to accept a large number of request. The number will be estimated depending on the users demand.
-\medskip
-
+It's important that the server has enough resources to accept a large number of request. The number will be estimated depending on the users demand.\\
 \section{Design Constraints}
 \subsection{Standards compliance}
 Especially, the system will be released in the main digital distribution platform (such as App Store or Google Play). So it must follow their guidelines in order to have a proper and a lawful distribution. \\
@@ -1090,13 +1077,11 @@ So it's necessary that the market's provide the maximum number of Users allowed 
 \item GPS: it's used to allow user to estimate the time spending to reach the market in time. But it's not mandatory for booking;
 \end{itemize}
 \subsection{Any other constraint}
-
 \textbf{Mobile User telephone number}. Every Mobile User in the system provides at the registration many data but only one will be subject to a constraint: the telephone number. Indeed, the system memorize it, being for him the unique allowed to call the Receptionist for managing his booking. \par
 The respective recognition made for a Smart User are their credential (e-mail and password).
 
+\pagebreak
 
-\bigskip
-\par
 \section{Software System Attributes}
 \subsection{Reliability}
 The application will be tested for each update for verifying the stability and correctness.
