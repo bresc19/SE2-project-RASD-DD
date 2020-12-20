@@ -49,16 +49,36 @@ In order to do that we offer customers three grocery shopping option:
 \item \textbf{Direct Entrance}: it allows aged customers to enter without any bookings;
 \end{itemize}
 \bigskip
-The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for \textbf{Smart} and \textbf{Mobile Users} (their definitions are in 1.3.1 subsection).\par
+The main options shown in this documents are the first two in order to avoid customers to line up outside the market. Those are avaiable only for \textbf{Smart} and \textbf{Mobile Users} (their definitions are in subsection 1.3.1).\par
 In particular, in order to avoid to wait in line, Users will be allerted by \textbf{notifications} (Smart Users) or a \textbf{SMS} (Mobile Users). These inform them about his time schedule required to reach the market in time.
 Only for Smart User the application will provide the position in queue and the time to reach the market.\par
 An alphanueric string will be provided to Mobile Users for going in and out from the market. This string for Smart User is converted in two-dimensional bar code using the standard QRCode. This must be submitted at the entry of the market.\par
 Instead, the third option is only avaiable if an user is older than 65 years old, but with limitations. For instance they can go grocery shopping only in certain days and time slots. \\
 In particular the Direct Entrance is avaiable only from Monday to Friday in the range time between 9.00 A.M and 13.00 P.M. The reason for this selection is due the fact that in this ranges there are fewer customers than any other periods because are working hours. \par
 This third option is made especially for aged people who don't have even a mobile phone. \par
-Anyway the RASD document is not focused on this last option.
+The 3 provided methods to go shopping in the market are based on research made by \textit{CENSIS} and \textit{Pew Research Center} that shows how many people in Italy own a smartphone, mobilephone or none.\\
+As was shown in these two researches, made in 2018, 71\% of italians own a smartphone, the other 20\% own a mobilephone and the remaining 8\% have none of the two.
+Considering that most of the people that don't own a smartphone / mobilephone are older than 65 years old, we can cover most of the customers' market with these 3 shopping options.\\
+Analyzing the multiple years data, in the future there will be a significant increase of smartphone/phone and so we cover almost the entire population.\par 
+Anyway the RASD document is not focused on the third option.\par
 
 
+\begin{figure}[H]
+  \centering
+  %\subfloat[Plot 1.]
+  {\includegraphics[scale=0.50]{images/statistics_smartphone.png}}
+  \hfill
+  %\subfloat[Plot 2.]
+  {\includegraphics[scale=0.55]{images/statistics_smartphone2.png}\label{fig:f2}}
+  \caption{The following charts from Pewresearch website shows percentage of smartphone and mobilephone's owners in each Country.}
+\end{figure}
+
+\begin{figure}[H]
+  \caption{World and Machine rapresentation.}
+  \centering
+  \includegraphics[scale = 0.38]{diagrams/VENN.png}
+\end{figure}
+\par
 \subsection{World}
 
 It represents the environment in which the system is placed. In particular it's composed by events which are affected by the system, but not directly connected with it.
@@ -92,14 +112,11 @@ The main application Shared Phenomena are the following:
 \item QRCode submission;
 \item appointment request;
 \end{itemize}
-\begin{figure}[H]
-  \caption{World and Machine rapresentation}
-  \centering
-  \includegraphics[scale = 0.38]{diagrams/VENN.png}
-\end{figure}
-\pagebreak
+
+\bigskip
 \section{Definitions, Acronyms, Abbreviations}
 \subsection{Definitions}
+\label{info}
 \begin{itemize}
 \item \textbf{User}: Generic customer who plan to shop in the market. He/she could be a Smart or Mobile User;
 \item \textbf{Smart User}: User who has got a smartphone with CLup app. She/He's able to manage bookings by herself/himself;
