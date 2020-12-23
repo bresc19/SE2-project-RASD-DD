@@ -28,7 +28,7 @@ In this way, the other customers in queue will be notified as soon as it's the r
 Moreover, it's possible to book a visit choosing the date and the schedule in advance in the \textbf{Visit} option. 
 \\
 The timetable will be splitted into 30 minutes slots, and customers will choose which they want among the free ones. \par
-For each Visit an User can occupy at most 3 slots consecutively.
+For each Visit an User can occupy at most 3 timeslots consecutively.
 In addition each market will provide customer, who don't have the application or even a smartphone, a toll-free number in order to make an appointment.
 This would be easy-manageble because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option.\\
 At the beginning, the user will be sign up for booking: so the receptionist will ask the required data from him and will create a customer profile in the system.
@@ -102,7 +102,7 @@ In the first state diagram (figure~\ref{fig:Reservation}) it can be osserved how
 
 Instead, the figure~\ref{fig:Visit} explains how to book a visit in the market. Once the timetable is provided, the generic user have to select the range time of the visit and the size bag.
 \\
-If the choice made by the user is wrong (i.e timetable's slot full or market closed), the system notify him; the User will try again until his choice is correct.
+If the choice made by the user is wrong (i.e timeslot full or market closed), the system notify him; the User will try again until his choice is correct.
 \par 
 \medskip
 
@@ -158,7 +158,7 @@ We distinguish the actors into our application based on actions and interactions
     \item[D9] User must have one and only one Reservation activated;
     \item[D10] A Booking belongs to one and only one User;
     \item[D11] The time  of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
-    \item[D12] Each Date and Slot Time must contain at most N threshold value depended on the market's area;
+    \item[D12] Each Date and Timeslot must contain at most N threshold value depended on the market's area;
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time;
 \end{description}
 
