@@ -9,32 +9,29 @@ Each component is accurately described in the section 2.2.
     
     \begin{itemize}
         \item \textbf{GUI (CLup)}; 
-        \item \textbf{QR Reader};  
         \item \textbf{Network Manager (Server)};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
+        \item \textbf{Reservation Queue};
+        \item \textbf{Visit Schedule};  
+        \item \textbf{Notification Manager};  
+        
     \end{itemize}
     
     \item[G2]Put a limit to the number of Users in the market. \textbf{[R4]-[R6]-[R7]}
     
     \begin{itemize}
-        
+        \item \textbf{QR Reader};
+        \item \textbf{Visit Schedule};  
+        \item \textbf{GUI (CLup)}; 
         \item \textbf{Notification Manager};  
-        \item \textbf{Network Manager (Server)};  
-        \item \textbf{Controller};
         \item \textbf{RDBMS};
     \end{itemize}
     
-        \item[G3]Smart User can make a Reservation of a seat in the market's queue. \textbf{[R8]-[R10]-[R11]-[R15]-[R18]}
+        \item[G3]Smart User can make a Reservation of a seat in the market's queue. \textbf{[R8]-[R10]-[R11]-[R14]-[R18]}
     \begin{itemize}
+        \item \textbf{Reservation Queue};  
         \item \textbf{Auth User};  
         \item \textbf{GUI (CLup)};  
         \item \textbf{Request Handler}; 
-        \item \textbf{Network Manager (CLup)}; 
-        \item \textbf{Network Manager (Server)};  
-        \item \textbf{Reservation Queue};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
     \end{itemize}
         
     
@@ -43,24 +40,17 @@ Each component is accurately described in the section 2.2.
         \item \textbf{Auth User};  
         \item \textbf{GUI (CLup)};  
         \item \textbf{Request Handler}; 
-        \item \textbf{Network Manager (CLup)}; 
-        \item \textbf{Network Manager (Server)};  
         \item \textbf{Visit Schedule};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
+     
     \end{itemize}
     
     \item[G5]Mobile User can make a Reservation of a seat in the market's queue. \textbf{[R2]-[R8]-[R12]-[R13]-[R14]-[R17]-[R21]-[R22]}
     \begin{itemize}
+        \item \textbf{Reservation Queue};  
         \item \textbf{Auth User}; 
         \item \textbf{Auth Receptionist};  
         \item \textbf{GUI (CLup Operator)};  
-        \item \textbf{Booking Manager}; 
-        \item \textbf{Network Manager (CLup Operator)}; 
-        \item \textbf{Network Manager (Server)};  
-        \item \textbf{Reservation Queue};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
+        \item \textbf{Booking Manager};
     \end{itemize}
     
     \item[G6]Mobile User can book in advance a Visit in the market. \textbf{[R2]-[R12]-[R13]-[R14]-[R15]-[R16]-[R17]-[R21]-[R22]}
@@ -68,24 +58,16 @@ Each component is accurately described in the section 2.2.
         \item \textbf{Auth User}; 
         \item \textbf{Auth Receptionist};  
         \item \textbf{GUI (CLup Operator)};  
-        \item \textbf{Booking Manager}; 
-        \item \textbf{Network Manager (CLup Operator)}; 
-        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Booking Manager};
         \item \textbf{Visit Schedule};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
     \end{itemize}
     
     \item[G7]Smart User can cancel a booking which can be either a Visit or a Reservation. \textbf{[R10]-[R11]-[R19/R20]}
     \begin{itemize}
         \item \textbf{Auth User}; 
         \item \textbf{GUI (CLup)};  
-        \item \textbf{Request Handler}; 
-        \item \textbf{Network Manager (CLup)}; 
-        \item \textbf{Network Manager (Server)};  
+        \item \textbf{Request Handler};   
         \item \textbf{Reservation Queue / Visit Schedule};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
     \end{itemize}
     
     \item[G8]Mobile User can cancel a booking which can be either a Visit or a Reservation. \textbf{[R12]-[R13]-[R17]-[R19/R20]-[R21]-[R22]}
@@ -94,11 +76,7 @@ Each component is accurately described in the section 2.2.
         \item \textbf{Auth Receptionist};
         \item \textbf{GUI (CLup Operator)};  
         \item \textbf{Booking Manager}; 
-        \item \textbf{Network Manager (CLup Operator)}; 
-        \item \textbf{Network Manager (Server)};  
         \item \textbf{Reservation Queue / Visit Schedule};  
-        \item \textbf{Controller};
-        \item \textbf{RDBMS};
     \end{itemize}
     
 \end{description}

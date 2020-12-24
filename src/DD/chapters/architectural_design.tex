@@ -1,5 +1,5 @@
 \section{Overview: High-level components and their interaction}
-The system is organized following the three tiers architecture. This aims to decouple logical layers in order to gurantee an horizontal scalability and an high fault tolerance.
+The system is organized following the three tiers architecture. This aims to decouple logical layers in order to gurantee an horizontal scalability and high fault tolerance.
 Graphically it's shown in the figure \ref{3-tier}.
 \par
 
@@ -9,7 +9,7 @@ Graphically it's shown in the figure \ref{3-tier}.
 \item \textbf{CLup Operator}: It's the desktop application used by receptionists that act as an intermediary to manage booking of users that have only a mobilephone.
 \end{itemize}
 
-\textbf{Application layer}. It deals with the model of the system, by containing the business logic of the application. In our system it consists in a remote server to which mobile and desktop applications have to connect due to manage any booking.
+\textbf{Application layer}. It deals with the model of the system, by containing the business logic. It consists in a remote server to which mobile and desktop applications have to connect due to manage any booking.
 
 \textbf{Data layer}. It's composed by a data storage system. It includes: 
 
@@ -38,7 +38,7 @@ Indeed, communication between Server and Clients is ensured by appropriate compo
 By an high-level point of view (figure \ref{fig:highlevel}) the main subsysystems correspond almost to the 3 layers in the 3 tiers architecture, with the addition of the \textbf{Market's subsystem}. \\ \\
 The last one includes the \textbf{QRCode reader}, which has different functionality:
 \begin{itemize}
-\item It checks if QRCode at the entrance/exit is valid. If it's valid it will submit it. In addition a manual insertion of the QRCode is provided, due to allows Mobile Users to insert his code sent by SMS;
+\item It checks if QRCode at the entrance/exit is valid. If it's valid it will submit it. In addition a manual insertion of the QRCode is provided, due to allows Mobile Users to insert the code sent by SMS;
 \item It controls the \textbf{Shop door}. When a QRCode is submitted, the reader allows users to enter by opening it;
 \end{itemize}
 
@@ -58,7 +58,7 @@ It follows a detailed description of the other significant components (figure   
 \subsection{Application layer}
 It's the core of our system. It's composed by:
 \begin{itemize}
-\item \textbf{Controller}: In our model this is th core ofour business logic. It deals with the stochastic time estimations to control the flux of users inside and outside the market. Moreover it uses interfaces provided from the other components linked to it;
+\item \textbf{Controller}: In our model this is the core of our business logic. It deals with the stochastic time estimations to control the flux of users inside and outside the market. Moreover it uses interfaces provided from the other components linked to it;
 \item \textbf{Auth User and Auth Reception}: these components grants respectively the access of users and receptionist by verifying their credential. In particular they are also accountable for users' registration;
 \item \textbf{Visit Schedule and Reservation Queue}: they manage respectevely Visit and Reservation requests of Users and Receptionists. In addition they provides QRCodes;
 \item \textbf{Notification Manager}: it's the component necessary to notify users about their turn in the queue. Furthermore, it responsible for sending SMS to user with mobilephone through an \textit{SMS Gateway};
@@ -99,12 +99,26 @@ In particular it should be connected to the server placed in the application lay
 
 In addition, it can process a large amount of data, which is suitable for our application. 
 
-Besides, due to a better efficiency, RDBMS provides \textit{horizontal fragmentation}. It allows to fragment entities of our model with respect to each different market. This is why tuples regarding different markets will never be queryied together. The only which won't be fragmented is the Market entity. 
+Besides, due to a better efficiency, RDBMS provides \textit{horizontal fragmentation}. It allows to fragment entities of our model with respect to each different market in order not to be queryied together. 
 
-Moreover, it includes a software program which is designed to capture request over a network of the application server. From this each user and receptionist in fact could retrieve informations needed through SQL Query by connecting to it.  
+Indeed, our application is designed to be used by different markets. User can choice the closest to him when he logged in. 
+In this way the DB will handle each market's dynamic simultaneously.
+The only ones that won't be fragmented are the Market and the User entities.   
+
+Moreover, it includes a software program which is designed to capture request over a network of the application server. From this, each user and receptionist in fact could retrieve informations needed through SQL Query by connecting to it.  
 
 
-An other important aspect is the security of the data due to mitigate any risks of violation. In order to do that we limit its access exclusively only to the application server. Communication between them will be also encrypted and accounts' passwords will be hashed.
+An other important aspect is the security of the data due to mitigate any risks of violation. In order to do that, we limit its access exclusively only to the application server. Communication between them will be also encrypted and accounts' passwords will be hashed and salted.
+
+
+
+\begin{figure}[H]
+  \centering
+  \makebox[\linewidth]{
+  \includegraphics[scale=0.48]{diagrams/entity_Diagram.png}}
+    \caption{Entity Diagram of our model.}
+      \label{entity_Diagram}
+\end{figure} 
 
 
 
@@ -116,7 +130,7 @@ An other important aspect is the security of the data due to mitigate any risks 
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.38]{diagrams/deployment.png}}
-    \caption{Deployment Diagram}
+    \caption{Deployment Diagram.}
       \label{fig:deployment}
 \end{figure}
 
@@ -129,7 +143,7 @@ We choose cross-platform to ensure an easier and quicker implementation; moreove
 The main OSs choosen are respectevely iOS and Android for CLup and macOS and Windows for CLup Operator.\\
 In addition is provided a third device used by a generic employee of the market which, interfaced with a QRCode scanner, sends to the server any request for entering or leaving  the market. \pagebreak
 
-Instead, the server is organized as well following a \textbf{3 Tier Server Architecture}. Each tier is composed by:
+Instead, the server is organized following a \textbf{3 Tier Server Architecture}. Each tier is composed by:
 
 \begin{enumerate}
 \item \textbf{Web Server}: it's the node to which every clients connect. It handles each request from the clients connecting by HTTPS and is built using \textbf{Apache Tomcat}. \\
@@ -146,9 +160,10 @@ In particular:
 
 \begin{itemize}
 
-\item \textbf{FirewallA}: it filters traffic coming from the WS to AS. It allows requests from receptionist, logged user and employees' devices. This is due to mantaining the application server's integrity;
+\item \textbf{FirewallA}: it filters traffic from Internet to the WS;
 
-\item \textbf{FirewallB}: this protects the DB by filtering any packets, except for the application server. In this way we gurantee an high security against any data violation; 
+\item \textbf{FirewallB}: it filters traffic coming from the WS to AS/DB. It allows requests from receptionist, logged user and employees' devices. This is due to mantaining the application server's integrity. In addition we gurantee an high security against any data violation;
+
 \end{itemize}
 
 \bigskip
@@ -164,7 +179,7 @@ In this section it will be illustrated the main runtime procedures of our system
 
 \subsection{Login and registration}
 
-Both processes start from the user's device where a request is elaborated by the \textit{Request Handler}. After the request passes to the Server's side where either login or registration is processed by \textit{Auth User}. Then, it established, by accessing to the \textit{RDBMS}, if the request can be validated or not. A return message was sent to the users for a success or failure operation. \\
+Both processes start from the user's device where a request is elaborated by the \textit{Request Handler}. After the request passes to the Server's side where either login or registration is processed by \textit{Auth User}. Then, it established, by accessing to the \textit{RDBMS}, if the request can be validated or not. A return message is sent to the users for a success or failure operation. \\
 It's not mentioned the receptionist' login because is structurally the same.
 
 
@@ -231,7 +246,7 @@ Any appointment is managed by \textit{Request Handler} which interacts with the 
 \end{figure} 
 
 
-\subsection{Enter and Exit from the market}
+\subsection{Enter and exit from the market}
 This sequence diagram aims to formalize the interaction of the user in the system when he arrives at the entrance of the market and starts his grocery shopping.
 An user submit his QRCode through a \textit{QR Reader} which is sent to the Server; then, it will be checked by the \textit{Controller}. Both times of entry and exit will be stored thorugh the RDBMS if the QRCode is valid.
 
@@ -246,7 +261,7 @@ An user submit his QRCode through a \textit{QR Reader} which is sent to the Serv
 \pagebreak
 
 \subsection{Receptionist}
-In this sequence diagram, it's modelled the interaction of the components when a user without a smartphone wants to book a seat in the queue by calling the receptionist of his market. Firstly, while he's speaking on the mobile phone, the receptionist deals with his registration (in the case of a new user), or his recognition (in the case is already registered).
+In this sequence diagram, it's modelled the interaction of the components when a user, without a smartphone, wants to book a seat in the queue by calling the receptionist of his market. Firstly, while he's speaking on the mobile phone, the receptionist deals with his registration (in the case of a new user), or his recognition (in the case is already registered).
 Secondly the procedure to book a reservation will be almost the same in the case described in the SD in figure \ref{ReservatioSD}. The main difference it's the component \textit{Booking Manager}, which differently has higher privileges to retrive and store data in the DB.
 
 \begin{figure}[H]
@@ -274,7 +289,7 @@ This describes how the the application server is working when it has to notify a
 
 
 \section{Component interfaces}
-In this section we describe the interfaces needed for the communication between each component. Moreover a list of the main functionalities provided by them is provided.
+In this section we describe the interfaces needed for the communication between each component. Moreover a list of the main functionalities is provided.
 
 \begin{itemize}
 
@@ -283,7 +298,7 @@ In this section we describe the interfaces needed for the communication between 
 \item \textit{void selectBag(Size)}: used to confirm the bag size during the booking request (Reservation or Visit);
 \item \textit{void confirmYes()} and \textit{void confirmNo()}: used to confirm or not a Reservation;
 \item \textit{Boolean bookVisit()} and \textit{Boolean bookReservation()}: used to open a booking request;
-\item \textit{Boolean delayReservation()}: used to open a Reservaiton delay;
+\item \textit{Boolean delayReservation()}: used to open a Reservation delay;
 \item \textit{Boolean cancelReservation()} and \textit{Boolean cancelVisit()}: used to open a Reservation delay;
 \end{itemize}
 
@@ -346,7 +361,7 @@ These are the following pattern proposed for a potentially implementation.
 \bigskip
 
 \textbf{3 Tiers Architecture} \par
-As already mentioned in the section \ref{3-tier} is formed by the Presentation, Application and Data layers. By separating each layer scalability of each component will be improved.
+As already mentioned in the section \ref{3-tier} is formed by the Presentation, Application and Data layers. By separating each layer, scalability of the system will be improved.
 Moreover flexibility is added because of the reduction of development cycle times. Developer in fact can upgrade or replace independently one tier without affecting the others. 
 \bigskip
 
@@ -358,8 +373,8 @@ MVC is an architectural pattern which can be used to organize the input, process
 \item \textbf{View}: it represent the user interface;
 \end{itemize}
 
-A MVC pattern allows a faster development due to the fact that each layer can be built in parallel to the others. This, also supports an asynchronous technique, which could make our system faster. This is will be very significant for notifications that have to be sent to users in precise moments.
-\bigskip
+A MVC pattern allows a faster development due to the fact that each layer can be built in parallel to the others. This, also supports an asynchronous technique, which could make our system faster. This is will be very significant for notifications that have to be sent to users in precise moments.\\
+\par
 \textbf{Observer} \par
 This is a software design pattern usefull for objects which have to notify automatically any state changes to their dependents. We need it due to propagates any changes in our model to its components in a very efficient mannor.
 
