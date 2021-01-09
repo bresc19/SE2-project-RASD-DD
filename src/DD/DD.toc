@@ -5,16 +5,16 @@
 \contentsline {section}{\numberline {1.3}Definitions, Acronyms, Abbreviations}{4}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Definitions}{4}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Acronyms}{4}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{5}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.3}Abbreviations}{4}{subsection.1.3.3}%
 \contentsline {section}{\numberline {1.4}Revision history}{5}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Reference Documents}{5}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Document Structure}{5}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Architectural Design}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Overview: High-level components and their interaction}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Component view}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Application layer}{8}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Component view}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Application layer}{9}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Client's layers: CLup and CLup Operator}{9}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Data Layer}{10}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Data Layer}{11}{subsection.2.2.3}%
 \contentsline {section}{\numberline {2.3}Deployment view}{13}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Runtime view}{14}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Login and registration}{15}{subsection.2.4.1}%

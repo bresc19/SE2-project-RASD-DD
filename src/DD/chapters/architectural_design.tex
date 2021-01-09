@@ -28,7 +28,7 @@ Graphically it's shown in the figure \ref{3-tier}.
 
 \end{figure}
 
-
+\pagebreak
 \section{Component view}
 
 
@@ -46,15 +46,17 @@ The last one includes the \textbf{QRCode reader}, which has different functional
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.25]{diagrams/h_level.png}
-  \caption{High-Level component diagram}
+  \caption{High-Level component diagram.}
     \label{fig:highlevel}
 
 \end{figure}
 
 
 
-It follows a detailed description of the other significant components (figure       \ref{component_diagram}
-)
+It follows a detailed description of the other significant components \\
+(figure \ref{component_diagram})
+
+\pagebreak
 \subsection{Application layer}
 It's the core of our system. It's composed by:
 \begin{itemize}
@@ -75,7 +77,8 @@ Both they've got, as we can see in the figure 2.3:
 
 
 CLup is composed also by a \textbf{Request Handler} which exposes methods to User to handle any request or action needed. Then, it interacts with the Network Manager to send request to the Server. \par
-Instead, CLup Operator has the \textbf{Booking Manager}, which is a similar component to the previous one but with more functionalities. In particular it handles any booking of mobile users and their sensitive information. So it's allowed by application server to query all users' sensitive data with higher privileges than CLup. \par
+Instead, CLup Operator has the \textbf{Booking Manager}, which is a similar component to the previous one but with more functionalities.\\
+In particular it handles any booking of mobile users and their sensitive information. So it's allowed by application server to query all users' sensitive data with higher privileges than CLup. \par
 
 
 
@@ -83,39 +86,41 @@ Instead, CLup Operator has the \textbf{Booking Manager}, which is a similar comp
 \begin{figure}[H]
   \centering
   \makebox[\linewidth]{
-  \includegraphics[scale=0.45]{diagrams/component_diagram.png}}
-    \caption{Component Diagram}
+  \includegraphics[scale=0.40]{diagrams/component_diagram.png}}
+    \caption{Component Diagram.}
       \label{component_diagram}
 
 \end{figure}
 
-
+\pagebreak
 
 \subsection{Data Layer}
 
 In our architecture the data layer is composed by a relational DB needed to store informations about users and their dynamics in the market. 
 
-In particular it should be connected to the server placed in the application layer. To reach the goal we plan to adopt a \textbf{RDBMS} in order to deal with a relational database. Indeed, it ensures consistency of data due to the \textit{ACID} properties.
+In particular it should be connected to the server placed in the application layer. To reach the goal we plan to adopt a \textbf{RDBMS} in order to deal with a relational database.\\
+Indeed, it ensures consistency of data due to the \textit{ACID} properties.
 
 In addition, it can process a large amount of data, which is suitable for our application. 
 
-Besides, due to a better efficiency, RDBMS provides \textit{horizontal fragmentation}. It allows to fragment entities of our model with respect to each different market in order not to be queryied together. 
+Besides, due to a better efficiency, RDBMS provides \textbf{horizontal fragmentation}. It allows to fragment entities of our model with respect to each different market in order not to be queryied together. 
 
-Indeed, our application is designed to be used by different markets. User can choice the closest to him when he logged in. 
+Indeed, our application is designed to be used by different markets. User can choice the closest to him when he logged in. \\
 In this way the DB will handle each market's dynamic simultaneously.
-The only ones that won't be fragmented are the Market and the User entities.   
+The only ones that will be fragmented are the entities about bookings information.   
 
 Moreover, it includes a software program which is designed to capture request over a network of the application server. From this, each user and receptionist in fact could retrieve informations needed through SQL Query by connecting to it.  
 
 
-An other important aspect is the security of the data due to mitigate any risks of violation. In order to do that, we limit its access exclusively only to the application server. Communication between them will be also encrypted and accounts' passwords will be hashed and salted.
+An other important aspect is the security of the data due to mitigate any risks of violation.\\
+In order to do that, we limit its access exclusively only to the application server. Communication between them will be also encrypted and accounts' passwords will be hashed and salted.
 
 
 
 \begin{figure}[H]
   \centering
   \makebox[\linewidth]{
-  \includegraphics[scale=0.48]{diagrams/entity_Diagram.png}}
+  \includegraphics[scale=0.43]{diagrams/entity_Diagram.png}}
     \caption{Entity Diagram of our model.}
       \label{entity_Diagram}
 \end{figure} 
@@ -139,7 +144,7 @@ An other important aspect is the security of the data due to mitigate any risks 
 In this section we'll explain the structure of our run-time system and the interaction between the hardware and the software parts. This is shown in the deployment diagram in the figure \ref{fig:deployment}. \bigskip
 
 For the client's side, CLup and CLup Operator will be hosted respectevely on a mobile and desktop device. Softwares will be designed both following a cross-platform development. 
-We choose cross-platform to ensure an easier and quicker implementation; moreover it includes a better uniformity and maintenability.   
+We choose cross-platform to ensure an easier and quicker implementation; moreover it includes a better uniformity and maintenability.\\ 
 The main OSs choosen are respectevely iOS and Android for CLup and macOS and Windows for CLup Operator.\\
 In addition is provided a third device used by a generic employee of the market which, interfaced with a QRCode scanner, sends to the server any request for entering or leaving  the market. \pagebreak
 
@@ -149,7 +154,8 @@ Instead, the server is organized following a \textbf{3 Tier Server Architecture}
 \item \textbf{Web Server}: it's the node to which every clients connect. It handles each request from the clients connecting by HTTPS and is built using \textbf{Apache Tomcat}. \\
   %which can provide a web server. 
 This, supported by Apache Software Foundation, a nonprofit corporation, is an open source software which is lightweight and suitable for our web server;
-\item \textbf{Application Server}: this node hosts the core of our business logic. We set \textbf{Apache Glassfish} which is leading of the Java EE standard to run servlets. Compared to Tomcat, is a full-blown Java EE application server, because it includes more features. Indeed it provides backup and recovery services due to a better availability a reliability;
+\item \textbf{Application Server}: this node hosts the core of our business logic. We set \textbf{Apache Glassfish} which is leading of the Java EE standard to run servlets.\\
+Compared to Tomcat, is a full-blown Java EE application server, because it includes more features. Indeed it provides backup and recovery services due to a better availability a reliability;
 
 \item \textbf{Data Base}: this machine contains each data of our system. In fact it's composed by a \textbf{RDBMS} in order to store and retrieve data. Besides, we choose \textbf{Oracle DB} from Oracle Corporation as management system on it. We choose it because of its high performances, which are necessary to process data quickly. \\
 In particular it can handles large volume of data since it have to manage a many users' requests simultaneously;
@@ -166,9 +172,6 @@ In particular:
 
 \end{itemize}
 
-\bigskip
-\bigskip
-\bigskip
 \bigskip
 
 \section{Runtime view}
@@ -247,8 +250,8 @@ Any appointment is managed by \textit{Request Handler} which interacts with the 
 
 
 \subsection{Enter and exit from the market}
-This sequence diagram aims to formalize the interaction of the user in the system when he arrives at the entrance of the market and starts his grocery shopping.
-An user submit his QRCode through a \textit{QR Reader} which is sent to the Server; then, it will be checked by the \textit{Controller}. Both times of entry and exit will be stored thorugh the RDBMS if the QRCode is valid.
+This sequence diagram aims to formalize the interaction of the user in the system when he/she arrives at the entrance of the market and starts his grocery shopping.\\
+An user submit his QRCode through a \textit{QR Reader} which is sent to the Server; then, it will be checked by the \textit{Controller}. Both times of entry and exit will be stored through the RDBMS if the QRCode is valid.
 
 \begin{figure}[H]
   \label{EntryExitSD}
@@ -261,7 +264,7 @@ An user submit his QRCode through a \textit{QR Reader} which is sent to the Serv
 \pagebreak
 
 \subsection{Receptionist}
-In this sequence diagram, it's modelled the interaction of the components when a user, without a smartphone, wants to book a seat in the queue by calling the receptionist of his market. Firstly, while he's speaking on the mobile phone, the receptionist deals with his registration (in the case of a new user), or his recognition (in the case is already registered).
+In this sequence diagram, it's modelled the interaction of the components when a user, without a smartphone, wants to book a seat in the queue by calling the receptionist of his market. Firstly, while he's speaking on the mobile phone, the receptionist deals with his registration (in the case of a new user), or his recognition (in the case is already registered).\\
 Secondly the procedure to book a reservation will be almost the same in the case described in the SD in figure \ref{ReservatioSD}. The main difference it's the component \textit{Booking Manager}, which differently has higher privileges to retrive and store data in the DB.
 
 \begin{figure}[H]
@@ -275,14 +278,15 @@ Secondly the procedure to book a reservation will be almost the same in the case
 \pagebreak
 
 \subsection{Notifications}
-This describes how the the application server is working when it has to notify an user about his upcoming turn. At the beginning, the server through the \textit{Controller} checks the schedule by verifiying if can allows a new user in the market. When it could do it, ask for the next user in head of the queue. The first notification is sent in advance to allert the user because it will be almost his turn. While the second will be sent when the turn arrived and the user is allowed to enter. 
+This describes how the the application server is working when it has to notify an user about his upcoming turn. At the beginning, the server through the \textit{Controller} checks the schedule by verifiying if can allows a new user in the market.\\
+Then, it asks for the next user in head of the queue. The first notification is sent in advance to allert the user because it will be almost his turn. While the second will be sent when the turn arrived and the user is allowed to enter. 
 
 \begin{figure}[H]
   \label{NotificationsSD}
   \centering
   \makebox[\linewidth]{
   \includegraphics[scale=0.52]{diagrams/NotificationsSD.png}}
-    \caption{The sequence diagram exaplain how the system notify for its turn in the queue.}
+    \caption{The sequence diagram explains how the system notify for its turn in the queue.}
 \end{figure} 
 
 \pagebreak
@@ -295,11 +299,11 @@ In this section we describe the interfaces needed for the communication between 
 
 \item \textbf{Request Handler Interface}: it exposes to the GUI component the following methods:
 \begin{itemize}
-\item \textit{void selectBag(Size)}: used to confirm the bag size during the booking request (Reservation or Visit);
+\item \textit{void selectBag(Booking, Size)}: used to confirm the bag size during the booking request (Reservation or Visit);
 \item \textit{void confirmYes()} and \textit{void confirmNo()}: used to confirm or not a Reservation;
 \item \textit{Boolean bookVisit()} and \textit{Boolean bookReservation()}: used to open a booking request;
-\item \textit{Boolean delayReservation()}: used to open a Reservation delay;
-\item \textit{Boolean cancelReservation()} and \textit{Boolean cancelVisit()}: used to open a Reservation delay;
+\item \textit{Boolean delayReservation(Reservation)}: used to open a Reservation delay;
+\item \textit{Boolean cancelReservation(Reservation)} and \textit{Boolean cancelVisit(Visit)}: used to open a Reservation delay;
 \end{itemize}
 
 \item \textbf{GUI Interface}: it interacts with the Network Manager and Request Handler components in order to control the \textbf{View} part of our system. 
@@ -322,7 +326,7 @@ In this section we describe the interfaces needed for the communication between 
 
 \item \textbf{Reservation Interface}: it exposes to the Controller component mainly the following methods:
 \begin{itemize}
-\item \textit{Boolean checkReservation(Reservation)}: it checks and confirms or declines a Reservation request from an User/Receptionist;
+\item \textit{Boolean checkReservation(User, Reservation)}: it checks and confirms or declines a Reservation request from an User/Receptionist;
 \item \textit{Boolean updatePos(User, Long, Lat)}: it updates the current position of an User, in order to estimate his time arriving;
 \item \textit{Boolean sendCancellation(Reservation)}: it allows to cancel a Reservation; 
 \item \textit{Boolean sendDelay(Reservation)}: it allows to postopone the turn of an User in queue;
@@ -332,33 +336,31 @@ In this section we describe the interfaces needed for the communication between 
 
 \item \textbf{Visit Interface}: it exposes to the Controller component mainly the following methods:
 \begin{itemize}
-\item \textit{Boolean checkVisit(Reservation)}: it checks and confirms or declines a Reservation request from an User/Receptionist;
-\item \textit{Boolean updatePos(User, Long, Lat)}: it updates the current position of an User, in order to estimate his time arriving;
-\item \textit{Boolean sendCancellation(Reservation)}: it allows to cancel a Reservation; 
-\item \textit{Boolean sendDelay(Visit)}: it allows to postopone the turn of an User in queue;
+\item \textit{Boolean checkVisit(User, Visit)}: it checks and confirms or declines a Visit request from an User/Receptionist;
+\item \textit{Boolean sendCancellation(User, Visit)}: it allows to cancel a Visit; 
 \end{itemize}
 
 
 \item \textbf{Notification Interface}: it interacts with the Controller component in order to schedule on time notifications that have to be sent to the users;
 
-\item \textbf{Auth User} and \textbf{Auth Rceptionist Interfaces}: they interact with the Controller component in order to check login and registration request from Users and Receptionists;
+\item \textbf{Auth User} and \textbf{Auth Receptionist Interfaces}: they interact with the Controller component in order to check login and registration request from Users and Receptionists;
 
 \item \textbf{DB Interface}: it interacts with the Network Manager component in order to insert, delete and update data in the DB. It exposes to the Network Manager mainly the following methods:
 \begin{itemize}
-\item \textit{newUser(User, Password, Informations)}: inserts data regarding a new user;
-\item \textit{insertReservation(User, Reservation)} and \textit{insertVisit(User, Visit)}: inserts data regarding a new Reservation or Visit;
-\item \textit{deleteV(Visit)} and \textit{deleteR(Reservation)}
-\item \textit{postpone(Reservation, 10)}: postpone a seat in the queue for a Reservation by 10 minutes;
-\item \textit{insertStartTime(QRCode, Time)} and  \textit{insertEndTime(QRCode, Time)}: insert the startTime and endTime for a grocery shopping in the market, associated to its QRCode;
-\item \textit{checkCredential(User, Password)}: queries the DB verifying if the user and his credential are correct;
+\item \textit{Void newUser(User, Password, Informations)}: inserts data regarding a new user;
+\item \textit{Void insertReservation(User, Reservation)} and \textit{Void insertVisit(User, Visit)}: inserts data regarding a new Reservation or Visit;
+\item \textit{Void deleteVisit(User, Visit)} and \textit{Void deleteReservation(Reservation)}
+\item \textit{Void postpone(Queue, Reservation)}: postpone a seat in the queue for a Reservation by 10 seats;
+\item \textit{Void insertStartTime(QRCode, Time)} and  \textit{Void insertEndTime(QRCode, Time)}: insert the startTime and endTime for a grocery shopping in the market, associated to its QRCode;
+\item \textit{Boolean checkCredential(User, Password)}: queries the DB verifying if the user and his credential are correct. If it's verified returns true, false otherwise;
 \end{itemize}
 
 \end{itemize}
 
-
+\pagebreak
 \section{Selected architectural styles and patterns}
 These are the following pattern proposed for a potentially implementation.
-\bigskip
+\medskip
 
 \textbf{3 Tiers Architecture} \par
 As already mentioned in the section \ref{3-tier} is formed by the Presentation, Application and Data layers. By separating each layer, scalability of the system will be improved.
@@ -393,9 +395,9 @@ This algorithm will be based on:
 \end{itemize}
 
 
-The system will be based on informations entered by the users and by statistics of the collected data.
+The system will be based on informations entered by the users and by statistics of the collected data.\\
 First of all, the shopping size will be requested when the user takes the reservation; in this way it will be possible to predict the maximum shopping time. 
-This parameter will be based on a \textbf{user reliability index} that will be estimated by computing how the time of parmanence in the market deviates from his avarage time with the same shopping size. (deviazione standard) \\
+This parameter will be based on a \textbf{user reliability index} that will be estimated by computing how the time of parmanence in the market deviates from his avarage time with the same shopping size (\textit{standard deviation}).  \\
 For example, the fact that a user selects a "Small" size and goes shopping for 1 hour is less reliable than one that goes shopping for 30 minutes in the shop.
 So accordingly to the reliability index, the next user in queue will be noticed with a different timing.
 
@@ -403,17 +405,17 @@ The \textbf{average time} according to shopping size will be estimated on all us
 
  
 
-In the case of a new registered user, with no or few reservations, the duration will be estimated exclusively on his average time due to the lack of accuracy of data collected.
+In the case of a new registered user, with no or few reservations, the duration will be estimated exclusively on the average time due to the lack of accuracy of data collected.
 In case of usual customer with a low reliability index, the shopping time will be considered according to the client habits without consider clients' \textbf{average shopping time}.
 
  
 
-The system for each user into the supermarket will monitor the duration of the shopping and when will be near to average, accordingly to the shopping size and reliability index, will call the next user. In order to decide the moment in which a user is called, we consider also the travel time which is how long he takes to reach the shop, based on his position.
+The system for each user into the supermarket will monitor the duration of the shopping and when will be near to average, accordingly to the shopping size and reliability index, will call the next user. In order to decide the moment in which a user is called, we consider also the travel time which is how long he takes to reach the shop, based on his position.\\
 If the user will not share own position, the system will use a \textit{standard travel time} (10/15 minutes). In fact, usually the customers go shopping near their home.
 
  
 
-The system will also consider the visit that will be scheduled during the day in order to manage entrance.
+The system will also consider the visit that will be scheduled during the day in order to manage entrance.\\
 When the system will notice a people overload will have to slow down calls of new customers, in order to never exceeded the entrance maximum number in the market. 
   
 \[PeopleInMarket + Margin + PeopleVisit <= MaxThreshold\]

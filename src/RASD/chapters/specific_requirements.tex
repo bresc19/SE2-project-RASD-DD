@@ -264,6 +264,7 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R8] The system provides the number Users in queue; %--
     \item[R10] The Smart User must be registered;
     \item[R11] The Smart User must be already logged in;
+    \item[R14] User must choose the size of his grocery shopping between small, medium and large;    
     \item[R15] The User must select a date in which the market is opened;
     \item[R18] The system provides Smart User the QRCode when the booking is done; 
     \item[D3] The system handles the threshold number of Users allowed in the market;
@@ -301,14 +302,13 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R12] The Mobile User must be registered; %--
     \item[R13] The Mobile User provide personal data to the Receptionist; %--
     \item[R14] User must choose the size of his grocery shopping between small, medium and large;
-    \item[R17] The Mobile User can call the Receptionist; 
-    \item[R21] Receptionist must be logged in;
-    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
+    \item[R17] Receptionist must be logged in;
     \item[D3] The system handles the threshold number of Users allowed in the market;
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
     \item[D11] The time of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
-    \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time;     
+    \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
+    \item[D14] Mobile User must call the Receptionist with his personal telephone number;
     \end{description}
     
    \item[G6]Mobile User can book in advance a Visit in the market.
@@ -319,15 +319,14 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R14] User must choose the size of his grocery shopping between small, medium and large;
     \item[R15] The User must select a date in which the market is opened;
     \item[R16] The User must select a start and end time available;
-    \item[R17] The Mobile User can call the Receptionist; 
-    \item[R21] Receptionist must be logged in;
-    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
+    \item[R17] Receptionist must be logged in;
     \item[D3] The system handles the threshold number of Users allowed in the market;  
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
     \item[D11] The time of entrance plus the duration of the grocery shopping mustn’t exceed the time in which the market will be closed; 
     \item[D12] Each Date and Timeslot must contain at most N threshold value depended on the market's area;
     \item[D13] An User mustn’t have a Reservation and a Visit active and submitted at the same time; 
+    \item[D14] Mobile User must call the Receptionist with his personal telephone number;
     \end{description}
     
     \item[G7]Smart User can cancel a booking which can be either a Visit or a Reservation.
@@ -344,13 +343,12 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \begin{description}
     \item[R12] The Mobile User must be registered; %--
     \item[R13] The Mobile User provide personal data to the Receptionist; %--
-    \item[R17] The Mobile User can call the Receptionist;  
     \item[R19 or R20] User must have an activated Visit/Reservation not yet submitted;
-    \item[R21] Receptionist must be logged in;
-    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
+    \item[R17] Receptionist must be logged in;
     \item[D3] The system handles the threshold number of Users allowed in the market;
     \item[D5] The Mobile User have to be connected to Internet through his own mobile operator;
     \item[D10] A booking belongs to one and only one User;
+    \item[D14] Mobile User must call the Receptionist with his personal telephone number;
     \end{description}
     
     
@@ -375,12 +373,11 @@ Every User uses a HTTPS protocol to make request to CLup's servers. In this way 
     \item[R14] User must choose the size of his grocery shopping between small, medium and large;
     \item[R15] The User must select a date in which the market is opened;
     \item[R16] The User must select a start and end time available;
-    \item[R17] The Mobile User can call the Receptionist;  
+    \item[R17] Receptionist must be logged in;
     \item[R18] The system provides Smart User the QRCode when the booking is done; 
     \item[R19] User must have an activated Visit not yet submitted; 
     \item[R20] User must have an activated Reservation not yet submitted;  
-    \item[R21] Receptionist must be logged in;
-    \item[R22] Mobile User must call the Receptionist with his personal telephone number;
+    
 \end{description}
 
 \pagebreak
