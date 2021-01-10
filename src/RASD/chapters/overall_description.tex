@@ -2,10 +2,10 @@
 
 The project aims to build a system that manage the users’ booking without wasting time while they're waiting their own turn outside the market. 
 \par
-An other important aspect is that the application should be for multiple market. Each user at the beginning will choose the market in which are going to go grocery shopping.\\
+Another important aspect is that the application should be for multiple market. Each user at the beginning will choose the market in which are going to go grocery shopping.\\
 Indeed, we think that it had better that more markets adopt this system, due to increase safety in social distance.
 \par
-For a \textbf{Reservation} the system provides User infomation about queue's dynamic in real time (i.e the number of people ahead). 
+For a \textbf{Reservation} the system provides User information about queue's dynamic in real time (i.e the number of people ahead). 
 To do this, the application should try, in the best way, to estimate the time that the customers will spend in the market, in order to notify in advance users who are waiting their own turn outside. 
 
 
@@ -30,7 +30,7 @@ Moreover, it's possible to book a visit choosing the date and the schedule in ad
 The timetable will be splitted into 30 minutes slots, and customers will choose which they want among the free ones. \par
 For each Visit an User can occupy at most 3 timeslots consecutively.
 In addition each market will provide customer, who don't have the application or even a smartphone, a toll-free number in order to make an appointment.
-This would be easy-manageble because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option.\\
+This would be easy-manageable because for each market a \textbf{Receptionist} handles the booking and advises the customers with the best shopping option.\\
 At the beginning, the user will be sign up for booking: so the receptionist will ask the required data from him and will create a customer profile in the system.
 The user can also manage (either \textit{delete} or \textit{postpone}), in a later moment, his reservation by calling the same number of the registration.\par
 Another possibility to allow Users that couldn't have the application would be to distribute paper tickets in order to enter in the market.\\
@@ -69,7 +69,7 @@ If the User decided to undo his Reservation in the queue could do it by making a
 
 In addition, the system will notice to Smart User through a notification  when it's almost his turn.
 
-Now we will analyze the interaction between the User and the system, in order to understand possible criticities.
+Now we will analyse the interaction between the User and the system, in order to understand possible criticises.
 \par 
 \bigskip
 
@@ -83,7 +83,7 @@ Now we will analyze the interaction between the User and the system, in order to
 \par 
 \medskip
 
-In the first state diagram (figure~\ref{fig:Reservation}) it can be osserved how a generic User can make a reservation through the system. It's sufficient making this action to be added in queue to enter in the market.
+In the first state diagram (figure~\ref{fig:Reservation}) it can be observed how a generic User can make a reservation through the system. It's sufficient making this action to be added in queue to enter in the market.
 \\If something goes wrong the User will be redirect to the initial state.
 \\Usually the system reject the request if the market is next to closure (or for logistic problem).
 
@@ -125,7 +125,7 @@ The system will determine the average shopping time according to the information
 \par
 In particular accuracy of the computation depends on the quality of User's data.
 In this way, when the shopping time will be near to the average shopping time, the system will notice the first user in queue to reach the supermarket.  
-Our goal is to monitor the User's influx and to keep it under critical boundary (more or less 95\%). Therefore this could be possibile by slowing down the virtual queue.
+Our goal is to monitor the User's influx and to keep it under critical boundary (more or less 95\%). Therefore this could be possible by slowing down the virtual queue.
 \par
 \subsection{Data Collection}
 The \textit{Data Collection} is essential for the correct regulation of users' flow, because it will have to provide precise dates according to client’s information. 
@@ -133,7 +133,7 @@ Therefore, the system will have to ask clients precise information according to 
 \\
 In order to achieve this goal, it needs to oblige the user to register himself in the system and to check the item to allow the processing of his personal data, necessary to reserve virtually the seat in the queue.
 \\
-One of the possible information asked could be the shopping duration. This will be used, with the entry time, to track the number of user inside the market who is finishing. Then, will be possibile to notify in advance users in queue about the closeness of their turn.
+One of the possible information asked could be the shopping duration. This will be used, with the entry time, to track the number of user inside the market who is finishing. Then, will be possible to notify in advance users in queue about the closeness of their turn.
 
 \section{User characteristics}
 We distinguish the actors into our application based on actions and interactions with the external world:
