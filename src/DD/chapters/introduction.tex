@@ -1,8 +1,13 @@
 \section{Purpose}
-The Design Document aims to give usefull information to help in software development by providing the details for how the software should be built. In particolar it should be detailed enough so that developers could code the project without having to make any significant decisions. \\
-This is done thanks to detailed description with graphical documentation of the software design for the project including different diagram types and other supporting requirement informations.
+The Design Document aims to give useful information to help in software development by providing the details for how the software should be built. In particular it should be detailed enough so that developers could code the project without having to make any significant decisions. \\
+This is done thanks to detailed description with graphical documentation of the software design for the project including different diagram types and other supporting requirement information.
 \section{Scope}
-The main scope of the system is to provide users the possibility to make a booking in order to give access to the market. This could be done with two options: the first allows users to be inserted in the virtual queue; instead, the second give the possibility to schedule the booking in a precise moment in an particular day. \\
+The main scope of the system is to provide users the possibility to make a booking in order to give access to the market. This could be done with two options.\\
+The user can:
+\begin{itemize}
+\item reserve a seat in the virtual queue (\textbf{Reservation});
+\item schedule a visit in an particular day at given time (\textbf{Visit});
+\end{itemize}
 So, the system have to reply users' requests in real time without waiting more than few seconds due to its reliability. \par
 To achieve this, the system is organized with a \textbf{3 tiers architecture} which divides the systems in independent modules: presentation, application and a data tier. The detailed architecture will be described as well in the next chapter.
 
@@ -18,7 +23,7 @@ See also definitions already mentioned in the RASD.
 \item \textbf{Bottom navigation bar}: graphical object that allows the user to display different destinations at the bottom of a screen;
 \item \textbf{Horizontal fragmentation}: it consists in grouping the tuples of a table in accordance to values of one or more fields;
 \item \textbf{Cross-platform development}: software development that consists in building an application compatible with multiple operating systems;
-\item \textbf{Servelet}: program that runs within a Web server;
+\item \textbf{Servlet}: Java program that runs within a Web server;
 \item \textbf{SMS Gateway}: service that allows a computer to send or receive text messages; 
 \end{itemize}
 \subsection{Acronyms}
@@ -50,18 +55,18 @@ See also definitions already mentioned in the RASD.
 \section{Reference Documents}
 This document is strictly based on:
 \begin{itemize}
-\item The specification of the \textbf{RASD and DD assignment} of the Software Engineering II corse, held by professor Matteo Rossi and Elisabetta Di Nitto at the Politecnico di Milano, A.Y 2020/2021;
+\item The specification of the \textbf{RASD and DD assignment} of the Software Engineering II course, held by professor Matteo Rossi and Elisabetta Di Nitto at the Politecnico di Milano, A.Y 2020/2021;
 \item \textbf{Slides} of Software Engineering 2 course on BEEP;
 \end{itemize}
 \section{Document Structure}
 \begin{itemize}
 \item[1]\textbf{Introduction}: it gives an overview of the document, by providing a brief introduction of the problem and information about the terminology used;
 \item[2]\textbf{Architectural Design}: this section aims to describe the system’s structure. In particular it's focused on its components, the interaction between them and all necessary details for a next implementation; 
-\item[3]\textbf{User Interface Design}: it provides the user interfaces of CLup and CLup Operator in order to understand the behavior of our system; 
+\item[3]\textbf{User Interface Design}: it provides the user interfaces of CLup and CLup Operator in order to understand the behaviour of our system; 
 \item[4]\textbf{Requirements Traceability}: in this section we link each requirement already mentioned in the RASD to the main component of our architecture;
 \item[5]\textbf{Implementation, Integration and Test Plan}: it's focused on the development process, and how the system will be integrated and tested;
 \item[6]\textbf{Effort Spent}: it shows the time spent to realize this document, divided for each section;
-\item[7]\textbf{References}: it contains the references to any documents and to the Softwares used in this document.
+\item[7]\textbf{References}: it contains the references to any documents and to the Software used in this document.
 \end{itemize}
 
 
