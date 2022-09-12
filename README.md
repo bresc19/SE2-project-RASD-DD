@@ -1,4 +1,4 @@
-# R&DD assignment - Project of Software Engineering 2 
+# RASD&DD assignment - Project of Software Engineering 2 
 ## (Bresciani Matteo - Banfi Stefano)
 
 <p align="center">
